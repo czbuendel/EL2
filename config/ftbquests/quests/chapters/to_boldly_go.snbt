@@ -426,10 +426,11 @@
 			]
 		},
 		{
-			x: 1.5d,
-			y: 2.0d,
+			title: "Going Deep",
+			disable_toast: true,
+			x: 1.5142857142857338d,
+			y: 4.075000000000003d,
 			shape: "hexagon",
-			dependencies: [I;99],
 			size: 2.0d,
 			id: 117,
 			tasks: [{
@@ -466,8 +467,8 @@
 			]
 		},
 		{
-			x: 0.0d,
-			y: 2.0d,
+			x: 3.5d,
+			y: 4.0d,
 			dependencies: [I;117],
 			id: 108,
 			tasks: [{
@@ -547,9 +548,9 @@
 			]
 		},
 		{
-			x: 0.0d,
+			x: -1.5d,
 			y: -0.5d,
-			dependencies: [I;128],
+			dependencies: [I;3999],
 			id: 215,
 			tasks: [{
 				id: 216,
@@ -861,16 +862,45 @@
 			]
 		},
 		{
+			title: "What is out there?",
+			disable_toast: true,
 			x: -5.0d,
 			y: 2.0d,
 			shape: "hexagon",
-			dependencies: [I;3982],
 			size: 2.0d,
 			id: 3984,
 			tasks: [{
 				id: 3985,
 				type: "item",
 				item: "minecraft:compass"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -0.5d,
+			shape: "gear",
+			description: ["May want to look into collecting some of these for some future hot prospects."],
+			dependencies: [I;128],
+			size: 1.5d,
+			id: 3999,
+			tasks: [{
+				id: 4000,
+				type: "item",
+				item: "minecraft:magma_block",
+				count: 9L
+			}]
+		},
+		{
+			title: "Nether Bricks",
+			x: 0.0d,
+			y: 1.0d,
+			dependencies: [I;128],
+			id: 4001,
+			tasks: [{
+				id: 4002,
+				type: "item",
+				item: "minecraft:nether_brick",
+				count: 36L
 			}]
 		}
 	]

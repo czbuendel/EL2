@@ -1,7 +1,7 @@
 {
 	id: 1912,
 	filename: "bee_productive",
-	order_index: 0,
+	order_index: 5,
 	title: "Bee Productive",
 	icon: "minecraft:honeycomb",
 	default_quest_shape: "hexagon",
@@ -228,8 +228,10 @@
 			]
 		},
 		{
+			disable_toast: true,
 			x: -5.5d,
 			y: 1.0d,
+			dependencies: [I;3988],
 			size: 2.0d,
 			id: 1935,
 			tasks: [{
