@@ -228,7 +228,6 @@
 			]
 		},
 		{
-			disable_toast: true,
 			x: -5.5d,
 			y: 1.0d,
 			dependencies: [I;3988],
