@@ -13,7 +13,7 @@
 	default_quest_shape: "",
 	quests: [
 		{
-			x: -7.0d,
+			x: -7.5d,
 			y: -4.5d,
 			description: ["Leaves can be harvested without a tool for sticks (this is a vanilla feature, but will be very important here.)"],
 			dependencies: [I;3976],
@@ -38,7 +38,7 @@
 			]
 		},
 		{
-			x: -5.5d,
+			x: -6.0d,
 			y: -4.5d,
 			description: ["Gravel can be mined without a tool, and enables you to aquire flint."],
 			dependencies: [I;3],
@@ -63,7 +63,7 @@
 			}]
 		},
 		{
-			x: -4.0d,
+			x: -4.5d,
 			y: -4.5d,
 			description: [
 				"In order to create flint shards, necessary for flint tools, flint must be knapped. In order to do this, a piece of flint, and a stone type block is required.",
@@ -85,7 +85,7 @@
 			}]
 		},
 		{
-			x: -2.5d,
+			x: -3.0d,
 			y: -4.5d,
 			description: [
 				"A Flint Knife can now be crafted, allowing you to harvest plant materials for plant fibers and craft plant string.",
@@ -130,7 +130,7 @@
 			]
 		},
 		{
-			x: -1.0d,
+			x: -1.5d,
 			y: -3.0d,
 			description: [
 				"A Flint Axe can enable you to collect wood and build a crafting table.",
@@ -166,7 +166,7 @@
 		},
 		{
 			title: "Flint Digging",
-			x: 2.0d,
+			x: 1.5d,
 			y: -1.5d,
 			description: ["A Flint pickaxe and shovel will serve as early game excavation and mining tools."],
 			dependencies: [I;48],
@@ -204,7 +204,7 @@
 			}]
 		},
 		{
-			x: 0.5d,
+			x: 0.0d,
 			y: 0.0d,
 			description: ["A basic weapon you can create to gain combat skill and protect yourself."],
 			dependencies: [I;48],
@@ -240,7 +240,7 @@
 			]
 		},
 		{
-			x: -2.5d,
+			x: -3.0d,
 			y: 0.0d,
 			description: [
 				"The fire starter is a primitive tool which is used to create a campfire. In order to use:",
@@ -281,7 +281,7 @@
 			]
 		},
 		{
-			x: -1.0d,
+			x: -1.5d,
 			y: -4.5d,
 			description: ["Plant fiber can be crafted into plant string, which is necessary for the creation of other flint tools."],
 			dependencies: [I;10],
@@ -306,7 +306,7 @@
 		},
 		{
 			title: "Bones",
-			x: 0.5d,
+			x: 0.0d,
 			y: 1.5d,
 			description: ["Bet you will want to stop these guys from making you a pin cushion."],
 			dependencies: [I;16],
@@ -326,7 +326,7 @@
 		},
 		{
 			title: "Gunpowder",
-			x: 2.0d,
+			x: 1.5d,
 			y: 1.5d,
 			description: ["Some good old fashioned boom boom dust."],
 			dependencies: [I;16],
@@ -454,7 +454,7 @@
 			]
 		},
 		{
-			x: -1.0d,
+			x: -1.5d,
 			y: -1.5d,
 			description: [
 				"To make planks put a log and your flint axe in your 2x2 crafting table in your inventory.",
@@ -484,7 +484,7 @@
 					Damage: 0
 				}
 			},
-			x: -1.0d,
+			x: -1.5d,
 			y: 0.0d,
 			description: ["A weaker pair of shears, that you can also use to make wooden plates from Planks."],
 			dependencies: [I;48],
@@ -523,7 +523,7 @@
 		},
 		{
 			title: "Wooden Armor",
-			x: -1.0d,
+			x: -1.5d,
 			y: 1.5d,
 			description: ["Wooden Armor can be made from wooden plates. Will at least give you a small amount of protection."],
 			dependencies: [I;50],
@@ -811,7 +811,7 @@
 			tasks: [{
 				id: 85,
 				type: "item",
-				title: "Any minecraft:beds",
+				title: "Any Bed",
 				item: {
 					id: "itemfilters:tag",
 					Count: true,
@@ -935,10 +935,11 @@
 		},
 		{
 			title: "Coke Oven",
+			icon: "immersiveengineering:cokebrick",
 			x: 23.5d,
 			y: -6.0d,
 			shape: "gear",
-			description: ["Place the Coke Brick in a 3x3x3 block to form a Coke Oven. By placing coal into the oven it will create creosote oil."],
+			description: ["Place the Coke Brick in a 3x3x3 block and right clicking with an Engineer's Hammer to form a Coke Oven. By placing coal into the oven it will create creosote oil."],
 			dependencies: [I;66],
 			size: 3.0d,
 			id: 92,
@@ -1442,7 +1443,7 @@
 		},
 		{
 			title: "Just Enough Items",
-			x: -9.0d,
+			x: -9.5d,
 			y: -6.5d,
 			description: [
 				"How to use JEI (The mod that shows you all the game items on the right of the screen when in an inventory)",
@@ -1470,7 +1471,7 @@
 		},
 		{
 			icon: "itemfilters:item_group",
-			x: -7.5d,
+			x: -9.5d,
 			y: -8.0d,
 			description: [
 				"Menu access key: P (for more info and stats)",
@@ -1505,8 +1506,8 @@
 		{
 			title: "EL2 Text Guide",
 			icon: "itemfilters:tag",
-			x: -7.5d,
-			y: -6.5d,
+			x: -8.0d,
+			y: -7.0d,
 			description: [
 				"You can a find a link to the Google Drive text guide directly on the EL2 curseforge project page.",
 				"",
@@ -1925,7 +1926,7 @@
 		},
 		{
 			title: "Outstanding in A Field",
-			x: -5.416666666666671d,
+			x: -5.916666666666671d,
 			y: -1.4642857142857153d,
 			shape: "gear",
 			description: ["The flint hoe will allow you to get started with some basic farming."],
@@ -1942,11 +1943,16 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: 4013,
+				type: "xp_levels",
+				xp_levels: 1
 			}]
 		},
 		{
 			title: "Slimeballs",
-			x: 2.0d,
+			x: 1.5d,
 			y: 0.0d,
 			description: ["Time to go slime hunting!"],
 			dependencies: [I;16],
@@ -2119,7 +2125,7 @@
 		},
 		{
 			title: "Hello There!",
-			x: -12.5d,
+			x: -13.0d,
 			y: -4.5d,
 			description: [
 				"Welcome to the Engineer's Life 2 modpack!",
@@ -2163,7 +2169,7 @@
 		},
 		{
 			icon: "woodenutilities:crafting_slab",
-			x: -2.5d,
+			x: -3.0d,
 			y: -3.0d,
 			description: ["This quest will complete once you interact with a crafting table 256 times."],
 			dependencies: [I;48],
@@ -2262,8 +2268,8 @@
 					Damage: 0
 				}
 			},
-			x: -9.0d,
-			y: -8.0d,
+			x: -11.0d,
+			y: -7.0d,
 			subtitle: "Ore Excavation/Veinminer Alternative",
 			description: [
 				"This mod allows you to harvest multiple blocks at once if you hold the Grave/Tilde ( ` / ~ ) key (configurable in Controls, change FTB Ultimine key). ",
@@ -2297,7 +2303,7 @@
 		{
 			title: "Quest Types and Rewards",
 			icon: "minecraft:writable_book",
-			x: -9.0d,
+			x: -9.5d,
 			y: -4.5d,
 			description: [
 				"Quests come in a number of different types in this pack.",
@@ -2330,12 +2336,7 @@
 			x: 7.0714285714285765d,
 			y: 3.553571428571452d,
 			shape: "gear",
-			description: [
-				"Unlocks Adventure Line",
-				"Open Ocean and Forest Exploration Line",
-				"",
-				"At least now I know what direction I am going, or do I?"
-			],
+			description: ["At least now I know what direction I am going, or do I?"],
 			dependencies: [I;224],
 			size: 2.0d,
 			id: 3982,
@@ -2343,18 +2344,27 @@
 				id: 3983,
 				type: "item",
 				item: "minecraft:compass"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4015,
+					type: "item",
+					item: "pamhc2foodcore:basicfishsandwichitem",
+					count: 4
+				},
+				{
+					id: 4017,
+					type: "item",
+					item: "spareparts:coins/stone_coin"
+				}
+			]
 		},
 		{
 			title: "Going Deep",
 			x: 10.07142857142857d,
 			y: 3.553571428571452d,
 			shape: "gear",
-			description: [
-				"Start of Nether and End Quest",
-				"",
-				"Time for that big purple doorway to Heaven! Wait it is pretty warm near this thing, oh well."
-			],
+			description: ["Time for that big purple doorway to Heaven! Wait it is pretty warm near this thing, oh well."],
 			dependencies: [I;
 				142,
 				99
@@ -2365,18 +2375,27 @@
 				id: 3987,
 				type: "item",
 				item: "minecraft:obsidian"
-			}]
+			}],
+			rewards: [
+				{
+					id: 4016,
+					type: "item",
+					item: "simplefarming:chili",
+					count: 4
+				},
+				{
+					id: 4018,
+					type: "item",
+					item: "spareparts:coins/stone_coin"
+				}
+			]
 		},
 		{
 			title: "What could this Bee?",
-			x: -4.75d,
+			x: -5.25d,
 			y: 2.107142857142861d,
 			shape: "gear",
-			description: [
-				"Starts Bee Productive Chapter",
-				"",
-				'If I could just make some kind of cage to trap, I mean "transport", one of those big bumbling things.'
-			],
+			description: ['If I could just make some kind of cage to trap, I mean "transport", one of those big bumbling things.'],
 			dependencies: [I;18],
 			size: 2.0d,
 			id: 3988,
@@ -2388,6 +2407,124 @@
 					Count: true,
 					tag: {}
 				}
+			}],
+			rewards: [{
+				id: 4014,
+				type: "xp_levels",
+				xp_levels: 1
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -8.5d,
+			description: ["Combine all those mod books you have in to a single book!"],
+			dependencies: [I;190],
+			id: 1825,
+			tasks: [{
+				id: 1826,
+				type: "item",
+				item: "akashictome:tome"
+			}],
+			rewards: [{
+				id: 1845,
+				type: "item",
+				item: "minecraft:lapis_lazuli",
+				count: 5
+			}]
+		},
+		{
+			title: "The Librarian",
+			x: 1.5d,
+			y: -10.0d,
+			description: ["Collect all those books! Put them into the Akashic Tome for safe keeping."],
+			dependencies: [I;190],
+			id: 1827,
+			tasks: [
+				{
+					id: 1828,
+					type: "item",
+					item: {
+						id: "patchouli:guide_book",
+						Count: true,
+						tag: {
+							"patchouli:book": "bigreactors:erguide"
+						}
+					}
+				},
+				{
+					id: 1829,
+					type: "item",
+					item: {
+						id: "patchouli:guide_book",
+						Count: true,
+						tag: {
+							"patchouli:book": "transport:guide"
+						}
+					}
+				},
+				{
+					id: 1830,
+					type: "item",
+					item: {
+						id: "patchouli:guide_book",
+						Count: true,
+						tag: {
+							"patchouli:book": "productivebees:guide"
+						}
+					}
+				},
+				{
+					id: 1831,
+					type: "item",
+					item: "cookingforblockheads:recipe_book"
+				},
+				{
+					id: 1832,
+					type: "item",
+					item: "cookingforblockheads:crafting_book"
+				},
+				{
+					id: 1833,
+					type: "item",
+					item: "ftbquests:book"
+				},
+				{
+					id: 1834,
+					type: "item",
+					item: {
+						id: "patchouli:guide_book",
+						Count: true,
+						tag: {
+							"patchouli:book": "engineersdecor:engineersdecor_manual"
+						}
+					}
+				},
+				{
+					id: 1835,
+					type: "item",
+					item: "immersiveengineering:manual"
+				},
+				{
+					id: 1836,
+					type: "item",
+					item: {
+						id: "patchouli:guide_book",
+						Count: true,
+						tag: {
+							"patchouli:book": "industrialforegoing:industrial_foregoing"
+						}
+					}
+				},
+				{
+					id: 1837,
+					type: "item",
+					item: "alexsmobs:animal_dictionary"
+				}
+			],
+			rewards: [{
+				id: 1846,
+				type: "item",
+				item: "spareparts:coins/stone_coin"
 			}]
 		}
 	]

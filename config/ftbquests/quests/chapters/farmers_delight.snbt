@@ -7,8 +7,13 @@
 	default_quest_shape: "rsquare",
 	quests: [
 		{
-			x: 5.5d,
+			x: 1.5d,
 			y: -1.0d,
+			description: [
+				"This will allow you to start creating a number of drinks. By right clicking on this with a variety of grown products the process can begin. The barrel will bubble while working and when this stops right click with an empty glass bottle to collect.",
+				"",
+				"The following quests give you some drinks to try."
+			],
 			dependencies: [I;3991],
 			id: 441,
 			tasks: [{
@@ -30,7 +35,7 @@
 			]
 		},
 		{
-			x: 7.5d,
+			x: 3.5d,
 			y: -4.5d,
 			dependencies: [I;441],
 			id: 443,
@@ -46,7 +51,7 @@
 			}]
 		},
 		{
-			x: 9.0d,
+			x: 5.0d,
 			y: -4.5d,
 			dependencies: [I;443],
 			id: 445,
@@ -62,7 +67,7 @@
 			}]
 		},
 		{
-			x: 7.5d,
+			x: 3.5d,
 			y: -3.5d,
 			dependencies: [I;441],
 			id: 447,
@@ -78,7 +83,7 @@
 			}]
 		},
 		{
-			x: 9.0d,
+			x: 5.0d,
 			y: -3.5d,
 			dependencies: [I;447],
 			id: 449,
@@ -94,7 +99,7 @@
 			}]
 		},
 		{
-			x: 7.5d,
+			x: 3.5d,
 			y: -2.5d,
 			dependencies: [I;441],
 			id: 451,
@@ -110,7 +115,7 @@
 			}]
 		},
 		{
-			x: 9.0d,
+			x: 5.0d,
 			y: -2.5d,
 			dependencies: [I;451],
 			id: 453,
@@ -127,7 +132,7 @@
 			}]
 		},
 		{
-			x: 7.5d,
+			x: 3.5d,
 			y: 1.5d,
 			dependencies: [I;
 				475,
@@ -146,7 +151,7 @@
 			}]
 		},
 		{
-			x: 9.0d,
+			x: 5.0d,
 			y: 1.5d,
 			dependencies: [I;455],
 			id: 457,
@@ -162,7 +167,7 @@
 			}]
 		},
 		{
-			x: 7.5d,
+			x: 3.5d,
 			y: -1.5d,
 			dependencies: [I;441],
 			id: 459,
@@ -178,7 +183,7 @@
 			}]
 		},
 		{
-			x: 9.0d,
+			x: 5.0d,
 			y: -1.5d,
 			dependencies: [I;459],
 			id: 461,
@@ -194,9 +199,9 @@
 			}]
 		},
 		{
-			x: 5.5d,
-			y: -4.5d,
-			dependencies: [I;441],
+			x: 5.0d,
+			y: -5.5d,
+			dependencies: [I;4074],
 			id: 465,
 			tasks: [{
 				id: 466,
@@ -210,7 +215,7 @@
 			}]
 		},
 		{
-			x: 7.5d,
+			x: 3.5d,
 			y: -0.5d,
 			dependencies: [I;441],
 			id: 467,
@@ -226,7 +231,7 @@
 			}]
 		},
 		{
-			x: 9.0d,
+			x: 5.0d,
 			y: -0.5d,
 			dependencies: [I;467],
 			id: 469,
@@ -243,7 +248,7 @@
 		},
 		{
 			title: "Potato",
-			x: 7.5d,
+			x: 3.5d,
 			y: 0.5d,
 			dependencies: [I;441],
 			id: 471,
@@ -259,7 +264,7 @@
 			}]
 		},
 		{
-			x: 9.0d,
+			x: 5.0d,
 			y: 0.5d,
 			dependencies: [I;471],
 			id: 473,
@@ -275,8 +280,11 @@
 			}]
 		},
 		{
-			x: 5.5d,
-			y: 1.5d,
+			title: "Grape Grower",
+			icon: "simplefarming:grape_seeds",
+			x: 0.5d,
+			y: 1.0d,
+			description: ["Plant some grapes to grow along a fence piece."],
 			dependencies: [I;3991],
 			id: 475,
 			tasks: [
@@ -288,7 +296,14 @@
 				{
 					id: 477,
 					type: "item",
-					item: "minecraft:dark_oak_fence"
+					title: "Fence",
+					item: {
+						id: "itemfilters:tag",
+						Count: true,
+						tag: {
+							value: "forge:fences"
+						}
+					}
 				}
 			],
 			rewards: [{
@@ -299,8 +314,9 @@
 			}]
 		},
 		{
-			x: 1.5d,
+			x: -2.5d,
 			y: -1.5d,
+			description: ["Use this on sand to get some drying agent or on grass for an assortment of seeds."],
 			dependencies: [I;3991],
 			id: 478,
 			tasks: [{
@@ -321,8 +337,9 @@
 			}]
 		},
 		{
-			x: 1.5d,
+			x: -2.5d,
 			y: -3.0d,
+			description: ["Used to dry materials down for further production."],
 			dependencies: [I;478],
 			id: 480,
 			tasks: [{
@@ -337,8 +354,9 @@
 			}]
 		},
 		{
-			x: 1.5d,
+			x: -2.5d,
 			y: -4.5d,
+			description: ["It's powdered sugar.... really...."],
 			dependencies: [I;480],
 			id: 718,
 			tasks: [{
@@ -354,8 +372,10 @@
 			}]
 		},
 		{
-			x: -0.5d,
+			title: "Powder Only Diet",
+			x: -4.5d,
 			y: -4.5d,
+			description: ["Just throw drying agent on everything."],
 			dependencies: [I;480],
 			id: 720,
 			tasks: [
@@ -395,8 +415,9 @@
 			]
 		},
 		{
-			x: 3.5d,
+			x: -0.5d,
 			y: -4.5d,
+			description: ["Don't inhale this stuff, your head may explode."],
 			dependencies: [I;480],
 			id: 724,
 			tasks: [{
@@ -411,12 +432,10 @@
 			}]
 		},
 		{
-			x: 2.5d,
-			y: -6.0d,
-			dependencies: [I;
-				724,
-				718
-			],
+			x: -1.5d,
+			y: -7.5d,
+			description: ["Energy, in block form!"],
+			dependencies: [I;4028],
 			id: 728,
 			tasks: [{
 				id: 729,
@@ -443,12 +462,10 @@
 			]
 		},
 		{
-			x: 0.5d,
-			y: -6.0d,
-			dependencies: [I;
-				720,
-				718
-			],
+			x: -3.5d,
+			y: -7.5d,
+			description: ["Who would have thought of powder in so many things?"],
+			dependencies: [I;4026],
 			id: 730,
 			tasks: [
 				{
@@ -486,7 +503,7 @@
 			]
 		},
 		{
-			x: 3.5d,
+			x: -1.0d,
 			y: -1.5d,
 			dependencies: [I;478],
 			id: 732,
@@ -527,7 +544,7 @@
 			]
 		},
 		{
-			x: 1.5d,
+			x: -2.5d,
 			y: 4.5d,
 			id: 861,
 			tasks: [{
@@ -550,7 +567,7 @@
 			]
 		},
 		{
-			x: -0.5d,
+			x: -4.5d,
 			y: 3.0d,
 			id: 884,
 			tasks: [{
@@ -565,7 +582,7 @@
 			}]
 		},
 		{
-			x: 0.5d,
+			x: -3.5d,
 			y: 3.0d,
 			id: 886,
 			tasks: [{
@@ -580,7 +597,7 @@
 			}]
 		},
 		{
-			x: 1.5d,
+			x: -2.5d,
 			y: 3.0d,
 			id: 888,
 			tasks: [{
@@ -595,7 +612,7 @@
 			}]
 		},
 		{
-			x: 2.5d,
+			x: -1.5d,
 			y: 3.0d,
 			id: 890,
 			tasks: [{
@@ -610,7 +627,7 @@
 			}]
 		},
 		{
-			x: 3.5d,
+			x: -0.5d,
 			y: 3.0d,
 			id: 892,
 			tasks: [{
@@ -625,7 +642,7 @@
 			}]
 		},
 		{
-			x: 4.5d,
+			x: 0.5d,
 			y: 3.0d,
 			id: 894,
 			tasks: [{
@@ -640,7 +657,7 @@
 			}]
 		},
 		{
-			x: 5.5d,
+			x: 1.5d,
 			y: 3.0d,
 			id: 896,
 			tasks: [{
@@ -655,7 +672,7 @@
 			}]
 		},
 		{
-			x: 6.5d,
+			x: 2.5d,
 			y: 3.0d,
 			id: 898,
 			tasks: [{
@@ -670,7 +687,7 @@
 			}]
 		},
 		{
-			x: -1.5d,
+			x: -5.5d,
 			y: 3.0d,
 			id: 900,
 			tasks: [{
@@ -685,7 +702,7 @@
 			}]
 		},
 		{
-			x: -2.5d,
+			x: -6.5d,
 			y: 3.0d,
 			id: 902,
 			tasks: [{
@@ -700,7 +717,7 @@
 			}]
 		},
 		{
-			x: -3.5d,
+			x: -7.5d,
 			y: 3.0d,
 			id: 904,
 			tasks: [{
@@ -715,7 +732,7 @@
 			}]
 		},
 		{
-			x: -3.5d,
+			x: -7.5d,
 			y: 4.0d,
 			id: 906,
 			tasks: [{
@@ -730,7 +747,7 @@
 			}]
 		},
 		{
-			x: -2.5d,
+			x: -6.5d,
 			y: 4.0d,
 			id: 908,
 			tasks: [{
@@ -745,7 +762,7 @@
 			}]
 		},
 		{
-			x: -1.5d,
+			x: -5.5d,
 			y: 4.0d,
 			id: 910,
 			tasks: [{
@@ -760,7 +777,7 @@
 			}]
 		},
 		{
-			x: 2.5d,
+			x: -1.5d,
 			y: 6.0d,
 			id: 912,
 			tasks: [{
@@ -775,7 +792,7 @@
 			}]
 		},
 		{
-			x: 1.5d,
+			x: -2.5d,
 			y: 6.0d,
 			id: 914,
 			tasks: [{
@@ -790,7 +807,7 @@
 			}]
 		},
 		{
-			x: 6.5d,
+			x: 2.5d,
 			y: 6.0d,
 			id: 916,
 			tasks: [{
@@ -805,7 +822,7 @@
 			}]
 		},
 		{
-			x: 3.5d,
+			x: -0.5d,
 			y: 6.0d,
 			id: 918,
 			tasks: [{
@@ -820,7 +837,7 @@
 			}]
 		},
 		{
-			x: 4.5d,
+			x: 0.5d,
 			y: 6.0d,
 			id: 920,
 			tasks: [{
@@ -835,7 +852,7 @@
 			}]
 		},
 		{
-			x: 4.5d,
+			x: 0.5d,
 			y: 4.0d,
 			id: 922,
 			tasks: [{
@@ -850,7 +867,7 @@
 			}]
 		},
 		{
-			x: 5.5d,
+			x: 1.5d,
 			y: 4.0d,
 			id: 924,
 			tasks: [{
@@ -865,7 +882,7 @@
 			}]
 		},
 		{
-			x: 6.5d,
+			x: 2.5d,
 			y: 4.0d,
 			id: 926,
 			tasks: [{
@@ -880,7 +897,7 @@
 			}]
 		},
 		{
-			x: 6.5d,
+			x: 2.5d,
 			y: 5.0d,
 			id: 928,
 			tasks: [{
@@ -895,7 +912,7 @@
 			}]
 		},
 		{
-			x: 5.5d,
+			x: 1.5d,
 			y: 5.0d,
 			id: 930,
 			tasks: [{
@@ -910,7 +927,7 @@
 			}]
 		},
 		{
-			x: 4.5d,
+			x: 0.5d,
 			y: 5.0d,
 			id: 932,
 			tasks: [{
@@ -925,7 +942,7 @@
 			}]
 		},
 		{
-			x: 0.5d,
+			x: -3.5d,
 			y: 6.0d,
 			id: 934,
 			tasks: [{
@@ -940,7 +957,7 @@
 			}]
 		},
 		{
-			x: 5.5d,
+			x: 1.5d,
 			y: 6.0d,
 			id: 936,
 			tasks: [{
@@ -955,7 +972,7 @@
 			}]
 		},
 		{
-			x: -0.5d,
+			x: -4.5d,
 			y: 6.0d,
 			id: 938,
 			tasks: [{
@@ -970,7 +987,7 @@
 			}]
 		},
 		{
-			x: -1.5d,
+			x: -5.5d,
 			y: 6.0d,
 			id: 940,
 			tasks: [{
@@ -985,7 +1002,7 @@
 			}]
 		},
 		{
-			x: -1.5d,
+			x: -5.5d,
 			y: 5.0d,
 			id: 942,
 			tasks: [{
@@ -1000,7 +1017,7 @@
 			}]
 		},
 		{
-			x: -2.5d,
+			x: -6.5d,
 			y: 6.0d,
 			id: 944,
 			tasks: [{
@@ -1015,7 +1032,7 @@
 			}]
 		},
 		{
-			x: -3.5d,
+			x: -7.5d,
 			y: 6.0d,
 			id: 946,
 			tasks: [{
@@ -1030,7 +1047,7 @@
 			}]
 		},
 		{
-			x: -3.5d,
+			x: -7.5d,
 			y: 5.0d,
 			id: 948,
 			tasks: [{
@@ -1045,7 +1062,7 @@
 			}]
 		},
 		{
-			x: -2.5d,
+			x: -6.5d,
 			y: 5.0d,
 			id: 950,
 			tasks: [{
@@ -1060,7 +1077,7 @@
 			}]
 		},
 		{
-			x: -3.5d,
+			x: -7.5d,
 			y: 7.0d,
 			id: 1610,
 			tasks: [{
@@ -1070,7 +1087,7 @@
 			}]
 		},
 		{
-			x: -2.5d,
+			x: -6.5d,
 			y: 7.0d,
 			id: 1612,
 			tasks: [{
@@ -1080,7 +1097,7 @@
 			}]
 		},
 		{
-			x: -1.5d,
+			x: -5.5d,
 			y: 7.0d,
 			id: 1614,
 			tasks: [{
@@ -1090,7 +1107,7 @@
 			}]
 		},
 		{
-			x: -0.5d,
+			x: -4.5d,
 			y: 7.0d,
 			id: 1616,
 			tasks: [{
@@ -1100,7 +1117,7 @@
 			}]
 		},
 		{
-			x: 0.5d,
+			x: -3.5d,
 			y: 7.0d,
 			id: 1618,
 			tasks: [{
@@ -1110,7 +1127,7 @@
 			}]
 		},
 		{
-			x: 1.5d,
+			x: -2.5d,
 			y: 7.0d,
 			id: 1620,
 			tasks: [{
@@ -1120,7 +1137,7 @@
 			}]
 		},
 		{
-			x: 2.5d,
+			x: -1.5d,
 			y: 7.0d,
 			id: 1622,
 			tasks: [{
@@ -1130,7 +1147,7 @@
 			}]
 		},
 		{
-			x: 3.5d,
+			x: -0.5d,
 			y: 7.0d,
 			id: 1624,
 			tasks: [{
@@ -1140,7 +1157,7 @@
 			}]
 		},
 		{
-			x: 4.5d,
+			x: 0.5d,
 			y: 7.0d,
 			id: 1626,
 			tasks: [{
@@ -1150,7 +1167,7 @@
 			}]
 		},
 		{
-			x: 5.5d,
+			x: 1.5d,
 			y: 7.0d,
 			id: 1628,
 			tasks: [{
@@ -1160,7 +1177,7 @@
 			}]
 		},
 		{
-			x: 6.5d,
+			x: 2.5d,
 			y: 7.0d,
 			id: 1630,
 			tasks: [{
@@ -1170,7 +1187,7 @@
 			}]
 		},
 		{
-			x: -3.5d,
+			x: -7.5d,
 			y: 8.0d,
 			id: 1632,
 			tasks: [{
@@ -1180,7 +1197,7 @@
 			}]
 		},
 		{
-			x: -2.5d,
+			x: -6.5d,
 			y: 8.0d,
 			id: 1634,
 			tasks: [{
@@ -1190,7 +1207,7 @@
 			}]
 		},
 		{
-			x: -1.5d,
+			x: -5.5d,
 			y: 8.0d,
 			id: 1636,
 			tasks: [{
@@ -1200,7 +1217,7 @@
 			}]
 		},
 		{
-			x: -0.5d,
+			x: -4.5d,
 			y: 8.0d,
 			id: 1638,
 			tasks: [{
@@ -1210,7 +1227,7 @@
 			}]
 		},
 		{
-			x: 0.5d,
+			x: -3.5d,
 			y: 8.0d,
 			id: 1640,
 			tasks: [{
@@ -1220,7 +1237,7 @@
 			}]
 		},
 		{
-			x: 1.5d,
+			x: -2.5d,
 			y: 8.0d,
 			id: 1642,
 			tasks: [{
@@ -1230,7 +1247,7 @@
 			}]
 		},
 		{
-			x: 2.5d,
+			x: -1.5d,
 			y: 8.0d,
 			id: 1644,
 			tasks: [{
@@ -1240,7 +1257,7 @@
 			}]
 		},
 		{
-			x: 3.5d,
+			x: -0.5d,
 			y: 8.0d,
 			id: 1646,
 			tasks: [{
@@ -1250,7 +1267,7 @@
 			}]
 		},
 		{
-			x: 4.5d,
+			x: 0.5d,
 			y: 8.0d,
 			id: 1648,
 			tasks: [{
@@ -1260,7 +1277,7 @@
 			}]
 		},
 		{
-			x: 5.5d,
+			x: 1.5d,
 			y: 8.0d,
 			id: 1650,
 			tasks: [{
@@ -1270,7 +1287,7 @@
 			}]
 		},
 		{
-			x: 6.5d,
+			x: 2.5d,
 			y: 8.0d,
 			id: 1652,
 			tasks: [{
@@ -1280,7 +1297,7 @@
 			}]
 		},
 		{
-			x: -3.5d,
+			x: -7.5d,
 			y: 9.0d,
 			id: 1654,
 			tasks: [{
@@ -1290,7 +1307,7 @@
 			}]
 		},
 		{
-			x: -2.5d,
+			x: -6.5d,
 			y: 9.0d,
 			id: 1656,
 			tasks: [{
@@ -1300,7 +1317,7 @@
 			}]
 		},
 		{
-			x: -1.5d,
+			x: -5.5d,
 			y: 9.0d,
 			id: 1658,
 			tasks: [{
@@ -1310,7 +1327,7 @@
 			}]
 		},
 		{
-			x: -0.5d,
+			x: -4.5d,
 			y: 9.0d,
 			id: 1660,
 			tasks: [{
@@ -1320,7 +1337,7 @@
 			}]
 		},
 		{
-			x: 0.5d,
+			x: -3.5d,
 			y: 9.0d,
 			id: 1662,
 			tasks: [{
@@ -1330,7 +1347,7 @@
 			}]
 		},
 		{
-			x: 1.5d,
+			x: -2.5d,
 			y: 9.0d,
 			id: 1664,
 			tasks: [{
@@ -1340,7 +1357,7 @@
 			}]
 		},
 		{
-			x: 2.5d,
+			x: -1.5d,
 			y: 9.0d,
 			id: 1666,
 			tasks: [{
@@ -1350,7 +1367,7 @@
 			}]
 		},
 		{
-			x: 3.5d,
+			x: -0.5d,
 			y: 9.0d,
 			id: 1668,
 			tasks: [{
@@ -1360,7 +1377,7 @@
 			}]
 		},
 		{
-			x: 4.5d,
+			x: 0.5d,
 			y: 9.0d,
 			id: 1670,
 			tasks: [{
@@ -1370,7 +1387,7 @@
 			}]
 		},
 		{
-			x: 5.5d,
+			x: 1.5d,
 			y: 9.0d,
 			id: 1672,
 			tasks: [{
@@ -1380,7 +1397,7 @@
 			}]
 		},
 		{
-			x: 6.5d,
+			x: 2.5d,
 			y: 9.0d,
 			id: 1674,
 			tasks: [{
@@ -1390,7 +1407,7 @@
 			}]
 		},
 		{
-			x: -0.5d,
+			x: -4.5d,
 			y: 10.0d,
 			id: 1676,
 			tasks: [{
@@ -1400,7 +1417,7 @@
 			}]
 		},
 		{
-			x: 0.5d,
+			x: -3.5d,
 			y: 10.0d,
 			id: 1678,
 			tasks: [{
@@ -1410,7 +1427,7 @@
 			}]
 		},
 		{
-			x: 1.5d,
+			x: -2.5d,
 			y: 10.0d,
 			id: 1680,
 			tasks: [{
@@ -1420,7 +1437,7 @@
 			}]
 		},
 		{
-			x: 2.5d,
+			x: -1.5d,
 			y: 10.0d,
 			id: 1682,
 			tasks: [{
@@ -1430,7 +1447,7 @@
 			}]
 		},
 		{
-			x: 3.5d,
+			x: -0.5d,
 			y: 10.0d,
 			id: 1684,
 			tasks: [{
@@ -1441,12 +1458,12 @@
 		},
 		{
 			title: "Potato, Potatoe",
-			x: -0.5d,
-			y: -1.5d,
+			x: -8.5d,
+			y: 0.5d,
 			description: ["Should be able to nab some of these to get you started from a village."],
 			dependencies: [I;
 				195,
-				197
+				4032
 			],
 			id: 205,
 			tasks: [{
@@ -1469,8 +1486,8 @@
 			]
 		},
 		{
-			x: -2.5d,
-			y: 1.5d,
+			x: -5.5d,
+			y: 1.0d,
 			description: ["You should be able to get some of these seeds by breaking grass."],
 			dependencies: [I;3991],
 			id: 199,
@@ -1493,12 +1510,12 @@
 			]
 		},
 		{
-			x: -2.5d,
-			y: -1.0d,
+			x: -8.5d,
+			y: -2.5d,
 			description: ["You will come across a lot of these from grass."],
 			dependencies: [I;
 				195,
-				3991
+				4032
 			],
 			id: 197,
 			tasks: [{
@@ -1521,8 +1538,8 @@
 		},
 		{
 			title: "Wheatabix",
-			x: -2.0d,
-			y: -3.0d,
+			x: -10.0d,
+			y: -2.5d,
 			description: ["Get to growing!"],
 			dependencies: [I;197],
 			id: 201,
@@ -1575,15 +1592,14 @@
 			]
 		},
 		{
-			x: -3.5d,
-			y: -4.5d,
+			x: -8.5d,
+			y: -8.5d,
 			description: [
 				"Will automate the feeding of animals depending on the feed inserted.",
 				"",
 				"-Can be used to automate animal breeding to a degree.",
 				""
 			],
-			dependencies: [I;201],
 			id: 203,
 			tasks: [{
 				id: 204,
@@ -1614,10 +1630,10 @@
 			]
 		},
 		{
-			x: -4.0d,
-			y: -2.0d,
+			x: -10.0d,
+			y: 2.5d,
 			description: ["Cook up some Cactus!"],
-			dependencies: [I;197],
+			dependencies: [I;4034],
 			id: 209,
 			tasks: [{
 				id: 210,
@@ -1639,8 +1655,8 @@
 			]
 		},
 		{
-			x: -5.5d,
-			y: -3.0d,
+			x: -11.5d,
+			y: 2.5d,
 			description: ["Give your base some flair."],
 			dependencies: [I;209],
 			id: 211,
@@ -1656,8 +1672,8 @@
 			}]
 		},
 		{
-			x: -7.0d,
-			y: -1.0d,
+			x: -14.5d,
+			y: -7.5d,
 			description: ["Will display the first page of a book and quill or a map."],
 			dependencies: [I;1840],
 			id: 1842,
@@ -1673,10 +1689,10 @@
 			}]
 		},
 		{
-			x: -5.5d,
-			y: -0.5d,
+			x: -13.0d,
+			y: -7.5d,
 			description: ["A chicken uses some squid juice to mark on some flat sticks surrounded by the skin of a cow."],
-			dependencies: [I;1838],
+			dependencies: [I;4068],
 			id: 1840,
 			tasks: [{
 				id: 1841,
@@ -1690,124 +1706,11 @@
 			}]
 		},
 		{
-			title: "The Librarian",
-			x: -7.0d,
-			y: 1.5d,
-			description: ["Collect all those books! Put them into the Akashic Tome for safe keeping."],
-			dependencies: [I;1825],
-			id: 1827,
-			tasks: [
-				{
-					id: 1828,
-					type: "item",
-					item: {
-						id: "patchouli:guide_book",
-						Count: true,
-						tag: {
-							"patchouli:book": "bigreactors:erguide"
-						}
-					}
-				},
-				{
-					id: 1829,
-					type: "item",
-					item: {
-						id: "patchouli:guide_book",
-						Count: true,
-						tag: {
-							"patchouli:book": "transport:guide"
-						}
-					}
-				},
-				{
-					id: 1830,
-					type: "item",
-					item: {
-						id: "patchouli:guide_book",
-						Count: true,
-						tag: {
-							"patchouli:book": "productivebees:guide"
-						}
-					}
-				},
-				{
-					id: 1831,
-					type: "item",
-					item: "cookingforblockheads:recipe_book"
-				},
-				{
-					id: 1832,
-					type: "item",
-					item: "cookingforblockheads:crafting_book"
-				},
-				{
-					id: 1833,
-					type: "item",
-					item: "ftbquests:book"
-				},
-				{
-					id: 1834,
-					type: "item",
-					item: {
-						id: "patchouli:guide_book",
-						Count: true,
-						tag: {
-							"patchouli:book": "engineersdecor:engineersdecor_manual"
-						}
-					}
-				},
-				{
-					id: 1835,
-					type: "item",
-					item: "immersiveengineering:manual"
-				},
-				{
-					id: 1836,
-					type: "item",
-					item: {
-						id: "patchouli:guide_book",
-						Count: true,
-						tag: {
-							"patchouli:book": "industrialforegoing:industrial_foregoing"
-						}
-					}
-				},
-				{
-					id: 1837,
-					type: "item",
-					item: "alexsmobs:animal_dictionary"
-				}
-			],
-			rewards: [{
-				id: 1846,
-				type: "item",
-				item: "spareparts:coins/stone_coin"
-			}]
-		},
-		{
-			x: -5.0d,
-			y: 1.5d,
-			description: ["Combine all those mod books you have in to a single book!"],
-			dependencies: [I;1838],
-			id: 1825,
-			tasks: [{
-				id: 1826,
-				type: "item",
-				item: "akashictome:tome"
-			}],
-			rewards: [{
-				id: 1845,
-				type: "item",
-				item: "minecraft:lapis_lazuli",
-				count: 5
-			}]
-		},
-		{
 			title: "Sugar or Paper?",
-			x: -4.0d,
-			y: 0.0d,
+			x: -8.5d,
+			y: -5.5d,
 			description: ["Let those stalks reach for the sky!"],
-			dependencies: [I;197],
+			dependencies: [I;4032],
 			id: 1838,
 			tasks: [{
 				id: 1839,
@@ -1825,8 +1728,8 @@
 		{
 			title: "Outstanding in A Field",
 			disable_toast: true,
-			x: 1.5000000000000142d,
-			y: 0.9226190476190439d,
+			x: -2.5d,
+			y: 1.0416666666666643d,
 			shape: "hexagon",
 			size: 2.0d,
 			id: 3991,
@@ -1840,6 +1743,323 @@
 						Damage: 0
 					}
 				}
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -6.0d,
+			description: ["The best of everything all in a single powder! It is a bit dry though...."],
+			dependencies: [I;
+				720,
+				718
+			],
+			id: 4026,
+			tasks: [{
+				id: 4027,
+				type: "item",
+				item: "veggie_way:superfood_powder"
+			}],
+			rewards: [{
+				id: 4030,
+				type: "xp_levels",
+				xp_levels: 1
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -6.0d,
+			description: ["PURE ENERGY!"],
+			dependencies: [I;
+				718,
+				724
+			],
+			id: 4028,
+			tasks: [{
+				id: 4029,
+				type: "item",
+				item: "veggie_way:energy_powder"
+			}],
+			rewards: [{
+				id: 4031,
+				type: "xp_levels",
+				xp_levels: 1
+			}]
+		},
+		{
+			title: "Basic Farming",
+			icon: "minecraft:farmland",
+			x: -6.5d,
+			y: -1.0d,
+			description: [
+				"The following are your basic crops that will always be handy when you are hungry.",
+				"",
+				"The quests following the initial crops give a basic recipe to help keep you fed but look to JEI for more complex and fullfilling recipes."
+			],
+			dependencies: [I;3991],
+			id: 4032,
+			tasks: [{
+				id: 4033,
+				type: "checkmark"
+			}]
+		},
+		{
+			title: "Cacti",
+			x: -8.5d,
+			y: 1.5d,
+			description: ["Desert adventure time."],
+			dependencies: [I;4032],
+			id: 4034,
+			tasks: [{
+				id: 4035,
+				type: "item",
+				item: "minecraft:cactus",
+				count: 12L
+			}]
+		},
+		{
+			title: "Sugar",
+			x: -10.0d,
+			y: -5.5d,
+			dependencies: [I;1838],
+			id: 4036,
+			tasks: [{
+				id: 4037,
+				type: "item",
+				item: "minecraft:sugar",
+				count: 16L
+			}]
+		},
+		{
+			x: -8.5d,
+			y: -1.5d,
+			dependencies: [I;4032],
+			id: 4038,
+			tasks: [{
+				id: 4039,
+				type: "item",
+				item: "minecraft:beetroot_seeds"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: -1.5d,
+			dependencies: [I;4038],
+			id: 4040,
+			tasks: [{
+				id: 4041,
+				type: "item",
+				item: "minecraft:beetroot",
+				count: 64L
+			}]
+		},
+		{
+			x: -11.5d,
+			y: 1.5d,
+			dependencies: [I;4044],
+			id: 4042,
+			tasks: [{
+				id: 4043,
+				type: "item",
+				item: "veggie_way:cactus_soup"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: 1.5d,
+			dependencies: [I;4034],
+			id: 4044,
+			tasks: [{
+				id: 4045,
+				type: "item",
+				item: "veggie_way:cactus_chunk"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: -6.5d,
+			description: ["Man I will be able to write so much stuff on this."],
+			dependencies: [I;1838],
+			id: 4046,
+			tasks: [{
+				id: 4047,
+				type: "item",
+				item: "minecraft:paper",
+				count: 3L
+			}]
+		},
+		{
+			title: "Carrots",
+			x: -8.5d,
+			y: -0.5d,
+			description: ["Should be able to find a few of these in villages as well."],
+			dependencies: [I;4032],
+			id: 4048,
+			tasks: [{
+				id: 4049,
+				type: "item",
+				item: "minecraft:carrot",
+				count: 64L
+			}]
+		},
+		{
+			x: -8.5d,
+			y: -3.5d,
+			description: ["Have to eat some melons to make some melons."],
+			dependencies: [I;4032],
+			id: 4050,
+			tasks: [{
+				id: 4051,
+				type: "item",
+				item: "minecraft:melon_seeds"
+			}]
+		},
+		{
+			x: -8.5d,
+			y: -4.5d,
+			description: ["You don't have jack on me Mr. Pumpkin!"],
+			dependencies: [I;4032],
+			id: 4052,
+			tasks: [{
+				id: 4053,
+				type: "item",
+				item: "minecraft:pumpkin_seeds"
+			}]
+		},
+		{
+			title: "Hell Wart",
+			x: -8.5d,
+			y: -6.5d,
+			description: ["Nether fortress mold."],
+			dependencies: [I;4032],
+			id: 4054,
+			tasks: [{
+				id: 4055,
+				type: "item",
+				item: "minecraft:nether_wart",
+				count: 64L
+			}]
+		},
+		{
+			title: "Sweet Berries",
+			x: -8.5d,
+			y: -7.5d,
+			description: ["You are going to have to travel to the great white north to find some of these delicous berries."],
+			dependencies: [I;4032],
+			id: 4056,
+			tasks: [{
+				id: 4057,
+				type: "item",
+				item: "minecraft:sweet_berries",
+				count: 64L
+			}]
+		},
+		{
+			x: -10.0d,
+			y: -3.5d,
+			dependencies: [I;4050],
+			id: 4058,
+			tasks: [{
+				id: 4059,
+				type: "item",
+				item: "minecraft:melon",
+				count: 6L
+			}]
+		},
+		{
+			x: -10.0d,
+			y: -4.5d,
+			dependencies: [I;4052],
+			id: 4060,
+			tasks: [{
+				id: 4061,
+				type: "item",
+				item: "minecraft:pumpkin"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: 0.5d,
+			dependencies: [I;205],
+			id: 4062,
+			tasks: [{
+				id: 4063,
+				type: "item",
+				item: "minecraft:baked_potato",
+				count: 8L
+			}]
+		},
+		{
+			x: -10.0d,
+			y: -0.5d,
+			dependencies: [I;4048],
+			id: 4064,
+			tasks: [{
+				id: 4065,
+				type: "item",
+				item: "veggie_way:cooked_carrot",
+				count: 8L
+			}]
+		},
+		{
+			x: -10.0d,
+			y: -8.5d,
+			description: ["The skin of the innocent..... of boy that sounds bad....."],
+			dependencies: [I;203],
+			id: 4066,
+			tasks: [{
+				id: 4067,
+				type: "item",
+				item: "minecraft:leather"
+			}]
+		},
+		{
+			x: -11.5d,
+			y: -7.5d,
+			description: ["Bound and binded."],
+			dependencies: [I;
+				4046,
+				4066
+			],
+			id: 4068,
+			tasks: [{
+				id: 4069,
+				type: "item",
+				item: "minecraft:book"
+			}]
+		},
+		{
+			x: -11.5d,
+			y: -1.5d,
+			dependencies: [I;4040],
+			id: 4070,
+			tasks: [{
+				id: 4071,
+				type: "item",
+				item: "minecraft:beetroot_soup",
+				count: 8L
+			}]
+		},
+		{
+			x: -11.5d,
+			y: -2.5d,
+			dependencies: [I;201],
+			id: 4072,
+			tasks: [{
+				id: 4073,
+				type: "item",
+				item: "minecraft:bread",
+				count: 8L
+			}]
+		},
+		{
+			x: 3.5d,
+			y: -5.5d,
+			dependencies: [I;441],
+			id: 4074,
+			tasks: [{
+				id: 4075,
+				type: "item",
+				item: "minecraft:honey_bottle"
 			}]
 		}
 	]

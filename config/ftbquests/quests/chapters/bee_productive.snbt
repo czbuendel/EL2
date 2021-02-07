@@ -1,14 +1,15 @@
 {
 	id: 1912,
 	filename: "bee_productive",
-	order_index: 5,
+	order_index: 6,
 	title: "Bee Productive",
 	icon: "minecraft:honeycomb",
 	default_quest_shape: "hexagon",
 	quests: [
 		{
-			x: -5.5d,
-			y: 3.0d,
+			x: -4.5d,
+			y: 2.0d,
+			description: ["Will help you with all the info about the Productive Bees mod."],
 			dependencies: [I;1935],
 			id: 1913,
 			tasks: [{
@@ -29,8 +30,9 @@
 			}]
 		},
 		{
-			x: -1.5d,
-			y: -3.0d,
+			x: -0.5d,
+			y: -4.0d,
+			description: ["Your own fresh bottled honey!"],
 			dependencies: [I;1921],
 			id: 1915,
 			tasks: [{
@@ -45,8 +47,8 @@
 			}]
 		},
 		{
-			x: -1.5d,
-			y: 1.0d,
+			x: -0.5d,
+			y: 0.0d,
 			description: ["Catches bees flying over it"],
 			dependencies: [I;1937],
 			id: 1917,
@@ -62,8 +64,8 @@
 			}]
 		},
 		{
-			x: -5.5d,
-			y: -3.0d,
+			x: -4.5d,
+			y: -4.0d,
 			description: ["Incubates baby bees until they are adults. Can also incubate new bees from genes and eggs."],
 			dependencies: [I;1952],
 			id: 1919,
@@ -79,8 +81,9 @@
 			}]
 		},
 		{
-			x: -1.5d,
-			y: -1.0d,
+			x: -0.5d,
+			y: -2.0d,
+			description: ["Will bottle honey into glass bottles when honey is pumped into into the machine."],
 			dependencies: [I;1941],
 			id: 1921,
 			tasks: [{
@@ -95,8 +98,9 @@
 			}]
 		},
 		{
-			x: -1.5d,
-			y: 5.0d,
+			x: -0.5d,
+			y: 4.0d,
+			description: ["Processes combs from hives into honey and resources. Is powered by FE."],
 			dependencies: [I;1927],
 			id: 1923,
 			tasks: [{
@@ -118,8 +122,13 @@
 			]
 		},
 		{
-			x: -7.5d,
-			y: 1.0d,
+			x: -6.5d,
+			y: 0.0d,
+			description: [
+				"Allows you to locate a nest of the type you right click on.",
+				"",
+				"i.e. Right click on a copper ore block to locate a copper bee hive."
+			],
 			dependencies: [I;1935],
 			id: 1925,
 			tasks: [{
@@ -131,15 +140,26 @@
 					tag: {}
 				}
 			}],
-			rewards: [{
-				id: 1964,
-				type: "item",
-				item: "minecraft:coal_ore"
-			}]
+			rewards: [
+				{
+					id: 1964,
+					type: "item",
+					item: "minecraft:coal_ore"
+				},
+				{
+					id: 4076,
+					type: "item",
+					item: "minecraft:iron_ore"
+				}
+			]
 		},
 		{
-			x: -3.5d,
-			y: 3.0d,
+			x: -2.5d,
+			y: 2.0d,
+			description: [
+				"A more advanced bee hive that will keep your bees happier, allows them to be moved peacefully, and allows expansion hives.",
+				"The best part is though that you wont need a campfire under the hive to harvest it."
+			],
 			dependencies: [I;1937],
 			id: 1927,
 			tasks: [{
@@ -167,8 +187,9 @@
 			]
 		},
 		{
-			x: -3.5d,
-			y: 5.0d,
+			x: -2.5d,
+			y: 4.0d,
+			description: ["Can be attached to Advanced Bee Hives to expand their housing from 3 to 5 bees."],
 			dependencies: [I;1927],
 			id: 1929,
 			tasks: [{
@@ -183,8 +204,8 @@
 			}]
 		},
 		{
-			x: -7.5d,
-			y: -1.0d,
+			x: -6.5d,
+			y: -2.0d,
 			description: ["A decorative container to show off your bee collection."],
 			dependencies: [I;1935],
 			id: 1931,
@@ -204,9 +225,9 @@
 			}]
 		},
 		{
-			x: -1.5d,
-			y: 3.0d,
-			description: ["Can hold up to 3 items which can be used for pollination"],
+			x: -0.5d,
+			y: 2.0d,
+			description: ["Can hold up to 3 items which can be used for feeding your bees."],
 			dependencies: [I;1937],
 			id: 1933,
 			tasks: [{
@@ -228,9 +249,14 @@
 			]
 		},
 		{
-			x: -5.5d,
-			y: 1.0d,
-			dependencies: [I;3988],
+			disable_toast: true,
+			x: -4.5d,
+			y: 0.0d,
+			description: [
+				"Will allow you to capture/release bees with a right click of the cage. ",
+				"",
+				"*One time use per cage*"
+			],
 			size: 2.0d,
 			id: 1935,
 			tasks: [{
@@ -241,16 +267,12 @@
 					Count: true,
 					tag: {}
 				}
-			}],
-			rewards: [{
-				id: 1965,
-				type: "item",
-				item: "minecraft:iron_ore"
 			}]
 		},
 		{
-			x: -3.5d,
-			y: 1.0d,
+			x: -2.5d,
+			y: 0.0d,
+			description: ["A custom house for your bees."],
 			dependencies: [I;1935],
 			id: 1937,
 			tasks: [{
@@ -266,8 +288,8 @@
 			}]
 		},
 		{
-			x: -5.5d,
-			y: 5.0d,
+			x: -4.5d,
+			y: 4.0d,
 			dependencies: [I;1929],
 			id: 1939,
 			tasks: [{
@@ -282,8 +304,9 @@
 			}]
 		},
 		{
-			x: -3.5d,
-			y: -1.0d,
+			x: -2.5d,
+			y: -2.0d,
+			description: ["The first harvest from your bees!"],
 			dependencies: [I;1937],
 			id: 1941,
 			tasks: [{
@@ -298,8 +321,10 @@
 			}]
 		},
 		{
-			x: -3.5d,
-			y: 7.0d,
+			title: "Hive Upgrades",
+			x: -2.5d,
+			y: 6.0d,
+			description: ["A variety of upgrades to your hives."],
 			dependencies: [I;1929],
 			id: 1943,
 			tasks: [
@@ -353,8 +378,9 @@
 			]
 		},
 		{
-			x: -5.5d,
-			y: -1.0d,
+			x: -4.5d,
+			y: -2.0d,
+			description: ["This generator will generate FE when fed with honey. A single bottle of honey will generate 1500 FE."],
 			dependencies: [I;1941],
 			id: 1952,
 			tasks: [{
@@ -369,8 +395,9 @@
 			}]
 		},
 		{
-			x: -3.5d,
-			y: -3.0d,
+			x: -2.5d,
+			y: -4.0d,
+			description: ["A nice filling combo of liquid honey and some honey comb."],
 			dependencies: [I;1915],
 			id: 1954,
 			tasks: [{

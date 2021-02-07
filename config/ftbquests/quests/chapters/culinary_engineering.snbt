@@ -1,0 +1,310 @@
+{
+	id: 4077,
+	filename: "culinary_engineering",
+	order_index: 5,
+	title: "Culinary Engineering",
+	icon: "cookingforblockheads:cooking_table",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: -11.5d,
+			y: -4.5d,
+			shape: "rsquare",
+			id: 4078,
+			tasks: [{
+				id: 4079,
+				type: "item",
+				item: "cookingforblockheads:recipe_book"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: -4.5d,
+			shape: "rsquare",
+			dependencies: [I;4078],
+			id: 4080,
+			tasks: [{
+				id: 4081,
+				type: "item",
+				item: "cookingforblockheads:crafting_book"
+			}]
+		},
+		{
+			x: -8.5d,
+			y: -4.5d,
+			shape: "rsquare",
+			dependencies: [I;4080],
+			id: 4082,
+			tasks: [{
+				id: 4083,
+				type: "item",
+				item: "cookingforblockheads:cooking_table"
+			}]
+		},
+		{
+			x: -7.0d,
+			y: -4.5d,
+			shape: "rsquare",
+			id: 4084,
+			tasks: [{
+				id: 4085,
+				type: "item",
+				item: "cookingforblockheads:sink"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: -4.5d,
+			shape: "rsquare",
+			id: 4086,
+			tasks: [{
+				id: 4087,
+				type: "item",
+				item: "cookingforblockheads:oven"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: -4.5d,
+			id: 4088,
+			tasks: [{
+				id: 4089,
+				type: "item",
+				item: "cookingforblockheads:toaster"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -6.0d,
+			id: 4090,
+			tasks: [{
+				id: 4091,
+				type: "item",
+				item: "cookingforblockheads:cow_jar"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -4.5d,
+			id: 4092,
+			tasks: [{
+				id: 4093,
+				type: "item",
+				item: "cookingforblockheads:milk_jar"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: -6.0d,
+			id: 4094,
+			tasks: [{
+				id: 4095,
+				type: "item",
+				item: "cookingforblockheads:fridge"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: -6.0d,
+			id: 4096,
+			tasks: [{
+				id: 4097,
+				type: "item",
+				item: "cookingforblockheads:tool_rack"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -6.0d,
+			id: 4098,
+			tasks: [{
+				id: 4099,
+				type: "item",
+				item: "cookingforblockheads:spice_rack"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -4.5d,
+			id: 4100,
+			tasks: [{
+				id: 4101,
+				type: "item",
+				item: "cookingforblockheads:fruit_basket"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: -7.5d,
+			dependencies: [I;4094],
+			id: 4102,
+			tasks: [{
+				id: 4103,
+				type: "item",
+				item: "cookingforblockheads:ice_unit"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -7.5d,
+			dependencies: [I;4094],
+			id: 4104,
+			tasks: [{
+				id: 4105,
+				type: "item",
+				item: "cookingforblockheads:preservation_chamber"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: -3.0d,
+			dependencies: [I;4086],
+			id: 4106,
+			tasks: [{
+				id: 4107,
+				type: "item",
+				item: "cookingforblockheads:heating_unit"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -6.0d,
+			id: 4108,
+			tasks: [{
+				id: 4109,
+				type: "item",
+				item: "cookingforblockheads:cabinet"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: -6.0d,
+			id: 4110,
+			tasks: [{
+				id: 4111,
+				type: "item",
+				item: "cookingforblockheads:hanging_corner"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -4.5d,
+			id: 4112,
+			tasks: [{
+				id: 4113,
+				type: "item",
+				item: "cookingforblockheads:counter"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: -4.5d,
+			id: 4114,
+			tasks: [{
+				id: 4115,
+				type: "item",
+				item: "cookingforblockheads:corner"
+			}]
+		},
+		{
+			x: 2.785714285714292d,
+			y: -5.232142857142847d,
+			id: 4116,
+			tasks: [{
+				id: 4117,
+				type: "item",
+				item: "cookingforblockheads:white_kitchen_floor"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: -1.5d,
+			id: 4118,
+			tasks: [{
+				id: 4119,
+				type: "item",
+				item: "pamhc2foodcore:skilletitem"
+			}]
+		},
+		{
+			x: -8.5d,
+			y: -1.5d,
+			id: 4120,
+			tasks: [{
+				id: 4121,
+				type: "item",
+				item: "pamhc2foodcore:saucepanitem"
+			}]
+		},
+		{
+			x: -7.0d,
+			y: -1.5d,
+			id: 4122,
+			tasks: [{
+				id: 4123,
+				type: "item",
+				item: "pamhc2foodcore:potitem"
+			}]
+		},
+		{
+			x: -5.5d,
+			y: -1.5d,
+			id: 4124,
+			tasks: [{
+				id: 4125,
+				type: "item",
+				item: "pamhc2foodcore:rolleritem"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: -1.5d,
+			id: 4126,
+			tasks: [{
+				id: 4127,
+				type: "item",
+				item: "pamhc2foodcore:bakewareitem"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -1.5d,
+			id: 4128,
+			tasks: [{
+				id: 4129,
+				type: "item",
+				item: "pamhc2foodcore:mixingbowlitem"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -1.5d,
+			id: 4130,
+			tasks: [{
+				id: 4131,
+				type: "item",
+				item: "pamhc2foodcore:grinderitem"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -1.5d,
+			id: 4132,
+			tasks: [{
+				id: 4133,
+				type: "item",
+				item: "pamhc2foodcore:juiceritem"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -1.5d,
+			id: 4134,
+			tasks: [{
+				id: 4135,
+				type: "item",
+				item: "pamhc2foodcore:cuttingboarditem"
+			}]
+		}
+	]
+}

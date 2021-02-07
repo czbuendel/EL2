@@ -7,8 +7,9 @@
 	default_quest_shape: "",
 	quests: [
 		{
-			x: -6.5d,
-			y: -2.0d,
+			x: 1.0d,
+			y: 0.0d,
+			description: ["Better start digging up some treasure to find one of these puppies."],
 			dependencies: [I;222],
 			id: 228,
 			tasks: [{
@@ -31,8 +32,9 @@
 			]
 		},
 		{
-			x: -5.0d,
-			y: -3.5d,
+			x: 2.0d,
+			y: -1.5d,
+			description: ["A fair number of these will be thrown at you in your underwater adventures."],
 			dependencies: [I;222],
 			id: 230,
 			tasks: [{
@@ -75,8 +77,9 @@
 			]
 		},
 		{
-			x: -3.5d,
-			y: -2.0d,
+			x: 5.0d,
+			y: 0.0d,
+			description: ["Test your mettle against the Elder Guardian and see how you fair!"],
 			dependencies: [I;222],
 			id: 232,
 			tasks: [
@@ -131,14 +134,23 @@
 			]
 		},
 		{
-			x: -5.0d,
-			y: -2.0d,
+			title: "Boat",
+			x: 3.0d,
+			y: 0.0d,
+			description: ["Should help you get across those large bodies of water."],
 			dependencies: [I;226],
 			id: 222,
 			tasks: [{
 				id: 223,
 				type: "item",
-				item: "minecraft:dark_oak_boat"
+				title: "Boat",
+				item: {
+					id: "itemfilters:tag",
+					Count: true,
+					tag: {
+						value: "minecraft:boats"
+					}
+				}
 			}],
 			rewards: [
 				{
@@ -170,9 +182,12 @@
 			]
 		},
 		{
-			x: -6.5d,
-			y: -0.5d,
-			description: ["You can use your Totem Of Undying from anywhere in your inventory"],
+			x: 1.0d,
+			y: 1.5d,
+			description: [
+				"You can use your Totem Of Undying from anywhere in your inventory.",
+				"Better start exploring those woodlands if you want this life saving backup."
+			],
 			dependencies: [I;226],
 			id: 1057,
 			tasks: [{
@@ -200,8 +215,12 @@
 			]
 		},
 		{
-			x: -5.0d,
-			y: -0.5d,
+			x: 3.0d,
+			y: 1.5d,
+			description: [
+				"Time to get out there and start exploring the map.",
+				"You may need many of these but they will really help you not get lost."
+			],
 			dependencies: [I;
 				224,
 				3984
@@ -236,8 +255,9 @@
 			]
 		},
 		{
-			x: 4.5d,
-			y: -0.5d,
+			x: 17.0d,
+			y: 0.0d,
+			description: ['If I sprinkle some of this "magic" dust on one of those eyes from a teleporting tall guys they seem to fly off in a direction. I should follow to see where they head.'],
 			dependencies: [I;124],
 			id: 147,
 			tasks: [{
@@ -269,9 +289,13 @@
 			]
 		},
 		{
-			x: 4.5d,
-			y: 1.0d,
+			title: "Is this actually the End?",
+			x: 19.5d,
+			y: 0.0d,
+			shape: "rsquare",
+			description: ["A big portal in an old dungeon. What could go wrong jumping in?"],
 			dependencies: [I;147],
+			size: 1.5d,
 			id: 126,
 			tasks: [{
 				id: 127,
@@ -294,8 +318,9 @@
 			}]
 		},
 		{
-			x: 6.0d,
-			y: 1.0d,
+			x: 22.25d,
+			y: 0.0d,
+			description: ["Ok well I really didn't expect that down here....."],
 			dependencies: [I;126],
 			id: 138,
 			tasks: [{
@@ -342,8 +367,8 @@
 			]
 		},
 		{
-			x: 6.0d,
-			y: -0.5d,
+			x: 22.25d,
+			y: 1.5d,
 			dependencies: [I;138],
 			id: 251,
 			tasks: [{
@@ -374,8 +399,12 @@
 			]
 		},
 		{
-			x: 7.5d,
-			y: 1.0d,
+			x: 22.25d,
+			y: -1.5d,
+			description: [
+				"Hey I can fly around pretty good with these.",
+				"Probably should bring a good number of ender pearls with me though to get one though."
+			],
 			dependencies: [I;138],
 			id: 140,
 			tasks: [{
@@ -428,8 +457,8 @@
 		{
 			title: "Going Deep",
 			disable_toast: true,
-			x: 1.5142857142857338d,
-			y: 4.075000000000003d,
+			x: 12.5d,
+			y: -4.0d,
 			shape: "hexagon",
 			size: 2.0d,
 			id: 117,
@@ -437,38 +466,12 @@
 				id: 118,
 				type: "item",
 				item: "minecraft:obsidian"
-			}],
-			rewards: [
-				{
-					id: 342,
-					type: "item",
-					item: {
-						id: "minecraft:enchanted_book",
-						Count: true,
-						tag: {
-							StoredEnchantments: [{
-								lvl: 3s,
-								id: "minecraft:smite"
-							}]
-						}
-					}
-				},
-				{
-					id: 838,
-					type: "item",
-					item: "minecraft:cooked_salmon",
-					count: 5
-				},
-				{
-					id: 1129,
-					type: "item",
-					item: "spareparts:coins/stone_coin"
-				}
-			]
+			}]
 		},
 		{
-			x: 3.5d,
-			y: 4.0d,
+			x: 14.5d,
+			y: -4.0d,
+			description: ["Magic? Pah!"],
 			dependencies: [I;117],
 			id: 108,
 			tasks: [{
@@ -511,13 +514,16 @@
 			]
 		},
 		{
-			title: "See you in hell...",
-			x: 1.5d,
-			y: -0.5d,
+			title: "See you in Hell...",
+			x: 12.559523809523824d,
+			y: 0.0d,
+			shape: "rsquare",
+			description: ["There is a whole new land of mystery down here."],
 			dependencies: [I;
 				142,
 				117
 			],
+			size: 1.5d,
 			id: 128,
 			tasks: [{
 				id: 129,
@@ -548,8 +554,8 @@
 			]
 		},
 		{
-			x: -1.5d,
-			y: -0.5d,
+			x: 8.0d,
+			y: 0.0d,
 			dependencies: [I;3999],
 			id: 215,
 			tasks: [{
@@ -565,8 +571,9 @@
 			}]
 		},
 		{
-			x: 3.0d,
-			y: -0.5d,
+			x: 15.0d,
+			y: 0.0d,
+			description: ["It isn't \"magic\", it is \"chemistry\". ;)"],
 			dependencies: [I;128],
 			id: 124,
 			tasks: [
@@ -589,8 +596,9 @@
 			}]
 		},
 		{
-			x: 3.0d,
-			y: -2.0d,
+			x: 10.5d,
+			y: 1.5d,
+			description: ["Some kind of ancient metal it seems, could use potentially. I wonder how strong it is?"],
 			dependencies: [I;128],
 			id: 149,
 			tasks: [{
@@ -614,8 +622,10 @@
 			}]
 		},
 		{
-			x: 1.5d,
-			y: -2.0d,
+			title: "Wither Skeleton Trio",
+			x: 12.559523809523824d,
+			y: 1.5d,
+			description: ["Killed a trio of black skeletons that sapped my strength when they hit me."],
 			dependencies: [I;128],
 			id: 130,
 			tasks: [{
@@ -648,8 +658,9 @@
 			]
 		},
 		{
-			x: 0.0d,
-			y: -2.0d,
+			x: 14.5d,
+			y: 1.5d,
+			description: ["Hey a free source of light, quite decorative and usefull as well."],
 			dependencies: [I;128],
 			id: 241,
 			tasks: [{
@@ -665,8 +676,9 @@
 			}]
 		},
 		{
-			x: 0.0d,
-			y: -3.5d,
+			x: 14.5d,
+			y: 3.0d,
+			description: ["I bet I can take some glowstone and make it a bit more industrial looking."],
 			dependencies: [I;241],
 			id: 243,
 			tasks: [
@@ -709,8 +721,10 @@
 			]
 		},
 		{
-			x: 1.5d,
-			y: -3.5d,
+			title: "Wither Buddy",
+			x: 12.559523809523824d,
+			y: 3.0d,
+			description: ["I should make an example out of those skeletons and make an effigy on a T of soul sand. That should teach them!"],
 			dependencies: [I;130],
 			id: 132,
 			tasks: [{
@@ -735,8 +749,9 @@
 			}]
 		},
 		{
-			x: 3.0d,
-			y: -3.5d,
+			x: 10.5d,
+			y: 3.0d,
+			description: ["Seems like the ancient metal smelts down quite well."],
 			dependencies: [I;149],
 			id: 151,
 			tasks: [{
@@ -757,8 +772,9 @@
 			}]
 		},
 		{
-			x: 3.0d,
-			y: -5.0d,
+			x: 10.5d,
+			y: 4.5d,
+			description: ["This may be the best pickaxe I have ever seen!"],
 			dependencies: [I;151],
 			id: 153,
 			tasks: [{
@@ -795,8 +811,9 @@
 			]
 		},
 		{
-			x: 1.5d,
-			y: -5.0d,
+			x: 12.559523809523824d,
+			y: 4.5d,
+			description: ["Did that Wither just drop a..... star?"],
 			dependencies: [I;132],
 			id: 134,
 			tasks: [{
@@ -811,8 +828,9 @@
 			}]
 		},
 		{
-			x: 1.5d,
-			y: -6.5d,
+			x: 12.559523809523824d,
+			y: 6.0d,
+			description: ["I bet this star could give me a big beam of light. Could also have some other benefits if I put it up on some blocks of metal like some kind of antenna."],
 			dependencies: [I;134],
 			id: 136,
 			tasks: [{
@@ -864,8 +882,8 @@
 		{
 			title: "What is out there?",
 			disable_toast: true,
-			x: -5.0d,
-			y: 2.0d,
+			x: 3.0d,
+			y: 4.0d,
 			shape: "hexagon",
 			size: 2.0d,
 			id: 3984,
@@ -876,8 +894,8 @@
 			}]
 		},
 		{
-			x: 0.0d,
-			y: -0.5d,
+			x: 10.0d,
+			y: -0.010119047619042476d,
 			shape: "gear",
 			description: ["May want to look into collecting some of these for some future hot prospects."],
 			dependencies: [I;128],
@@ -892,8 +910,9 @@
 		},
 		{
 			title: "Nether Bricks",
-			x: 0.0d,
-			y: 1.0d,
+			x: 10.5d,
+			y: -1.5d,
+			description: ["These bricks seems to be able to stand a bit more heat than those that you can make, maybe should keep some to use later."],
 			dependencies: [I;128],
 			id: 4001,
 			tasks: [{
@@ -901,6 +920,70 @@
 				type: "item",
 				item: "minecraft:nether_brick",
 				count: 36L
+			}]
+		},
+		{
+			title: "Scuba Steve",
+			x: 4.0d,
+			y: -1.5d,
+			description: [
+				"Getting yourself a set of this gear will give you a big advantage underwater.",
+				"You too can be a part of the SCUBA SQUAD!"
+			],
+			dependencies: [I;222],
+			id: 4020,
+			tasks: [
+				{
+					id: 4021,
+					type: "item",
+					item: {
+						id: "scuba_gear:scuba_helmet",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 4022,
+					type: "item",
+					item: {
+						id: "scuba_gear:scuba_chestplate",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 4023,
+					type: "item",
+					item: {
+						id: "scuba_gear:scuba_leggings",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 4024,
+					type: "item",
+					item: {
+						id: "scuba_gear:scuba_boots",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 4025,
+				type: "item",
+				item: "pamhc2foodcore:fishsticksitem",
+				count: 10,
+				random_bonus: 5
 			}]
 		}
 	]

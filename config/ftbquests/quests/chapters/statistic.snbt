@@ -1,7 +1,7 @@
 {
 	id: 742,
 	filename: "statistic",
-	order_index: 13,
+	order_index: 14,
 	title: "Statistics",
 	icon: "minecraft:writable_book",
 	default_quest_shape: "",
@@ -455,7 +455,7 @@
 			}]
 		},
 		{
-			x: 0.5d,
+			x: -1.0d,
 			y: -2.0d,
 			id: 1706,
 			tasks: [{
@@ -499,6 +499,49 @@
 				id: 1910,
 				type: "random",
 				table: 1
+			}]
+		},
+		{
+			title: "Distance by Elytra",
+			x: -1.0d,
+			y: -3.0d,
+			id: 4011,
+			tasks: [{
+				id: 4012,
+				type: "stat",
+				title: "Take Flight",
+				icon: {
+					id: "minecraft:elytra",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				stat: "minecraft:aviate_one_cm",
+				value: 100000
+			}]
+		},
+		{
+			icon: "minecraft:saddle",
+			x: -1.0d,
+			y: -1.0d,
+			id: 4138,
+			tasks: [{
+				id: 4139,
+				type: "stat",
+				stat: "minecraft:horse_one_cm",
+				value: 100000
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 0.0d,
+			id: 4140,
+			tasks: [{
+				id: 4141,
+				type: "stat",
+				stat: "minecraft:minecart_one_cm",
+				value: 20000
 			}]
 		}
 	]
