@@ -7,8 +7,8 @@
 	default_quest_shape: "hexagon",
 	quests: [
 		{
-			x: -10.0d,
-			y: 9.5d,
+			x: -7.49285714285714d,
+			y: 8.363690476190484d,
 			description: ["I hope you enjoyed making this steel, you will be needing a LOT of it in the future."],
 			dependencies: [I;260],
 			id: 253,
@@ -39,7 +39,7 @@
 		},
 		{
 			title: "Blast Furnace",
-			x: -12.0d,
+			x: -10.5d,
 			y: 11.0d,
 			description: [
 				"The blast furnace is your first step on the way to your very own steel empire.",
@@ -63,8 +63,8 @@
 			}]
 		},
 		{
-			x: -10.0d,
-			y: 12.0d,
+			x: -9.0d,
+			y: 11.5d,
 			description: [
 				"By steel casing some blast brick you are able to better contain the heat of your furnace. This results in it being faster at making steel.",
 				"",
@@ -92,7 +92,7 @@
 			}]
 		},
 		{
-			x: -8.0d,
+			x: -7.5d,
 			y: 11.0d,
 			description: [
 				"The blast furnace preheater will enhance your steel production even further.",
@@ -143,7 +143,7 @@
 			}]
 		},
 		{
-			x: -13.5d,
+			x: -12.0d,
 			y: 10.0d,
 			description: ["A byproduct of steel production in Blast Furnaces that can be used for a number of other products."],
 			dependencies: [I;260],
@@ -161,7 +161,7 @@
 			}]
 		},
 		{
-			x: -13.5d,
+			x: -12.0d,
 			y: 8.0d,
 			description: ["Ah, the engineers favorite flooring."],
 			dependencies: [I;268],
@@ -214,12 +214,11 @@
 		},
 		{
 			x: -10.0d,
-			y: 7.5d,
+			y: 9.0d,
 			description: [
-				"It is used to generate Redstone Flux (RF) when connected to the front of a Kinetic Dynamo.",
+				"It is used to generate RF when connected to the front of a Kinetic Dynamo.",
 				"",
-				"The Water Wheel must be connected to a flowing water stream in order to work, and the amount of power produced scales directly with the number of flowing water blocks adjacent to the wheel. The maximum amount of power that a Water Wheel can produce",
-				'is 30 RF/t, which arises from a water source flowing "in a semi-circle from the top down one side and along the bottom."',
+				"The Water Wheel must be connected to a flowing water stream in order to work, and the amount of power produced scales directly with the number of flowing water blocks adjacent to the wheel.",
 				"",
 				"Up to three water wheels may be placed against one another. Connected water wheels will output power to the same dynamo."
 			],
@@ -258,10 +257,10 @@
 			}]
 		},
 		{
-			x: -11.5d,
+			x: -10.0d,
 			y: 8.0d,
 			description: [
-				"It generates Redstone Flux (RF) through the difference in temperature between blocks/liquids adjacent to it. It does not have an internal energy buffer;",
+				"It generates Redstone Flux (RF) through the difference in temperature between blocks/liquids adjacent to it.",
 				"",
 				"The two liquids/blocks used should be opposite of each other; having one liquid be on the east of the generator and another liquid being on the north of the generator (for example) will NOT allow it to work.",
 				"Having two sets of opposites will work and increase production."
@@ -836,9 +835,10 @@
 			}]
 		},
 		{
-			x: -8.0d,
-			y: 5.0d,
-			dependencies: [I;557],
+			x: -8.5d,
+			y: 4.0d,
+			description: ["Light Engineering Blocks can be thought of as the basic components that go into a larger machine."],
+			dependencies: [I;4167],
 			id: 545,
 			tasks: [{
 				id: 546,
@@ -860,11 +860,12 @@
 			]
 		},
 		{
-			x: -8.0d,
+			x: -7.5d,
 			y: 6.5d,
+			description: ["Heavy Engineering Blocks can be thought of as the complex components that go into a larger machine."],
 			dependencies: [I;
-				557,
-				253
+				253,
+				4167
 			],
 			id: 547,
 			tasks: [{
@@ -922,8 +923,8 @@
 			]
 		},
 		{
-			x: 8.142857142857267d,
-			y: 6.366666666666667d,
+			x: 8.870238095238278d,
+			y: 6.351785714285711d,
 			description: ["Creates up to 256 RF/t when fueled with gasoline."],
 			dependencies: [I;619],
 			id: 551,
@@ -948,8 +949,8 @@
 			]
 		},
 		{
-			x: -8.0d,
-			y: 1.5d,
+			x: -8.5d,
+			y: 2.5d,
 			description: ["A slightly more feature rich and decorative crafting station. Full features can be seen by holding shift + ctrl while hovering over the item."],
 			dependencies: [I;580],
 			id: 553,
@@ -1042,8 +1043,8 @@
 		},
 		{
 			title: "Prospecting",
-			x: -5.0d,
-			y: 9.5d,
+			x: -4.265476190476129d,
+			y: 9.848809523809528d,
 			description: [
 				"Start prospecting by taking Survey Tools out to the wilderness to search for mineral veins. Survey Tools provide approximate vein location and multiple samples of the same vein increase the vein information.",
 				"Samples can overlap, so samples may contain informaation from multiple veins.",
@@ -1137,8 +1138,8 @@
 			]
 		},
 		{
-			x: -12.0d,
-			y: 1.5d,
+			x: -11.5d,
+			y: 2.5d,
 			description: ['A special lantern that makes a 32 block long light "cone". Position can be adjusted by right clicking with the Engineer\'s Hammer.'],
 			dependencies: [I;580],
 			id: 570,
@@ -1169,19 +1170,15 @@
 		},
 		{
 			x: -10.0d,
-			y: 6.0d,
+			y: 6.5d,
 			description: [
-				"It is used to grow crops placed in it.",
+				"The garden cloche is used to automate and speed up the growing of crops in an industrial manner.",
 				"",
-				"Right-clicking it will open its GUI (Graphical User Interface). In the GUI, the top of the central two slots is where a seed can be placed, and below that the block that the seed grows on can be placed (usually Dirt).",
+				"By placing seeds and correct soil inside and providing power and water to the cloche, you can grow crops with ease.",
 				"",
-				"In order to grow, Water and Redstone Flux (RF) are required; Water can be input through the lower front, back, or bottom ports, and RF can be input through the top, or through the lower left and right sides (anywhere with an orange dot, except throug",
-				"Water, despite being strictly required, acts as a small Fertilizer boost when refilled by your fluid input systems. This boost dies down until the next time it receives water.",
-				"",
-				"When it has all its requirements, it will grow the crop, generating a product and its seeds, consuming 8 RF per tick. Items can be output through the front center side with the orange dot on it.",
-				"",
-				"Various Fertilizers can be added to increase the growth modifier (production speed), including Bone Meal. The growth modifier is listed on the left side of the GUI, along with the amount of Fertilizer. It can be added through the lower front, back,",
-				"or bottom ports. Using Fertilizer does not increase energy consumption."
+				"Power can be inserted at the top copper point on the glass globe.",
+				"Water can be inserted into the large grey ports on the front and back of the cloche.",
+				"Finally products can be pulled from the front center port with the orange dot. "
 			],
 			dependencies: [I;557],
 			id: 572,
@@ -1206,8 +1203,8 @@
 			]
 		},
 		{
-			x: 8.142857142857267d,
-			y: 3.1952380952380963d,
+			x: 8.870238095238278d,
+			y: 3.18035714285714d,
 			description: [
 				"The automatic lubricator will setup lubrication pipes around a machine for automatic lubrication ability.",
 				"For more information read the Immersive Petroleum section of the IE manual."
@@ -1321,7 +1318,7 @@
 			}]
 		},
 		{
-			x: -11.0d,
+			x: -11.5d,
 			y: 1.0d,
 			description: ["A lantern that when provided RF creates as much light as a torch, but stops mob spawns within a 32 block radius,"],
 			dependencies: [I;580],
@@ -1349,24 +1346,21 @@
 		{
 			title: "Excavator",
 			icon: "immersiveengineering:excavator",
-			x: -2.0285714285713325d,
-			y: 10.880952380952401d,
+			x: -0.9303571428570478d,
+			y: 9.85148809523809d,
 			shape: "square",
 			description: [
 				'The Excavator is made of two parts. The "Wheel" is the center part, and is formed by right-clicking with an Engineer\'s Hammer on the the hidden Block of Steel. The "Engine" is the other part, and is formed by right-clicking the Engineer\'s Hammer on',
 				"the Heavy Engineering Block in the center of the back side.",
 				"",
-				"The Excavator does not have a GUI and requires 4,096 Redstone Flux per tick (RF/t) to operate. In Immersive Engineering, the only way to generate this much RF is through a Diesel Generator. Energy should be introduced through at least one of the",
-				"three black power-plugs on the backside of the Excavator. Once it receives the needed energy, the machine's wheel will begin to spin and mine.",
+				"The Excavator does not have a GUI and requires 4,096 RF/t to operate. Energy should be introduced through at least one of the 3 back power plugs of the engine.",
+				"Once it receives the needed energy, the machine's wheel will begin to spin and mine.",
 				"",
-				"The multi-block's processes can be halted via Redstone through the \"control panel\", the block on the left-middle spot of the right side. Mined items will fall out the center spot of the right side.",
+				"The multi-block's processes can be halted via Redstone through the \"control panel\", the block on the left-middle spot of the right side. Mined items will be ejected out the center spot of the right side.",
 				"",
-				"The Excavator may break a few block under it when it starts up, but once it has some space will not break anything else. All blocks are broken as if they were mined with Silk Touch.",
+				"The Excavator may break a few block under it when it starts up, but once it has space no other blocks are broken. All blocks are broken as if they were mined with Silk Touch.",
 				"",
-				"A fully powered Excavator can mine up to one Ore per every 3 seconds. If ores are being sent directly into a Crusher, it may be necessary to build two Crushers, as only one will not be able to keep up with the full speed of an Excavator. Over time",
-				"this yield rate will lower, but the full extraction process can last for 144 (Minecraft) days. This equals 5,760 ore blocks per deposit.",
-				"",
-				"In order for the excavator to work, the bucket wheel needs to be completely in the chunk where the mineral deposit is located."
+				"A fully powered Excavator can mine up to one Ore per every 3 seconds."
 			],
 			dependencies: [I;
 				564,
@@ -1445,8 +1439,8 @@
 			}]
 		},
 		{
-			x: 0.34285714285726243d,
-			y: 3.2238095238095283d,
+			x: 1.070238095238274d,
+			y: 3.2089285714285722d,
 			description: ["The Mining Drill will be your best friend as this fuel powered drill will make quick work of blocks. A number of upgrades can be seen in the IE manual to configure the drills operation."],
 			dependencies: [I;611],
 			id: 593,
@@ -1484,8 +1478,8 @@
 			]
 		},
 		{
-			x: 0.34285714285726243d,
-			y: 6.395238095238099d,
+			x: 1.070238095238274d,
+			y: 6.380357142857143d,
 			description: ["The buzzsaw is a fuel powered saw that can chew through blocks with ease. The IE manual also lists a number of upgrades that can be applied in the Engineer's Workbench to change its functionality."],
 			dependencies: [I;611],
 			id: 595,
@@ -1652,11 +1646,11 @@
 		{
 			title: "Industrial Fermenter",
 			icon: "immersiveengineering:fermenter",
-			x: -3.1999999999998963d,
-			y: 6.652380952380973d,
+			x: -2.4726190476188847d,
+			y: 6.637500000000017d,
 			shape: "square",
 			description: [
-				"Used to make Ethanol.",
+				"The Industrial Fermenter is used to make Ethanol.",
 				"After it is fully arranged, right-click the central Cauldron with an Engineer's Hammer to complete the multiblock structure.",
 				"",
 				"RF can be received from the top and bottom central blocks, and Ethanol can output from the bottom-central block of each side. Since the Fermenter has 8 slots, it can perform up to 8 operations simultaneously.",
@@ -1669,12 +1663,49 @@
 			dependencies: [I;4009],
 			size: 1.5d,
 			id: 607,
-			tasks: [{
-				id: 1142,
-				type: "item",
-				item: "immersiveengineering:ethanol_bucket",
-				count: 5L
-			}],
+			tasks: [
+				{
+					id: 1142,
+					type: "item",
+					item: "immersiveengineering:ethanol_bucket",
+					count: 5L
+				},
+				{
+					id: 4178,
+					type: "item",
+					item: "immersiveengineering:steel_scaffolding_standard",
+					count: 6L
+				},
+				{
+					id: 4179,
+					type: "item",
+					item: "immersiveengineering:light_engineering",
+					count: 2L
+				},
+				{
+					id: 4180,
+					type: "item",
+					item: "minecraft:cauldron",
+					count: 4L
+				},
+				{
+					id: 4181,
+					type: "item",
+					item: "immersiveengineering:rs_engineering"
+				},
+				{
+					id: 4182,
+					type: "item",
+					item: "immersiveengineering:sheetmetal_iron",
+					count: 4L
+				},
+				{
+					id: 4183,
+					type: "item",
+					item: "immersiveengineering:fluid_pipe",
+					count: 2L
+				}
+			],
 			rewards: [
 				{
 					id: 1143,
@@ -1692,11 +1723,11 @@
 		{
 			title: "Industrial Squeezer",
 			icon: "immersiveengineering:squeezer",
-			x: -3.0857142857141824d,
-			y: 3.2238095238095354d,
+			x: -2.358333333333171d,
+			y: 3.2089285714285793d,
 			shape: "square",
 			description: [
-				"It is used to make Plant Oil or HOP Graphite Dust",
+				"The Industrial Squeezer is used to make Plant Oil or HOP Graphite Dust",
 				"",
 				"After it is fully arranged, right-click on the central Wooden Barrel from between the light engineering blocks and the redstone engineering blocks with an Engineer's Hammer to complete the multiblock structure.",
 				"",
@@ -1705,7 +1736,7 @@
 				"- Melon Seeds - 20 mB",
 				"- Pumpkin Seeds - 40 mB",
 				"- Beetroot Seeds - 60 mb",
-				"- Seeds - 80 mB",
+				"- Wheat Seeds - 80 mB",
 				"- Industrial Hemp Seeds - 120 mB"
 			],
 			dependencies: [I;4009],
@@ -1722,6 +1753,46 @@
 					id: 1217,
 					type: "item",
 					item: "immersiveengineering:dust_hop_graphite"
+				},
+				{
+					id: 4184,
+					type: "item",
+					item: "minecraft:piston"
+				},
+				{
+					id: 4185,
+					type: "item",
+					item: "immersiveengineering:steel_scaffolding_standard",
+					count: 6L
+				},
+				{
+					id: 4186,
+					type: "item",
+					item: "immersiveengineering:light_engineering",
+					count: 2L
+				},
+				{
+					id: 4187,
+					type: "item",
+					item: "immersiveengineering:rs_engineering"
+				},
+				{
+					id: 4188,
+					type: "item",
+					item: "immersiveengineering:steel_fence",
+					count: 3L
+				},
+				{
+					id: 4189,
+					type: "item",
+					item: "immersiveengineering:fluid_pipe",
+					count: 2L
+				},
+				{
+					id: 4190,
+					type: "item",
+					item: "immersiveengineering:wooden_barrel",
+					count: 4L
 				}
 			],
 			rewards: [
@@ -1741,11 +1812,11 @@
 		{
 			title: "Refinery",
 			icon: "immersiveengineering:refinery",
-			x: 0.3428571428572482d,
-			y: 4.82380952380953d,
+			x: 1.0702380952382597d,
+			y: 4.808928571428574d,
 			shape: "square",
 			description: [
-				"It is used to make Biodiesel.",
+				"The Refinery is used to make Biodiesel.",
 				"After it is complete, right-clicking the central Heavy Engineering Block with an Engineer's Hammer will finish the multiblock.",
 				"",
 				"The front-bottom-center block is used to output Biodiesel. The two side-bottom-center blocks are used to input Plant Oil and Ethanol. Redstone Flux (RF) is input from the back-center block, and the multi-block's processes can be halted via Redstone",
@@ -1760,11 +1831,48 @@
 			],
 			size: 1.5d,
 			id: 611,
-			tasks: [{
-				id: 627,
-				type: "item",
-				item: "immersiveengineering:biodiesel_bucket"
-			}],
+			tasks: [
+				{
+					id: 627,
+					type: "item",
+					item: "immersiveengineering:biodiesel_bucket"
+				},
+				{
+					id: 4191,
+					type: "item",
+					item: "immersiveengineering:steel_scaffolding_standard",
+					count: 8L
+				},
+				{
+					id: 4192,
+					type: "item",
+					item: "immersiveengineering:light_engineering",
+					count: 2L
+				},
+				{
+					id: 4193,
+					type: "item",
+					item: "immersiveengineering:heavy_engineering",
+					count: 2L
+				},
+				{
+					id: 4194,
+					type: "item",
+					item: "immersiveengineering:sheetmetal_iron",
+					count: 16L
+				},
+				{
+					id: 4195,
+					type: "item",
+					item: "immersiveengineering:rs_engineering"
+				},
+				{
+					id: 4196,
+					type: "item",
+					item: "immersiveengineering:fluid_pipe",
+					count: 5L
+				}
+			],
 			rewards: [{
 				id: 1290,
 				type: "item",
@@ -1775,21 +1883,19 @@
 		{
 			title: "Diesel Generator",
 			icon: "immersiveengineering:diesel_generator",
-			x: 2.2285714285715343d,
-			y: 4.82380952380953d,
+			x: 2.955952380952546d,
+			y: 4.808928571428574d,
 			shape: "square",
 			description: [
-				"The Diesel Generator is a 3x5x3 multi-block added by Immersive Engineering. It is used to create Redstone Flux (RF) from Biodiesel and Fuel.",
+				"The Diesel Generator is a 3x5x3 multi-block generator used to create RF from Biodiesel and Fuel.",
 				"",
-				"The Redstone Engineering Block can be placed on either side by swapping it with the Heavy Engineering Block opposite it; this will produce a finished generator with a redstone port on the other side.",
+				"After it is fully arranged (with the help of projector hopefully), the player must right-click the top-center block of the front side (which should be a Generator Block) with an Engineer's Hammer, then the multi-block is complete.",
 				"",
-				"After it is fully arranged, the player must right-click the top-center block of the front side (which should be a Generator Block) with an Engineer's Hammer, then the multi-block is complete.",
-				"",
-				"The Diesel Generator does not have a GUI. Fuel is entered through the rightmost-bottommost blocks of the longer sides of the multi-block. RF is output through the top of the three frontmost blocks (each has a small Copper-looking dot on them).",
+				"The Diesel Generator does not have a GUI. Fuel is inserted in the bottom corner blocks. RF is output through the top of the three frontmost blocks with a orange dot.",
 				"The multi-block's processes can be halted via Redstone through the \"control panel\", the center block of the right-side.",
 				"",
-				"The Diesel Generator has an (invisible) internal fluid buffer of 24000mB, which is enough to make 12,288,000 RF over 150 seconds. It does not have an internal energy buffer. It will automatically shut off if it cannot export power.",
-				"Burning 1000 mB (One Bucket) of Biodiesel will cause the Diesel Generator to make 4096 RF/t for 6.25 seconds, and (BuildCraft) Fuel for 18.75 seconds.",
+				"The Diesel Generator has an internal fluid buffer of 24000mB for fuel. The generator does not have an internal energy buffer. It will automatically shut off if it cannot export power.",
+				"Burning 1000 mB (One Bucket) of Biodiesel will cause the Diesel Generator to make 4096 RF/t for 6.25 seconds. ",
 				"",
 				"For an efficient Diesel Generator setup, one Refinery, two Industrial Squeezers and two Industrial Fermenters per two Diesel Generators is required.",
 				"Also note that the Refinery produces enough Biodiesel at maximum capacity to supply two Diesel Generators."
@@ -1862,27 +1968,18 @@
 		{
 			title: "Arc Furnace",
 			icon: "immersiveengineering:arc_furnace",
-			x: 2.257142857142952d,
-			y: 2.0523809523809575d,
+			x: 2.9845238095239637d,
+			y: 2.0375000000000014d,
 			shape: "gear",
 			description: [
-				"It is used to quickly smelt Ores, Grit and create Steel and other alloys, as well as to recycle tools and armor. After building the structure, right-click the Cauldron with an Engineer's Hammer to complete it.",
+				"The Arc Furnace is used to quickly smelt Ores, Grit and create Steel and other alloys, as well as to recycle tools and armor. After building the structure, right-click the Cauldron with an Engineer's Hammer to complete it.",
 				"",
-				"Redstone Flux (RF) is input through one (or more) of the three black power-plugs on the backside of the Arc Furnace and the multi-block's processes can be halted via a Redstone signal through the \"control panel\", the front-leftmost center block.",
+				"RF is input through one (or more) of the three black power-plugs on the backside of the Arc Furnace and the multi-block's processes can be halted via a Redstone signal through the \"control panel\", the front-leftmost center block.",
 				'Right-clicking the "vat" part of the multi-block will open the GUI.',
 				"",
-				"The top three slots in the GUI are for Graphite Electrodes. Each must be filled for the Arc Furnace to function. Pipes (and similar) cannot access these slots, Graphite Electrodes have to be inserted manually",
+				"The top three slots in the GUI are for Graphite Electrodes. Each must be manually filled for the Arc Furnace to function.",
 				"",
-				"The left group of twelve slots (in a 3x4 pattern) is the input for metals: Ingots, Grit, and Ores. Each slot will have an indicator bar to the right of it to show the progress smelting. Pipes (and similar) can only access these slots through the bloc",
-				"",
-				'The right group of four slots (in a 2x2 pattern) is the input for "additives", extra items needed to smelt alloys (particularly Steel). Pipes (and similar) can only access these slots through the block to the right of center on the top of the vat.',
-				"",
-				"The bottom group with 7 slots is the output of the Arc Furnace. Pipes can pump these items out through the bottom-center block of the front of the multi-block (where the Cauldron was during construction). Slag specifically can also be extracted",
-				"through the bottom-center block on the back of the structure. Slag will be automatically output into any inventory adjacent to that block.",
-				"",
-				"The Arc Furnace will start its processes when it has all three Graphite Electrodes, enough RF, and the inputs. Each operation will reduce the integrity of each Graphite Electrode by 0.21%. This means that an Arc Furnace can perform 477 operations",
-				"before its Electrodes must be replaced.",
-				""
+				"The Arc Furnace will start its processes when it has all three Graphite Electrodes, enough RF, and the inputs. Each operation will reduce the integrity of each Graphite Electrode by 0.21%. This means that an Arc Furnace can perform 477 operations before its Electrodes must be replaced."
 			],
 			dependencies: [I;613],
 			size: 2.0d,
@@ -1939,6 +2036,18 @@
 					type: "item",
 					item: "immersiveengineering:blastbrick_reinforced",
 					count: 27L
+				},
+				{
+					id: 4197,
+					type: "item",
+					item: {
+						id: "immersiveengineering:graphite_electrode",
+						Count: true,
+						tag: {
+							Damage: 0
+						}
+					},
+					count: 3L
 				}
 			],
 			rewards: [
@@ -1985,18 +2094,67 @@
 		{
 			title: "Pumpjack",
 			icon: "immersivepetroleum:pumpjack",
-			x: 5.68571428571439d,
-			y: 4.82380952380953d,
+			x: 6.413095238095401d,
+			y: 4.808928571428574d,
 			shape: "square",
 			description: ["The pumpjack consumes 1024 RF/t to produce 15 mB/t of crude oil from deposits. "],
 			dependencies: [I;613],
 			size: 1.5d,
 			id: 617,
-			tasks: [{
-				id: 1218,
-				type: "item",
-				item: "immersivepetroleum:oil_bucket"
-			}],
+			tasks: [
+				{
+					id: 1218,
+					type: "item",
+					item: "immersivepetroleum:oil_bucket"
+				},
+				{
+					id: 4198,
+					type: "item",
+					item: "immersiveengineering:steel_scaffolding_standard",
+					count: 11L
+				},
+				{
+					id: 4199,
+					type: "item",
+					item: "immersiveengineering:light_engineering",
+					count: 2L
+				},
+				{
+					id: 4200,
+					type: "item",
+					item: "immersiveengineering:treated_fence",
+					count: 6L
+				},
+				{
+					id: 4201,
+					type: "item",
+					item: "immersiveengineering:rs_engineering"
+				},
+				{
+					id: 4202,
+					type: "item",
+					item: "immersiveengineering:heavy_engineering",
+					count: 2L
+				},
+				{
+					id: 4203,
+					type: "item",
+					item: "immersiveengineering:storage_steel",
+					count: 2L
+				},
+				{
+					id: 4204,
+					type: "item",
+					item: "immersiveengineering:sheetmetal_steel",
+					count: 4L
+				},
+				{
+					id: 4205,
+					type: "item",
+					item: "immersiveengineering:fluid_pipe",
+					count: 4L
+				}
+			],
 			rewards: [
 				{
 					id: 1314,
@@ -2021,8 +2179,8 @@
 		{
 			title: "Distillation tower",
 			icon: "immersivepetroleum:distillationtower",
-			x: 8.114285714285813d,
-			y: 4.795238095238105d,
+			x: 8.841666666666825d,
+			y: 4.780357142857149d,
 			shape: "square",
 			description: ["The Distillation tower will take 2048 RF to convert 75 mB of crude oil to 9 mB of Lubricant, 27 mB of Diesel, and    39 mB of Gasoline."],
 			dependencies: [I;617],
@@ -2043,6 +2201,41 @@
 					id: 1221,
 					type: "item",
 					item: "immersivepetroleum:lubricant_bucket"
+				},
+				{
+					id: 4206,
+					type: "item",
+					item: "immersiveengineering:steel_scaffolding_standard",
+					count: 25L
+				},
+				{
+					id: 4207,
+					type: "item",
+					item: "immersiveengineering:heavy_engineering",
+					count: 4L
+				},
+				{
+					id: 4208,
+					type: "item",
+					item: "immersiveengineering:rs_engineering"
+				},
+				{
+					id: 4209,
+					type: "item",
+					item: "immersiveengineering:sheetmetal_iron",
+					count: 60L
+				},
+				{
+					id: 4210,
+					type: "item",
+					item: "immersiveengineering:slab_steel_scaffolding_standard",
+					count: 30L
+				},
+				{
+					id: 4211,
+					type: "item",
+					item: "immersiveengineering:fluid_pipe",
+					count: 17L
 				}
 			],
 			rewards: [
@@ -2069,25 +2262,19 @@
 		{
 			title: "Crusher",
 			icon: "immersiveengineering:crusher",
-			x: -2.9714285714284685d,
-			y: 4.909523809523826d,
+			x: -2.244047619047457d,
+			y: 4.89464285714287d,
 			shape: "square",
 			description: [
-				"It is used for crushing Ores into Grit (Dusts), which is more efficient than normal smelting.",
+				"The Crusher is used to crush Ores into Grit (Dust), which is more efficient than normal smelting.",
 				"",
-				"After it is fully arranged, the player must right-click the center of the front of the longer side (which should be a Steel Fence with a Hopper above it) with an Engineer's Hammer, then the multi-block is complete.",
+				"After it is fully arranged (the projector will help), the player must right-click the center front block of the longer side (which should be a Steel Fence under a Hopper) with an Engineer's Hammer to complete the multi-block.",
 				"",
-				"The Crusher does not have a GUI. Redstone Flux (RF) is inputted through the top of the multi-block(orange dot)",
+				"The Crusher does not have a GUI. RF is input through the top of the multi-block at the orange dot port.",
 				"",
-				"When a mob or item is dropped into the center pit, the crushing process will start. After a few seconds, the crushed items will be dropped out of the front-bottom-center. If there is an inventory there (like a Chest), it will simply be placed into",
-				"that inventory.",
+				"Crushing occurs when a mob or item is dropped into the center pit. After processing, the crushed items will be ejected out the front-bottom-center port. If there is an inventory there (like a Chest), it will simply be placed into it.",
 				"",
-				"When a Mob is crushed, the Crusher will kill it, and output the corresponding drop/drops. If an Ore is thrown in, the Crusher will produce two of its corresponding Grit/Dust. If an Ingot/Gem is thrown in, it will produce just one of its corresponding",
-				"Grit/Dust. If the Crusher tries to a crush an item that cannot be processed, it will be destroyed.",
-				"",
-				"The speed that the Crusher processes one item is very close to the speed that a furnace processes one item when fueled with an External Heater. If processing ores that produce 2 grit, it will be necessary to have at least 2 furnaces in order to keep ",
-				"",
-				"The multi-block's processes can be halted via Redstone through the \"control panel\", the front-rightmost-center block."
+				"The multi-block's processes can be halted via Redstone through the \"control panel\", the front-right-center block."
 			],
 			dependencies: [I;4009],
 			size: 1.5d,
@@ -2144,20 +2331,17 @@
 		{
 			title: "Metal Press",
 			icon: "immersiveengineering:metal_press",
-			x: -4.9714285714284685d,
-			y: 7.138095238095261d,
+			x: -4.244047619047457d,
+			y: 7.123214285714305d,
 			shape: "square",
 			description: [
-				"It is used to create Plates and Rods.",
+				"The metal press is an automated way of creating plates, rods, wires, and packing items.",
 				"",
-				"When building it The orientation the Conveyor Belts are in is important; one should be facing into the Piston and one should be pointed the opposite way, away from the Piston. The orientation of Piston also matters; it should be facing down, as if it",
-				"is to push the Redstone Engineering Block.",
-				"After it is fully arranged, shift right-click the left or right side of the Piston with an Engineer's Hammer to complete the multiblock.",
+				"After it is fully arranged (you most likely won't need the projector but it can help), shift right-click the left or right side of the Piston with an Engineer's Hammer to complete the multiblock.",
 				"",
-				"The Metal Press has no GUI. Redstone Flux (RF) is inputted through the top block of the multiblock (where the Heavy Engineering Block was). Items are inputted and outputted through the built-in Conveyor Belt. An extra Conveyor Belt or Hopper should",
-				"be built leading into the Metal Press for dropped items to properly go through the Press.",
+				"The Metal Press has no GUI. RF is input through the top block of the press. Items are input and output through the built-in Conveyor Belts. An extra Conveyor Belt or Hopper should be built leading into the Metal Press to properly automate the Press.",
 				"",
-				"The Metal Press requires a Mold in order to function. Right-clicking (or as of version 0.7.4, throwing) a Metal Press with a Mold will attach the Mold to the Metal Press. The mold can be detached by shift right-clicking with an Engineer's Hammer."
+				"The Metal Press requires a Mold in order to function. Right-clicking the Metal Press with a Mold will attach the Mold to the Metal Press. The mold can be detached by shift right-clicking with an Engineer's Hammer."
 			],
 			dependencies: [I;4009],
 			size: 1.5d,
@@ -2180,6 +2364,33 @@
 					type: "item",
 					item: "immersiveengineering:plate_steel",
 					count: 64L
+				},
+				{
+					id: 4173,
+					type: "item",
+					item: "minecraft:piston"
+				},
+				{
+					id: 4174,
+					type: "item",
+					item: "immersiveengineering:steel_scaffolding_standard",
+					count: 2L
+				},
+				{
+					id: 4175,
+					type: "item",
+					item: "immersiveengineering:rs_engineering"
+				},
+				{
+					id: 4176,
+					type: "item",
+					item: "immersiveengineering:heavy_engineering"
+				},
+				{
+					id: 4177,
+					type: "item",
+					item: "immersiveengineering:conveyor_basic",
+					count: 2L
 				}
 			],
 			rewards: [
@@ -2200,8 +2411,8 @@
 		{
 			title: "Sawmill",
 			icon: "immersiveengineering:sawmill",
-			x: -4.9714285714284685d,
-			y: 2.9095238095238187d,
+			x: -4.244047619047457d,
+			y: 2.8946428571428626d,
 			shape: "square",
 			description: [
 				"The sawmill is a multiblock structure that will process logs into planks or stripped logs. The sawmill requires a saw blade which is inserted by right clicking a sawblade in the slot around back of the machine (shift + right click to remove).",
@@ -2272,8 +2483,10 @@
 			]
 		},
 		{
+			title: "Metal Press Molds",
 			x: -13.5d,
 			y: 5.0d,
+			description: ["These molds will allow you to use the Metal Press to make a variety of products at better efficiency than by hand."],
 			dependencies: [I;4142],
 			id: 628,
 			tasks: [
@@ -2313,8 +2526,8 @@
 			]
 		},
 		{
-			title: "Some industrialized lighting.",
-			x: -9.0d,
+			title: "Industrial Lighting",
+			x: -8.5d,
 			y: 1.0d,
 			dependencies: [I;580],
 			id: 710,
@@ -2444,8 +2657,9 @@
 		},
 		{
 			title: "Magma Blocks",
-			x: -13.86547619047613d,
-			y: 12.339285714285715d,
+			disable_toast: true,
+			x: -12.0d,
+			y: 12.75d,
 			shape: "gear",
 			size: 1.5d,
 			id: 4003,
@@ -2457,9 +2671,10 @@
 			}]
 		},
 		{
-			x: -8.0d,
-			y: 3.5d,
-			dependencies: [I;557],
+			x: -6.5d,
+			y: 4.0d,
+			description: ["Redstone Engineering Blocks can be thought of as the control blocks for a machine, a control panel in essence."],
+			dependencies: [I;4167],
 			id: 4005,
 			tasks: [{
 				id: 4006,
@@ -2468,8 +2683,8 @@
 			}]
 		},
 		{
-			x: -8.0d,
-			y: 9.5d,
+			x: -7.49285714285714d,
+			y: 9.863690476190484d,
 			description: ["Steel scaffold will be used throughout your multiblock machine construction and also looks really good as decoration."],
 			dependencies: [I;253],
 			id: 4007,
@@ -2481,8 +2696,8 @@
 		},
 		{
 			title: "Just like the Movies",
-			x: -5.0d,
-			y: 5.0d,
+			x: -4.2726190476189885d,
+			y: 4.985119047619044d,
 			shape: "octagon",
 			description: [
 				"The projector will be a critical item when you go to build multiblock machines.",
@@ -2496,9 +2711,7 @@
 			],
 			dependencies: [I;
 				4007,
-				547,
-				545,
-				4005
+				4167
 			],
 			dependency_requirement: "one_completed",
 			size: 2.0d,
@@ -2647,6 +2860,55 @@
 					}
 				}
 			]
+		},
+		{
+			icon: {
+				id: "immersiveengineering:blueprint",
+				Count: true,
+				tag: {
+					blueprint: "electrode"
+				}
+			},
+			x: -7.5d,
+			y: 5.0d,
+			description: ["The blocks surrounding this quest are critical pieces in the multiblock structures of Immersive Engineering."],
+			dependencies: [I;557],
+			id: 4167,
+			tasks: [{
+				id: 4168,
+				type: "checkmark",
+				title: "Engineer's Blocks"
+			}]
+		},
+		{
+			x: -8.5d,
+			y: 6.0d,
+			description: ["Radiator Blocks can be thought of as the machinery components that help dissapate heat away from a working machine."],
+			dependencies: [I;
+				4167,
+				253
+			],
+			id: 4169,
+			tasks: [{
+				id: 4170,
+				type: "item",
+				item: "immersiveengineering:radiator"
+			}]
+		},
+		{
+			x: -6.5d,
+			y: 6.0d,
+			description: ["Generator Blocks can be thought of as the components in a machine where electricity is made."],
+			dependencies: [I;
+				4167,
+				253
+			],
+			id: 4171,
+			tasks: [{
+				id: 4172,
+				type: "item",
+				item: "immersiveengineering:generator"
+			}]
 		}
 	]
 }

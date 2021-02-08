@@ -1,13 +1,13 @@
 {
 	id: 1912,
 	filename: "bee_productive",
-	order_index: 6,
+	order_index: 5,
 	title: "Bee Productive",
 	icon: "minecraft:honeycomb",
 	default_quest_shape: "hexagon",
 	quests: [
 		{
-			x: -4.5d,
+			x: -6.5d,
 			y: 2.0d,
 			description: ["Will help you with all the info about the Productive Bees mod."],
 			dependencies: [I;1935],
@@ -47,8 +47,8 @@
 			}]
 		},
 		{
-			x: -0.5d,
-			y: 0.0d,
+			x: -2.5d,
+			y: 2.0d,
 			description: ["Catches bees flying over it"],
 			dependencies: [I;1937],
 			id: 1917,
@@ -98,8 +98,8 @@
 			}]
 		},
 		{
-			x: -0.5d,
-			y: 4.0d,
+			x: 1.5d,
+			y: 2.0d,
 			description: ["Processes combs from hives into honey and resources. Is powered by FE."],
 			dependencies: [I;1927],
 			id: 1923,
@@ -154,8 +154,8 @@
 			]
 		},
 		{
-			x: -2.5d,
-			y: 2.0d,
+			x: -0.5d,
+			y: 0.0d,
 			description: [
 				"A more advanced bee hive that will keep your bees happier, allows them to be moved peacefully, and allows expansion hives.",
 				"The best part is though that you wont need a campfire under the hive to harvest it."
@@ -187,8 +187,8 @@
 			]
 		},
 		{
-			x: -2.5d,
-			y: 4.0d,
+			x: 1.5d,
+			y: 0.0d,
 			description: ["Can be attached to Advanced Bee Hives to expand their housing from 3 to 5 bees."],
 			dependencies: [I;1927],
 			id: 1929,
@@ -288,8 +288,8 @@
 			}]
 		},
 		{
-			x: -4.5d,
-			y: 4.0d,
+			x: 3.5d,
+			y: 0.0d,
 			dependencies: [I;1929],
 			id: 1939,
 			tasks: [{
@@ -322,8 +322,8 @@
 		},
 		{
 			title: "Hive Upgrades",
-			x: -2.5d,
-			y: 6.0d,
+			x: 1.5d,
+			y: -2.0d,
 			description: ["A variety of upgrades to your hives."],
 			dependencies: [I;1929],
 			id: 1943,
@@ -378,8 +378,8 @@
 			]
 		},
 		{
-			x: -4.5d,
-			y: -2.0d,
+			x: -2.5d,
+			y: -4.0d,
 			description: ["This generator will generate FE when fed with honey. A single bottle of honey will generate 1500 FE."],
 			dependencies: [I;1941],
 			id: 1952,
@@ -395,7 +395,7 @@
 			}]
 		},
 		{
-			x: -2.5d,
+			x: 1.5d,
 			y: -4.0d,
 			description: ["A nice filling combo of liquid honey and some honey comb."],
 			dependencies: [I;1915],

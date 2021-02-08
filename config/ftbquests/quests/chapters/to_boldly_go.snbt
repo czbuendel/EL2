@@ -813,8 +813,10 @@
 		{
 			x: 12.559523809523824d,
 			y: 4.5d,
+			shape: "gear",
 			description: ["Did that Wither just drop a..... star?"],
 			dependencies: [I;132],
+			size: 1.5d,
 			id: 134,
 			tasks: [{
 				id: 135,

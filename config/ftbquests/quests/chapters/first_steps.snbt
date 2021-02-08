@@ -1554,36 +1554,6 @@
 			]
 		},
 		{
-			x: 12.5d,
-			y: 1.5d,
-			description: ["A bigger chest to store your stuff that tastes kind of metallic."],
-			dependencies: [I;161],
-			id: 163,
-			tasks: [{
-				id: 164,
-				type: "item",
-				item: "ironchest:copper_chest"
-			}],
-			rewards: [
-				{
-					id: 165,
-					type: "item",
-					item: "ironchest:wood_to_copper_chest_upgrade"
-				},
-				{
-					id: 308,
-					type: "item",
-					item: "minecraft:brown_dye",
-					count: 16
-				},
-				{
-					id: 378,
-					type: "xp_levels",
-					xp_levels: 1
-				}
-			]
-		},
-		{
 			x: 11.0d,
 			y: -6.0d,
 			description: [
@@ -2526,6 +2496,38 @@
 				type: "item",
 				item: "spareparts:coins/stone_coin"
 			}]
+		},
+		{
+			x: 12.5d,
+			y: 1.5d,
+			shape: "gear",
+			description: ["This chest kind of makes everything metallic. I wonder how much storage space I am going to need?"],
+			dependencies: [I;161],
+			size: 1.5d,
+			id: 4391,
+			tasks: [{
+				id: 4392,
+				type: "item",
+				item: "ironchest:copper_chest"
+			}],
+			rewards: [
+				{
+					id: 4397,
+					type: "item",
+					item: "ironchest:wood_to_copper_chest_upgrade"
+				},
+				{
+					id: 4398,
+					type: "item",
+					item: "minecraft:brown_dye",
+					count: 16
+				},
+				{
+					id: 4399,
+					type: "xp_levels",
+					xp_levels: 1
+				}
+			]
 		}
 	]
 }

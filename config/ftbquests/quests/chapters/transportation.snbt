@@ -1,14 +1,15 @@
 {
 	id: 1855,
 	filename: "transportation",
-	order_index: 12,
+	order_index: 9,
 	title: "Transportation",
 	icon: "minecraft:powered_rail",
 	default_quest_shape: "rsquare",
 	quests: [
 		{
-			x: -4.0d,
+			x: -5.5d,
 			y: -1.0d,
+			description: ["This manual will explain the mechanics and machines of the the Transport Mod."],
 			dependencies: [I;1884],
 			id: 1856,
 			tasks: [{
@@ -35,8 +36,9 @@
 			}]
 		},
 		{
-			x: -2.0d,
+			x: -3.5d,
 			y: -1.0d,
+			description: ["This bench will be extremely helpful when you want to expand your rail empire. It allows the switching of of rails between types but most importantly allows you to make rail components from iron that 4x rail production."],
 			dependencies: [I;1856],
 			id: 1858,
 			tasks: [{
@@ -57,8 +59,9 @@
 			}]
 		},
 		{
-			x: 0.0d,
+			x: 2.0d,
 			y: -1.0d,
+			description: ["The Rail Breaker will allow you to change settings of rails and loaders as well as switch their sides much like wrenches of other mods."],
 			dependencies: [I;1858],
 			id: 1860,
 			tasks: [{
@@ -79,8 +82,12 @@
 			}]
 		},
 		{
-			x: -2.0d,
-			y: -3.0d,
+			x: -1.5d,
+			y: -2.5d,
+			description: [
+				"The module configurator will allow you to modules to modular minecarts and boats.",
+				"Placing a modular vehicle in the central slot in the gui will allow modules to be added to it. Available spaces can be seen by hovering over the lower bar of slots."
+			],
 			dependencies: [I;1858],
 			id: 1862,
 			tasks: [{
@@ -101,8 +108,13 @@
 			}]
 		},
 		{
-			x: -1.0d,
-			y: -3.0d,
+			x: -3.0d,
+			y: -4.0d,
+			description: [
+				"Modular minecarts will in essence be your train cars for use in the mod.",
+				"",
+				"Engine addons can be added as well to make the carts powered but they will require fuel."
+			],
 			dependencies: [I;1862],
 			id: 1864,
 			tasks: [{
@@ -123,9 +135,23 @@
 			}]
 		},
 		{
-			x: 0.0d,
-			y: -2.0d,
-			dependencies: [I;1860],
+			title: "Loaders and Modules",
+			x: 1.0d,
+			y: -2.5d,
+			description: [
+				"Loaders will both load and offload from modular carts that go across their faces. Faces must be configured to operate with the Rail Breaker.",
+				"Blue is input, Red is output.",
+				"",
+				"Each loader can be be placed into a modular cart in a the module configurator to allow the cart to hold the loaders purpose.",
+				"Item Loader - Allows the cart to hold 5 stacks of items.",
+				"Fluid Loader - Allows the cart to hold 10 buckets of a fluid.",
+				"Energy Loader - Allows the cart to hold 10k RF.",
+				"Chest - Allows the cart to hold 27 stacks of items."
+			],
+			dependencies: [I;
+				1860,
+				1862
+			],
 			id: 1866,
 			tasks: [
 				{
@@ -137,6 +163,11 @@
 					id: 1868,
 					type: "item",
 					item: "transport:item_loader"
+				},
+				{
+					id: 4426,
+					type: "item",
+					item: "transport:energy_loader"
 				}
 			],
 			rewards: [{
@@ -152,8 +183,15 @@
 			}]
 		},
 		{
-			x: 1.0d,
-			y: 0.0d,
+			x: 3.0d,
+			y: 0.5d,
+			description: [
+				"These various switching rails will allow you to redirect your rail traffic.",
+				"",
+				"-Switch rail will let carts go straight normally but split them perpendicularly when activated by a point machine (check the manual for point machine examples).",
+				"-Diamond crossing rail allows tracks to cross perpendicularly with no effect.",
+				"-Wye switch rails push carts left normally unless acted upon by a point machine, when they will redirect right."
+			],
 			dependencies: [I;1860],
 			id: 1869,
 			tasks: [
@@ -163,14 +201,14 @@
 					item: "transport:switch_rail"
 				},
 				{
-					id: 1871,
-					type: "item",
-					item: "transport:wye_switch_rail"
-				},
-				{
 					id: 1875,
 					type: "item",
 					item: "transport:diamond_crossing_rail"
+				},
+				{
+					id: 4425,
+					type: "item",
+					item: "transport:wye_switch_rail"
 				}
 			],
 			rewards: [{
@@ -186,8 +224,9 @@
 			}]
 		},
 		{
-			x: -1.0d,
-			y: 0.0d,
+			x: -2.5d,
+			y: 0.5d,
+			description: ["Scaffold rails place scaffold underneath to support the rail. The elevator rail will bring the rail up a level."],
 			dependencies: [I;1858],
 			id: 1872,
 			tasks: [
@@ -215,8 +254,9 @@
 			}]
 		},
 		{
-			x: -2.0d,
-			y: 2.0d,
+			x: -4.5d,
+			y: 0.5d,
+			description: ["This rail will hold a cart when unpowered but act like a booster rail when powered."],
 			dependencies: [I;1858],
 			id: 1876,
 			tasks: [{
@@ -237,8 +277,9 @@
 			}]
 		},
 		{
-			x: 1.0d,
-			y: -2.0d,
+			x: 3.0d,
+			y: -2.5d,
+			description: ["Bumper rails will prevent carts from running off the ends of tracks."],
 			dependencies: [I;1860],
 			id: 1878,
 			tasks: [{
@@ -259,8 +300,9 @@
 			}]
 		},
 		{
-			x: 0.0d,
-			y: 0.0d,
+			x: 1.0d,
+			y: 0.5d,
+			description: ["This track will hold carts for varying amounts of time before propelling the cart. For more information check the Advanced Transport manual."],
 			dependencies: [I;1860],
 			id: 1880,
 			tasks: [{
@@ -281,8 +323,9 @@
 			}]
 		},
 		{
-			x: 3.0d,
+			x: 4.5d,
 			y: -1.0d,
+			description: ["The Steam locamotive is a fuel powered train that is speed controllable. It needs both solid fuel and water to operate."],
 			dependencies: [I;1860],
 			id: 1882,
 			tasks: [{
@@ -303,8 +346,10 @@
 			}]
 		},
 		{
-			x: -5.0d,
-			y: -1.0d,
+			x: -5.496428571428574d,
+			y: -3.3071428571428925d,
+			shape: "gear",
+			size: 1.5d,
 			id: 1884,
 			tasks: [{
 				id: 1885,
@@ -324,8 +369,8 @@
 			}]
 		},
 		{
-			x: -5.0d,
-			y: -3.0d,
+			x: -5.5d,
+			y: -5.0d,
 			dependencies: [I;1884],
 			id: 1886,
 			tasks: [{
@@ -348,8 +393,8 @@
 			}]
 		},
 		{
-			x: -5.0d,
-			y: -4.0d,
+			x: -6.0d,
+			y: -7.0d,
 			dependencies: [I;1886],
 			id: 1888,
 			tasks: [{
@@ -372,8 +417,8 @@
 			}]
 		},
 		{
-			x: -4.0d,
-			y: -4.0d,
+			x: -7.5d,
+			y: -8.0d,
 			dependencies: [I;1888],
 			id: 1890,
 			tasks: [{
@@ -393,6 +438,19 @@
 						type: "tier_iii_random"
 					}
 				}
+			}]
+		},
+		{
+			icon: "minecraft:tnt_minecart",
+			x: -9.0d,
+			y: -7.0d,
+			dependencies: [I;1890],
+			id: 4430,
+			tasks: [{
+				id: 4431,
+				type: "stat",
+				stat: "minecraft:minecart_one_cm",
+				value: 5000000
 			}]
 		}
 	]
