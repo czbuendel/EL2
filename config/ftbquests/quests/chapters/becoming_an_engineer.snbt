@@ -2909,6 +2909,21 @@
 				type: "item",
 				item: "immersiveengineering:generator"
 			}]
+		},
+		{
+			title: "Railway Empire",
+			x: -6.977976190476113d,
+			y: 2.6190476190476204d,
+			shape: "gear",
+			description: ["Time to start expanding out, going to need some transport."],
+			dependencies: [I;545],
+			size: 1.5d,
+			id: 4432,
+			tasks: [{
+				id: 4433,
+				type: "item",
+				item: "minecraft:rail"
+			}]
 		}
 	]
 }
