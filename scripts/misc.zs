@@ -35,3 +35,8 @@ craftingTable.addShaped("storage_cabel", <item:storagenetwork:storage_kabel>*4, 
 [air, <item:storagenetwork:kabel>, air], 
 [<item:storagenetwork:kabel>, <item:minecraft:ender_pearl>, <item:storagenetwork:kabel>], 
 [air, <item:storagenetwork:kabel>, air]], null);
+
+craftingTable.removeRecipe(<item:transport:rail_workers_bench>);
+craftingTable.addShaped("rail_workers_bench", <item:transport:rail_workers_bench>, [
+[air, <tag:items:minecraft:rails>, air],
+[<item:immersiveengineering:light_engineering>, <item:immersiveengineering:light_engineering>, <item:immersiveengineering:light_engineering>]], null);
