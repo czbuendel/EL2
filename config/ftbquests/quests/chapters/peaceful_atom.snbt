@@ -1,48 +1,34 @@
 {
 	id: 1775,
 	filename: "peaceful_atom",
-	order_index: 11,
-	title: "Peaceful atom",
+	order_index: 12,
+	title: "Peaceful Atom",
 	icon: "bigreactors:basic_reactorfuelrod",
 	default_quest_shape: "octagon",
 	quests: [
 		{
-			x: -1.5d,
-			y: -1.5d,
+			title: "Glowing Power",
+			disable_toast: true,
+			x: -4.410714285714292d,
+			y: -1.4821428571428612d,
+			shape: "gear",
 			description: [
 				"You probably already got some Yellorium ores laying around... Why not put them to use?",
 				"Let's build a simple reactor!",
 				"",
-				"To process Yellorium ingots you need Arc Furnace",
-				"(for some recipes you can use Uranium from Immersive Engineering mod)"
+				"To process Yellorium ingots you will need the Arc Furnace.",
+				"(For some recipes you can use Uranium from Immersive Engineering)"
 			],
+			size: 2.0d,
 			id: 1776,
-			tasks: [
-				{
-					id: 1777,
-					type: "item",
-					item: "bigreactors:yellorium_ingot"
-				},
-				{
-					id: 1892,
-					type: "item",
-					item: {
-						id: "patchouli:guide_book",
-						Count: true,
-						tag: {
-							"patchouli:book": "bigreactors:erguide"
-						}
-					}
-				}
-			],
-			rewards: [{
-				id: 2013,
-				type: "xp_levels",
-				xp_levels: 5
+			tasks: [{
+				id: 1777,
+				type: "item",
+				item: "bigreactors:yellorium_ingot"
 			}]
 		},
 		{
-			x: 2.5d,
+			x: 5.5d,
 			y: -1.5d,
 			dependencies: [I;1787],
 			id: 1781,
@@ -50,7 +36,7 @@
 				id: 1782,
 				type: "item",
 				item: "bigreactors:basic_reactorglass",
-				count: 33L
+				count: 32L
 			}],
 			rewards: [{
 				id: 2050,
@@ -65,7 +51,7 @@
 			}]
 		},
 		{
-			x: 4.5d,
+			x: 9.5d,
 			y: -1.5d,
 			dependencies: [I;1785],
 			id: 1783,
@@ -88,7 +74,7 @@
 			}]
 		},
 		{
-			x: 3.5d,
+			x: 7.5d,
 			y: -1.5d,
 			dependencies: [I;1781],
 			id: 1785,
@@ -111,7 +97,7 @@
 			}]
 		},
 		{
-			x: 1.5d,
+			x: 3.5d,
 			y: -1.5d,
 			dependencies: [I;1791],
 			id: 1787,
@@ -134,7 +120,7 @@
 			}]
 		},
 		{
-			x: 5.5d,
+			x: 11.5d,
 			y: -1.5d,
 			dependencies: [I;1783],
 			id: 1789,
@@ -157,7 +143,7 @@
 			}]
 		},
 		{
-			x: 0.5d,
+			x: 1.5d,
 			y: -1.5d,
 			dependencies: [I;1849],
 			id: 1791,
@@ -179,12 +165,12 @@
 			}]
 		},
 		{
-			x: 6.5d,
+			x: 13.5d,
 			y: -1.5d,
 			dependencies: [I;1789],
 			id: 1793,
 			tasks: [{
-				id: 1794,
+				id: 4481,
 				type: "item",
 				item: "bigreactors:basic_reactorpowertapfe_active"
 			}],
@@ -230,7 +216,7 @@
 			}]
 		},
 		{
-			x: 2.5d,
+			x: 3.5d,
 			y: 0.5d,
 			dependencies: [I;1795],
 			id: 1797,
@@ -252,7 +238,7 @@
 			}]
 		},
 		{
-			x: 5.5d,
+			x: 9.5d,
 			y: 0.5d,
 			dependencies: [I;1803],
 			id: 1799,
@@ -274,7 +260,7 @@
 			}]
 		},
 		{
-			x: 3.5d,
+			x: 5.5d,
 			y: 0.5d,
 			dependencies: [I;1797],
 			id: 1801,
@@ -296,7 +282,7 @@
 			}]
 		},
 		{
-			x: 4.5d,
+			x: 7.5d,
 			y: 0.5d,
 			dependencies: [I;1801],
 			id: 1803,
@@ -318,7 +304,7 @@
 			}]
 		},
 		{
-			x: 7.5d,
+			x: 13.5d,
 			y: 0.5d,
 			dependencies: [I;1807],
 			id: 1805,
@@ -334,7 +320,7 @@
 			}]
 		},
 		{
-			x: 6.5d,
+			x: 11.5d,
 			y: 0.5d,
 			dependencies: [I;1799],
 			id: 1807,
@@ -356,7 +342,7 @@
 			}]
 		},
 		{
-			x: 7.5d,
+			x: 12.5d,
 			y: 2.5d,
 			dependencies: [I;1813],
 			id: 1809,
@@ -378,7 +364,7 @@
 			}]
 		},
 		{
-			x: 6.5d,
+			x: 10.5d,
 			y: 2.5d,
 			dependencies: [I;1809],
 			id: 1811,
@@ -400,7 +386,7 @@
 			}]
 		},
 		{
-			x: 8.5d,
+			x: 15.0d,
 			y: 2.5d,
 			dependencies: [I;1805],
 			id: 1813,
@@ -422,7 +408,7 @@
 			}]
 		},
 		{
-			x: 5.5d,
+			x: 8.5d,
 			y: 2.5d,
 			dependencies: [I;1811],
 			id: 1815,
@@ -444,7 +430,7 @@
 			}]
 		},
 		{
-			x: 4.5d,
+			x: 6.5d,
 			y: 2.5d,
 			dependencies: [I;1815],
 			id: 1817,
@@ -466,7 +452,7 @@
 			}]
 		},
 		{
-			x: 3.5d,
+			x: 4.5d,
 			y: 2.5d,
 			dependencies: [I;1817],
 			id: 1819,
@@ -519,13 +505,14 @@
 		{
 			x: -0.5d,
 			y: -1.5d,
-			subtitle: "Follow this route if you want to learn about the basics of the reactors and need cheap solution for your early game energy",
-			dependencies: [I;1776],
+			subtitle: "Follow this route for a slightly more complex reactor that will gain you a respectable amount of early game energy.",
+			description: ["A 5x5 reactor."],
+			dependencies: [I;4486],
 			id: 1849,
 			tasks: [{
 				id: 1850,
 				type: "checkmark",
-				title: "Basic route"
+				title: "Moderate Route"
 			}],
 			rewards: [{
 				id: 2046,
@@ -536,19 +523,156 @@
 		{
 			x: -0.5d,
 			y: 0.5d,
-			subtitle: "Follow this route if you have a large amount of resources and want to jump straight to insane power generation. After completing you can begin building your Turbines right away.",
-			description: ["With reinforced reactors you can generate Vapor(steam) which is needed to run Turbines."],
-			dependencies: [I;1776],
+			subtitle: "Follow this route if you have a large amount of resources and want insane power generation. You will need to have previously had run a reactor to have the materials for this reactor (cyanite).",
+			description: ["With reinforced reactors you can generate Vapor (Steam) which is needed to run Turbines. This quest will be free form in how you want to design it. Go crazy."],
+			dependencies: [I;4486],
 			id: 1851,
 			tasks: [{
 				id: 1852,
 				type: "checkmark",
-				title: "Advanced route"
+				title: "Advanced Route"
 			}],
 			rewards: [{
 				id: 2047,
 				type: "item",
 				item: "simplefarming:candy_cane"
+			}]
+		},
+		{
+			x: 15.5d,
+			y: -1.5d,
+			description: [
+				" Start by placing down a 5x5 level of Reactor Casing.",
+				"",
+				"The next 3 layers of the reactor will be Reactor Casing at each corner with Reactor Glass as the face edge.",
+				"4 of the Reactor glass pieces on these 3 levels need to be replaced with the Basic Controller, Power Tap, and two Solid Access Ports.",
+				"",
+				"The interior of the Reactor will need to be filled with 5 stacks of 3 Reactor Fuel Rods. This can be done in a + or X shape. There will be 4 stacks of open space in the reactor.",
+				"",
+				"The final layer of the reactor starts with an outer square of 25 Reactor Casings. Next, place a Reactor Control Rod on the top of each Reactor Fuel Rod Stack. Fill the remaining 4 holes with the remaining Reactor Casing. ",
+				"",
+				"To fully fill the reactor you will need 118 Yellorium Ingots to fill the reactor at the Solid Access Port. To Turn on the reactor, select on in the GUI at the Basic Controller. It will make roughly 3175 RF/t."
+			],
+			dependencies: [I;1793],
+			id: 4461,
+			tasks: [{
+				id: 4462,
+				type: "checkmark",
+				title: "Criticality"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: -3.5d,
+			subtitle: "The most basic reactor that can be built.",
+			description: ["A 3x3 reactor."],
+			dependencies: [I;4486],
+			id: 4466,
+			tasks: [{
+				id: 4467,
+				type: "checkmark",
+				title: "Easy Reactor"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -3.5d,
+			dependencies: [I;4466],
+			id: 4468,
+			tasks: [{
+				id: 4469,
+				type: "item",
+				item: "bigreactors:basic_reactorcontroller"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: -3.5d,
+			dependencies: [I;4468],
+			id: 4470,
+			tasks: [{
+				id: 4471,
+				type: "item",
+				item: "bigreactors:basic_reactorcasing",
+				count: 22L
+			}]
+		},
+		{
+			x: 5.5d,
+			y: -3.5d,
+			dependencies: [I;4470],
+			id: 4472,
+			tasks: [{
+				id: 4473,
+				type: "item",
+				item: "bigreactors:basic_reactorfuelrod"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: -3.5d,
+			dependencies: [I;4472],
+			id: 4474,
+			tasks: [{
+				id: 4475,
+				type: "item",
+				item: "bigreactors:basic_reactorcontrolrod"
+			}]
+		},
+		{
+			x: 9.5d,
+			y: -3.5d,
+			dependencies: [I;4474],
+			id: 4476,
+			tasks: [{
+				id: 4477,
+				type: "item",
+				item: "bigreactors:basic_reactorsolidaccessport"
+			}]
+		},
+		{
+			x: 11.5d,
+			y: -3.5d,
+			dependencies: [I;4476],
+			id: 4478,
+			tasks: [{
+				id: 4480,
+				type: "item",
+				item: "bigreactors:basic_reactorpowertapfe_active"
+			}]
+		},
+		{
+			x: 13.5d,
+			y: -3.5d,
+			description: [
+				"Start with a 3x3 layer of Reactor Casing. The next layer will have the Reactor Fuel Rod at the center. The Basic Controller, Power Tap, and Access Port will need to be placed at the center of their own side, with the remaining space filled with Reactor Casings. The final layer will be the Control Rod placed on top of the Fuel Rods in the center and the remaining 8 spaces Reactor Casing.",
+				"",
+				"This reactor will take 7 Yellorium Ingots to fully fuel. It will only make roughly 180 RF/t."
+			],
+			dependencies: [I;4478],
+			id: 4482,
+			tasks: [{
+				id: 4483,
+				type: "checkmark",
+				title: "Research"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -1.5d,
+			description: ["This manual will let you know all about the blocks from Extreme Reactors. Reference it often!"],
+			dependencies: [I;1776],
+			id: 4486,
+			tasks: [{
+				id: 4487,
+				type: "item",
+				item: {
+					id: "patchouli:guide_book",
+					Count: true,
+					tag: {
+						"patchouli:book": "bigreactors:erguide"
+					}
+				}
 			}]
 		}
 	]

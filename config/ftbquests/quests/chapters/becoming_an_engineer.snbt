@@ -1,14 +1,14 @@
 {
 	id: 43,
 	filename: "becoming_an_engineer",
-	order_index: 7,
+	order_index: 8,
 	title: "Becoming an Engineer",
 	icon: "engineersdecor:sign_decor",
 	default_quest_shape: "hexagon",
 	quests: [
 		{
-			x: -7.49285714285714d,
-			y: 8.363690476190484d,
+			x: -5.5d,
+			y: 10.0d,
 			description: ["I hope you enjoyed making this steel, you will be needing a LOT of it in the future."],
 			dependencies: [I;260],
 			id: 253,
@@ -39,8 +39,8 @@
 		},
 		{
 			title: "Blast Furnace",
-			x: -10.5d,
-			y: 11.0d,
+			x: -5.5d,
+			y: 12.0d,
 			description: [
 				"The blast furnace is your first step on the way to your very own steel empire.",
 				"",
@@ -63,7 +63,7 @@
 			}]
 		},
 		{
-			x: -9.0d,
+			x: -4.5d,
 			y: 11.5d,
 			description: [
 				"By steel casing some blast brick you are able to better contain the heat of your furnace. This results in it being faster at making steel.",
@@ -92,8 +92,8 @@
 			}]
 		},
 		{
-			x: -7.5d,
-			y: 11.0d,
+			x: -4.0d,
+			y: 10.5d,
 			description: [
 				"The blast furnace preheater will enhance your steel production even further.",
 				"",
@@ -143,8 +143,8 @@
 			}]
 		},
 		{
-			x: -12.0d,
-			y: 10.0d,
+			x: -6.5d,
+			y: 11.5d,
 			description: ["A byproduct of steel production in Blast Furnaces that can be used for a number of other products."],
 			dependencies: [I;260],
 			id: 268,
@@ -161,8 +161,8 @@
 			}]
 		},
 		{
-			x: -12.0d,
-			y: 8.0d,
+			x: -7.0d,
+			y: 10.5d,
 			description: ["Ah, the engineers favorite flooring."],
 			dependencies: [I;268],
 			id: 270,
@@ -187,7 +187,7 @@
 			}]
 		},
 		{
-			x: -5.5d,
+			x: -5.0d,
 			y: 0.0d,
 			description: ["The Kinetic Dynamo takes rotational energy and converts it to RF."],
 			dependencies: [I;559],
@@ -213,8 +213,8 @@
 			]
 		},
 		{
-			x: -10.0d,
-			y: 9.0d,
+			x: -7.0d,
+			y: 8.5d,
 			description: [
 				"It is used to generate RF when connected to the front of a Kinetic Dynamo.",
 				"",
@@ -236,7 +236,7 @@
 			}]
 		},
 		{
-			x: -4.0d,
+			x: -2.0d,
 			y: 0.0d,
 			description: [
 				"It is used to generate Redstone Flux (RF) when connected to a Kinetic Dynamo.",
@@ -257,8 +257,8 @@
 			}]
 		},
 		{
-			x: -10.0d,
-			y: 8.0d,
+			x: -4.0d,
+			y: 8.5d,
 			description: [
 				"It generates Redstone Flux (RF) through the difference in temperature between blocks/liquids adjacent to it.",
 				"",
@@ -280,8 +280,8 @@
 			}]
 		},
 		{
-			x: -2.0d,
-			y: 0.0d,
+			x: -0.5d,
+			y: -1.0d,
 			description: ["The lowest tier capacitor that holds up to 100k RF."],
 			dependencies: [I;277],
 			dependency_requirement: "one_completed",
@@ -306,8 +306,8 @@
 			]
 		},
 		{
-			x: -2.5d,
-			y: 1.5d,
+			x: -2.0d,
+			y: -1.5d,
 			description: [
 				"The external heater, when placed next to a normal furnace or in a lab furnace, take RF and convert it to heat.",
 				"When placed next to a normal furnace it will take up to 32 RF/t to work."
@@ -327,7 +327,7 @@
 		},
 		{
 			x: -3.5d,
-			y: 1.5d,
+			y: -1.5d,
 			description: ["An improved furnace that is faster than the vanilla furnace. Has an internal inventory and can have a external heater placed inside to accept RF power to speed up smelting."],
 			dependencies: [I;500],
 			id: 502,
@@ -351,8 +351,8 @@
 			]
 		},
 		{
-			x: -3.0d,
-			y: -2.0d,
+			x: -1.5d,
+			y: -3.0d,
 			description: [
 				"Basic wiring that can carry up to 2048 RF/t before burning out and needing to be replaced.",
 				"Will shock you if touched."
@@ -385,8 +385,8 @@
 			]
 		},
 		{
-			x: -3.0d,
-			y: -4.0d,
+			x: -1.5d,
+			y: -5.0d,
 			description: ["LV connectors and relays allow up to 256 RF/t to flow across them or in/out of machines."],
 			dependencies: [I;504],
 			id: 506,
@@ -411,8 +411,8 @@
 			}]
 		},
 		{
-			x: -2.0d,
-			y: -4.0d,
+			x: -0.5d,
+			y: -5.0d,
 			description: ["Allows you to run cables over your head to keep from getting shocked."],
 			dependencies: [I;506],
 			id: 509,
@@ -438,8 +438,8 @@
 			]
 		},
 		{
-			x: -2.0d,
-			y: -3.0d,
+			x: -0.5d,
+			y: -4.0d,
 			description: [
 				"The breaker switch allows you to manually cut the flow of LV/MV wires across it. Not insulated enough for HV.",
 				"The redstone switch is insulated enough to handle both all wires (LV-HV) across it. To operate its breaking method though a redstone signal must be provided."
@@ -473,7 +473,7 @@
 			]
 		},
 		{
-			x: -6.0d,
+			x: -5.5d,
 			y: -1.5d,
 			description: [
 				"Redstone wires and connectors will allow you to send redstone signals through wires.",
@@ -514,8 +514,8 @@
 			]
 		},
 		{
-			x: -2.0d,
-			y: -2.0d,
+			x: -0.5d,
+			y: -3.0d,
 			description: ["When held in hand and hovering over a block it will indicate the power level stored in the block. Also can be used to calculate the loss between two connectors by right clicking the connector ends."],
 			dependencies: [I;504],
 			id: 517,
@@ -537,8 +537,8 @@
 			}]
 		},
 		{
-			x: -1.0d,
-			y: -2.0d,
+			x: 0.5d,
+			y: -3.0d,
 			description: ["Tracks the power flow rate through the transformer and gives the level with a right click."],
 			dependencies: [I;517],
 			id: 519,
@@ -563,8 +563,8 @@
 			]
 		},
 		{
-			x: -1.5d,
-			y: -1.0d,
+			x: 0.0d,
+			y: -2.0d,
 			description: ["A portable capacitor that you can wear that will charge items in your hands."],
 			dependencies: [I;498],
 			id: 521,
@@ -575,8 +575,8 @@
 			}]
 		},
 		{
-			x: 1.5d,
-			y: 0.0d,
+			x: 3.0d,
+			y: -1.0d,
 			description: ["A mid-tier capacitor that holds up to 1M RF."],
 			dependencies: [I;498],
 			id: 524,
@@ -606,8 +606,8 @@
 			]
 		},
 		{
-			x: 0.5d,
-			y: -4.0d,
+			x: 2.0d,
+			y: -5.0d,
 			description: ["MV connectors and relays allow up to 2048 RF/t to flow across them or in/out of machines."],
 			dependencies: [I;529],
 			id: 526,
@@ -631,8 +631,8 @@
 			}]
 		},
 		{
-			x: 0.5d,
-			y: -2.0d,
+			x: 2.0d,
+			y: -3.0d,
 			description: ["Mid-tier wiring that can carry up to 8192 RF/t before burning out and needing to be replaced. These will hurt more than LV wires when they shock you."],
 			dependencies: [I;524],
 			id: 529,
@@ -668,8 +668,8 @@
 			]
 		},
 		{
-			x: 2.5d,
-			y: -1.0d,
+			x: 4.0d,
+			y: -2.0d,
 			description: ["Allows you to step down power levels from wires."],
 			dependencies: [I;524],
 			id: 531,
@@ -697,8 +697,8 @@
 			]
 		},
 		{
-			x: 5.0d,
-			y: 0.0d,
+			x: 6.5d,
+			y: -1.0d,
 			description: ["The highest tier capacitor that can hold up to 4M RF."],
 			dependencies: [I;524],
 			id: 533,
@@ -728,8 +728,8 @@
 			]
 		},
 		{
-			x: 4.0d,
-			y: -2.0d,
+			x: 5.5d,
+			y: -3.0d,
 			description: ["The highest tier wiring that can transfer up to 32,768 RF/t before burning out and needing to be replaced. Getting shocked by these will be almost certain death."],
 			dependencies: [I;533],
 			id: 535,
@@ -766,8 +766,8 @@
 			]
 		},
 		{
-			x: 4.0d,
-			y: -4.0d,
+			x: 5.5d,
+			y: -5.0d,
 			description: ["HV connectors allow up to 4096 RF/t to flow across them and in/out of machines."],
 			dependencies: [I;535],
 			id: 537,
@@ -800,8 +800,8 @@
 			]
 		},
 		{
-			x: 6.0d,
-			y: -1.0d,
+			x: 7.5d,
+			y: -2.0d,
 			description: ["A defense structure that will allow you to shock enemies when activated."],
 			dependencies: [I;533],
 			id: 541,
@@ -817,8 +817,8 @@
 			}]
 		},
 		{
-			x: -1.5d,
-			y: 1.5d,
+			x: 0.5d,
+			y: 0.5d,
 			description: ["This station will charge devices placed within."],
 			dependencies: [I;498],
 			id: 543,
@@ -835,8 +835,8 @@
 			}]
 		},
 		{
-			x: -8.5d,
-			y: 4.0d,
+			x: -6.5d,
+			y: 5.0d,
 			description: ["Light Engineering Blocks can be thought of as the basic components that go into a larger machine."],
 			dependencies: [I;4167],
 			id: 545,
@@ -860,8 +860,8 @@
 			]
 		},
 		{
-			x: -7.5d,
-			y: 6.5d,
+			x: -5.5d,
+			y: 7.5d,
 			description: ["Heavy Engineering Blocks can be thought of as the complex components that go into a larger machine."],
 			dependencies: [I;
 				253,
@@ -887,8 +887,8 @@
 			]
 		},
 		{
-			x: -12.0d,
-			y: 3.5d,
+			x: -11.0d,
+			y: 7.5d,
 			description: [
 				"Pumps and pipes will be critical once you start to move liquids around your base.",
 				"",
@@ -923,8 +923,8 @@
 			]
 		},
 		{
-			x: 8.870238095238278d,
-			y: 6.351785714285711d,
+			x: 12.363095238095418d,
+			y: 6.851785714285711d,
 			description: ["Creates up to 256 RF/t when fueled with gasoline."],
 			dependencies: [I;619],
 			id: 551,
@@ -950,7 +950,7 @@
 		},
 		{
 			x: -8.5d,
-			y: 2.5d,
+			y: 3.0d,
 			description: ["A slightly more feature rich and decorative crafting station. Full features can be seen by holding shift + ctrl while hovering over the item."],
 			dependencies: [I;580],
 			id: 553,
@@ -980,7 +980,7 @@
 		},
 		{
 			x: -10.0d,
-			y: 5.0d,
+			y: 6.0d,
 			description: ["A custom crafting table that allows you to make special recipes from blueprints that can be made and found in villages in the world."],
 			dependencies: [I;580],
 			id: 557,
@@ -1043,8 +1043,8 @@
 		},
 		{
 			title: "Prospecting",
-			x: -4.265476190476129d,
-			y: 9.848809523809528d,
+			x: -1.0d,
+			y: 9.5d,
 			description: [
 				"Start prospecting by taking Survey Tools out to the wilderness to search for mineral veins. Survey Tools provide approximate vein location and multiple samples of the same vein increase the vein information.",
 				"Samples can overlap, so samples may contain informaation from multiple veins.",
@@ -1081,8 +1081,12 @@
 		},
 		{
 			x: -12.0d,
-			y: 6.5d,
-			description: ["Conveyor belts will move your items around your base at the speed of.... walking."],
+			y: 5.0d,
+			description: [
+				"Conveyor belts will move your items around your base at the speed of.... walking.",
+				"",
+				"Can be right clicked with dye to color code the belt walls."
+			],
 			dependencies: [I;557],
 			id: 566,
 			tasks: [{
@@ -1110,7 +1114,7 @@
 		},
 		{
 			x: -13.5d,
-			y: 6.5d,
+			y: 4.5d,
 			description: [
 				"Item routers will sort incoming items out of their respective faces. This can be used to split a single conveyor into 2 or more equal flowing conveyors.",
 				"",
@@ -1139,7 +1143,7 @@
 		},
 		{
 			x: -11.5d,
-			y: 2.5d,
+			y: 3.0d,
 			description: ['A special lantern that makes a 32 block long light "cone". Position can be adjusted by right clicking with the Engineer\'s Hammer.'],
 			dependencies: [I;580],
 			id: 570,
@@ -1169,8 +1173,8 @@
 			]
 		},
 		{
-			x: -10.0d,
-			y: 6.5d,
+			x: -8.5d,
+			y: 4.5d,
 			description: [
 				"The garden cloche is used to automate and speed up the growing of crops in an industrial manner.",
 				"",
@@ -1203,8 +1207,8 @@
 			]
 		},
 		{
-			x: 8.870238095238278d,
-			y: 3.18035714285714d,
+			x: 12.363095238095418d,
+			y: 3.68035714285714d,
 			description: [
 				"The automatic lubricator will setup lubrication pipes around a machine for automatic lubrication ability.",
 				"For more information read the Immersive Petroleum section of the IE manual."
@@ -1259,7 +1263,7 @@
 		},
 		{
 			x: -10.0d,
-			y: 2.0d,
+			y: 2.5d,
 			description: ["A special crafting table with a small internal inventory that can hold some items and holds items in crafting spaces instead of putting them back in your inventory when closing the table."],
 			dependencies: [I;816],
 			id: 580,
@@ -1275,8 +1279,8 @@
 			}]
 		},
 		{
-			x: 1.5d,
-			y: -4.0d,
+			x: 3.0d,
+			y: -5.0d,
 			description: ["Nice steel pole to keep cables out of your face."],
 			dependencies: [I;526],
 			id: 582,
@@ -1301,8 +1305,8 @@
 			]
 		},
 		{
-			x: 5.0d,
-			y: -4.0d,
+			x: 6.5d,
+			y: -5.0d,
 			description: ["Nice aluminum post to keep cables out of your face."],
 			dependencies: [I;537],
 			id: 584,
@@ -1319,7 +1323,7 @@
 		},
 		{
 			x: -11.5d,
-			y: 1.0d,
+			y: 1.5d,
 			description: ["A lantern that when provided RF creates as much light as a torch, but stops mob spawns within a 32 block radius,"],
 			dependencies: [I;580],
 			id: 586,
@@ -1346,8 +1350,8 @@
 		{
 			title: "Excavator",
 			icon: "immersiveengineering:excavator",
-			x: -0.9303571428570478d,
-			y: 9.85148809523809d,
+			x: 3.0d,
+			y: 9.5d,
 			shape: "square",
 			description: [
 				'The Excavator is made of two parts. The "Wheel" is the center part, and is formed by right-clicking with an Engineer\'s Hammer on the the hidden Block of Steel. The "Engine" is the other part, and is formed by right-clicking the Engineer\'s Hammer on',
@@ -1421,8 +1425,8 @@
 			]
 		},
 		{
-			x: -13.5d,
-			y: 3.5d,
+			x: -11.0d,
+			y: 9.0d,
 			description: ["The fluid router redirects fluids that flow into it out of their respective faces. For a more detailed description check the IE manual."],
 			dependencies: [I;549],
 			id: 591,
@@ -1439,8 +1443,8 @@
 			}]
 		},
 		{
-			x: 1.070238095238274d,
-			y: 3.2089285714285722d,
+			x: 4.563095238095414d,
+			y: 3.7089285714285722d,
 			description: ["The Mining Drill will be your best friend as this fuel powered drill will make quick work of blocks. A number of upgrades can be seen in the IE manual to configure the drills operation."],
 			dependencies: [I;611],
 			id: 593,
@@ -1478,8 +1482,8 @@
 			]
 		},
 		{
-			x: 1.070238095238274d,
-			y: 6.380357142857143d,
+			x: 4.563095238095414d,
+			y: 6.880357142857143d,
 			description: ["The buzzsaw is a fuel powered saw that can chew through blocks with ease. The IE manual also lists a number of upgrades that can be applied in the Engineer's Workbench to change its functionality."],
 			dependencies: [I;611],
 			id: 595,
@@ -1598,8 +1602,8 @@
 			]
 		},
 		{
-			x: -8.5d,
-			y: -3.5d,
+			x: -8.0d,
+			y: -3.0d,
 			description: [
 				"Can store 12,000 mB (12 buckets) of a liquid for future use. ",
 				'Cannot hold "hot" liquids or gases.'
@@ -1646,8 +1650,8 @@
 		{
 			title: "Industrial Fermenter",
 			icon: "immersiveengineering:fermenter",
-			x: -2.4726190476188847d,
-			y: 6.637500000000017d,
+			x: 1.4148809523810257d,
+			y: 7.601190476190503d,
 			shape: "square",
 			description: [
 				"The Industrial Fermenter is used to make Ethanol.",
@@ -1723,8 +1727,8 @@
 		{
 			title: "Industrial Squeezer",
 			icon: "immersiveengineering:squeezer",
-			x: -2.358333333333171d,
-			y: 3.2089285714285793d,
+			x: 1.3077380952381716d,
+			y: 3.3869047619047805d,
 			shape: "square",
 			description: [
 				"The Industrial Squeezer is used to make Plant Oil or HOP Graphite Dust",
@@ -1812,8 +1816,8 @@
 		{
 			title: "Refinery",
 			icon: "immersiveengineering:refinery",
-			x: 1.0702380952382597d,
-			y: 4.808928571428574d,
+			x: 4.5630952380954d,
+			y: 5.308928571428574d,
 			shape: "square",
 			description: [
 				"The Refinery is used to make Biodiesel.",
@@ -1883,8 +1887,8 @@
 		{
 			title: "Diesel Generator",
 			icon: "immersiveengineering:diesel_generator",
-			x: 2.955952380952546d,
-			y: 4.808928571428574d,
+			x: 6.502976190476275d,
+			y: 5.303571428571431d,
 			shape: "square",
 			description: [
 				"The Diesel Generator is a 3x5x3 multi-block generator used to create RF from Biodiesel and Fuel.",
@@ -1968,9 +1972,9 @@
 		{
 			title: "Arc Furnace",
 			icon: "immersiveengineering:arc_furnace",
-			x: 2.9845238095239637d,
-			y: 2.0375000000000014d,
-			shape: "gear",
+			x: 6.49285714285714d,
+			y: 2.5d,
+			shape: "square",
 			description: [
 				"The Arc Furnace is used to quickly smelt Ores, Grit and create Steel and other alloys, as well as to recycle tools and armor. After building the structure, right-click the Cauldron with an Engineer's Hammer to complete it.",
 				"",
@@ -1982,7 +1986,7 @@
 				"The Arc Furnace will start its processes when it has all three Graphite Electrodes, enough RF, and the inputs. Each operation will reduce the integrity of each Graphite Electrode by 0.21%. This means that an Arc Furnace can perform 477 operations before its Electrodes must be replaced."
 			],
 			dependencies: [I;613],
-			size: 2.0d,
+			size: 1.5d,
 			id: 615,
 			tasks: [
 				{
@@ -2094,8 +2098,8 @@
 		{
 			title: "Pumpjack",
 			icon: "immersivepetroleum:pumpjack",
-			x: 6.413095238095401d,
-			y: 4.808928571428574d,
+			x: 9.905952380952542d,
+			y: 5.308928571428574d,
 			shape: "square",
 			description: ["The pumpjack consumes 1024 RF/t to produce 15 mB/t of crude oil from deposits. "],
 			dependencies: [I;613],
@@ -2179,8 +2183,8 @@
 		{
 			title: "Distillation tower",
 			icon: "immersivepetroleum:distillationtower",
-			x: 8.841666666666825d,
-			y: 4.780357142857149d,
+			x: 12.334523809523965d,
+			y: 5.280357142857149d,
 			shape: "square",
 			description: ["The Distillation tower will take 2048 RF to convert 75 mB of crude oil to 9 mB of Lubricant, 27 mB of Diesel, and    39 mB of Gasoline."],
 			dependencies: [I;617],
@@ -2262,8 +2266,8 @@
 		{
 			title: "Crusher",
 			icon: "immersiveengineering:crusher",
-			x: -2.244047619047457d,
-			y: 4.89464285714287d,
+			x: 1.379166666666741d,
+			y: 5.494047619047635d,
 			shape: "square",
 			description: [
 				"The Crusher is used to crush Ores into Grit (Dust), which is more efficient than normal smelting.",
@@ -2331,8 +2335,8 @@
 		{
 			title: "Metal Press",
 			icon: "immersiveengineering:metal_press",
-			x: -4.244047619047457d,
-			y: 7.123214285714305d,
+			x: -0.9779761904761131d,
+			y: 7.8869047619047805d,
 			shape: "square",
 			description: [
 				"The metal press is an automated way of creating plates, rods, wires, and packing items.",
@@ -2411,8 +2415,8 @@
 		{
 			title: "Sawmill",
 			icon: "immersiveengineering:sawmill",
-			x: -4.244047619047457d,
-			y: 2.8946428571428626d,
+			x: -0.9779761904761131d,
+			y: 2.8869047619047805d,
 			shape: "square",
 			description: [
 				"The sawmill is a multiblock structure that will process logs into planks or stripped logs. The sawmill requires a saw blade which is inserted by right clicking a sawblade in the slot around back of the machine (shift + right click to remove).",
@@ -2484,8 +2488,8 @@
 		},
 		{
 			title: "Metal Press Molds",
-			x: -13.5d,
-			y: 5.0d,
+			x: -9.0d,
+			y: 9.0d,
 			description: ["These molds will allow you to use the Metal Press to make a variety of products at better efficiency than by hand."],
 			dependencies: [I;4142],
 			id: 628,
@@ -2528,7 +2532,7 @@
 		{
 			title: "Industrial Lighting",
 			x: -8.5d,
-			y: 1.0d,
+			y: 1.5d,
 			dependencies: [I;580],
 			id: 710,
 			tasks: [{
@@ -2553,7 +2557,7 @@
 		{
 			title: "Skyhook",
 			x: -7.0d,
-			y: -2.5d,
+			y: -1.5d,
 			description: ["The skyhook will allow you to glide along wires or or rope by right clicking their end connectors."],
 			dependencies: [I;559],
 			id: 712,
@@ -2658,8 +2662,8 @@
 		{
 			title: "Magma Blocks",
 			disable_toast: true,
-			x: -12.0d,
-			y: 12.75d,
+			x: -5.5d,
+			y: 14.0d,
 			shape: "gear",
 			size: 1.5d,
 			id: 4003,
@@ -2671,8 +2675,8 @@
 			}]
 		},
 		{
-			x: -6.5d,
-			y: 4.0d,
+			x: -4.5d,
+			y: 5.0d,
 			description: ["Redstone Engineering Blocks can be thought of as the control blocks for a machine, a control panel in essence."],
 			dependencies: [I;4167],
 			id: 4005,
@@ -2683,8 +2687,8 @@
 			}]
 		},
 		{
-			x: -7.49285714285714d,
-			y: 9.863690476190484d,
+			x: -3.0d,
+			y: 9.5d,
 			description: ["Steel scaffold will be used throughout your multiblock machine construction and also looks really good as decoration."],
 			dependencies: [I;253],
 			id: 4007,
@@ -2696,8 +2700,8 @@
 		},
 		{
 			title: "Just like the Movies",
-			x: -4.2726190476189885d,
-			y: 4.985119047619044d,
+			x: -1.0d,
+			y: 5.5d,
 			shape: "octagon",
 			description: [
 				"The projector will be a critical item when you go to build multiblock machines.",
@@ -2724,8 +2728,8 @@
 		},
 		{
 			title: "Engineer's Blueprints",
-			x: -12.0d,
-			y: 5.0d,
+			x: -9.0d,
+			y: 7.5d,
 			description: ["These blueprints are a few, but critical, sets that you can use in the Engineer's Workbench."],
 			dependencies: [I;557],
 			id: 4142,
@@ -2772,8 +2776,8 @@
 			}]
 		},
 		{
-			x: -8.5d,
-			y: -5.0d,
+			x: -8.0d,
+			y: -4.5d,
 			description: ["This barrel also holds 12,000 mB  (12 buckets) of a liquid but it can be a hot or a gas."],
 			dependencies: [I;603],
 			id: 4149,
@@ -2784,8 +2788,8 @@
 			}]
 		},
 		{
-			x: -4.0d,
-			y: -3.0d,
+			x: -2.5d,
+			y: -4.0d,
 			description: ["Trasfers the same amount of power as the standard LV cable but it won't shock you."],
 			dependencies: [I;504],
 			id: 4153,
@@ -2796,8 +2800,8 @@
 			}]
 		},
 		{
-			x: -0.5d,
-			y: -3.0d,
+			x: 1.0d,
+			y: -4.0d,
 			description: ["Transfers the same amount of power as MV cables but without the risk of shock."],
 			dependencies: [I;529],
 			id: 4157,
@@ -2809,8 +2813,8 @@
 		},
 		{
 			title: "Faraday Suit",
-			x: 8.0d,
-			y: 0.0d,
+			x: 9.5d,
+			y: -1.0d,
 			description: ["The faraday suit will keep you from getting shocked by un-insulated wires."],
 			dependencies: [I;533],
 			id: 4159,
@@ -2869,8 +2873,8 @@
 					blueprint: "electrode"
 				}
 			},
-			x: -7.5d,
-			y: 5.0d,
+			x: -5.5d,
+			y: 6.0d,
 			description: ["The blocks surrounding this quest are critical pieces in the multiblock structures of Immersive Engineering."],
 			dependencies: [I;557],
 			id: 4167,
@@ -2881,8 +2885,8 @@
 			}]
 		},
 		{
-			x: -8.5d,
-			y: 6.0d,
+			x: -6.5d,
+			y: 7.0d,
 			description: ["Radiator Blocks can be thought of as the machinery components that help dissapate heat away from a working machine."],
 			dependencies: [I;
 				4167,
@@ -2896,8 +2900,8 @@
 			}]
 		},
 		{
-			x: -6.5d,
-			y: 6.0d,
+			x: -4.5d,
+			y: 7.0d,
 			description: ["Generator Blocks can be thought of as the components in a machine where electricity is made."],
 			dependencies: [I;
 				4167,
@@ -2912,8 +2916,8 @@
 		},
 		{
 			title: "Railway Empire",
-			x: -6.977976190476113d,
-			y: 2.6190476190476204d,
+			x: -5.489880952380865d,
+			y: 3.5773809523809703d,
 			shape: "gear",
 			description: ["Time to start expanding out, going to need some transport."],
 			dependencies: [I;545],
@@ -2923,6 +2927,176 @@
 				id: 4433,
 				type: "item",
 				item: "minecraft:rail"
+			}]
+		},
+		{
+			x: 9.0d,
+			y: 0.5d,
+			shape: "gear",
+			description: ["This Iron seems to pulsate with a signal... "],
+			dependencies: [I;615],
+			size: 2.0d,
+			id: 4434,
+			tasks: [{
+				id: 4435,
+				type: "item",
+				item: "refinedstorage:quartz_enriched_iron"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 0.5d,
+			shape: "gear",
+			description: ["Oh this ingot makes me tingle! I bet I can make some power with this."],
+			dependencies: [I;615],
+			size: 2.0d,
+			id: 4484,
+			tasks: [{
+				id: 4485,
+				type: "item",
+				item: "bigreactors:yellorium_ingot"
+			}],
+			rewards: [{
+				id: 4488,
+				type: "xp_levels",
+				xp_levels: 5
+			}]
+		},
+		{
+			title: "Assembler",
+			icon: "immersiveengineering:assembler",
+			x: -3.2994047619046825d,
+			y: 3.3869047619047805d,
+			shape: "square",
+			description: [
+				"The Assembler can automate up to three recipes set from its internal inventory.",
+				"After assembling the multiblock, use the Engineer's Hammer on the conveyor belt to complete the machine. The assembler has a fluid input on its input side that allows it to automate fluid needing recipes as well.",
+				"The power connection is on the top port with the orange dot."
+			],
+			dependencies: [I;4009],
+			size: 1.5d,
+			id: 4489,
+			tasks: [
+				{
+					id: 4504,
+					type: "item",
+					item: "immersiveengineering:steel_scaffolding_standard",
+					count: 6L
+				},
+				{
+					id: 4505,
+					type: "item",
+					item: "immersiveengineering:rs_engineering",
+					count: 2L
+				},
+				{
+					id: 4506,
+					type: "item",
+					item: "immersiveengineering:light_engineering",
+					count: 2L
+				},
+				{
+					id: 4507,
+					type: "item",
+					item: "immersiveengineering:sheetmetal_iron",
+					count: 9L
+				},
+				{
+					id: 4508,
+					type: "item",
+					item: "immersiveengineering:slab_sheetmetal_iron",
+					count: 6L
+				},
+				{
+					id: 4509,
+					type: "item",
+					item: "immersiveengineering:conveyor_basic",
+					count: 2L
+				}
+			]
+		},
+		{
+			title: "Specialized Conveyors",
+			x: -12.5d,
+			y: 4.0d,
+			description: [
+				"There are a number of specialized conveyors that can be made.",
+				"",
+				"Dropping Conveyor - Drops items into the inventory beneath the belt. Can be disabled with redstone signal.",
+				"Vertical Conveyor - Conveyor that is placeable on walls to bring items up.",
+				"Splitting Conveyor - Equally splits items left and right. ",
+				"Extractor Conveyor - Removes items from the connected inventory and places them on the belt. The Engineer's Screwdriver will allow you to change the extraction speed."
+			],
+			dependencies: [I;566],
+			id: 4491,
+			tasks: [
+				{
+					id: 4492,
+					type: "item",
+					item: "immersiveengineering:conveyor_dropper"
+				},
+				{
+					id: 4493,
+					type: "item",
+					item: "immersiveengineering:conveyor_vertical"
+				},
+				{
+					id: 4494,
+					type: "item",
+					item: "immersiveengineering:conveyor_splitter"
+				},
+				{
+					id: 4495,
+					type: "item",
+					item: "immersiveengineering:conveyor_extract"
+				}
+			]
+		},
+		{
+			title: "Covered Conveyors",
+			x: -12.5d,
+			y: 6.0d,
+			description: ["Covered versions of conveyors stop items from being picked up off themselves. No more walking over your belt and having your inventory filled. Can right click with a block to change the cover texture."],
+			dependencies: [I;566],
+			id: 4496,
+			tasks: [
+				{
+					id: 4497,
+					type: "item",
+					item: "immersiveengineering:conveyor_covered"
+				},
+				{
+					id: 4498,
+					type: "item",
+					item: "immersiveengineering:conveyor_droppercovered"
+				},
+				{
+					id: 4499,
+					type: "item",
+					item: "immersiveengineering:conveyor_verticalcovered"
+				},
+				{
+					id: 4500,
+					type: "item",
+					item: "immersiveengineering:conveyor_extractcovered"
+				},
+				{
+					id: 4501,
+					type: "item",
+					item: "immersiveengineering:conveyor_splittercovered"
+				}
+			]
+		},
+		{
+			x: -13.5d,
+			y: 5.5d,
+			description: ["Directs items directly down and stops players from picking them up. Inserts to inventories below them, and can be turned to side eject with a shift right click of the Engineers Hammer."],
+			dependencies: [I;566],
+			id: 4502,
+			tasks: [{
+				id: 4503,
+				type: "item",
+				item: "immersiveengineering:chute_iron"
 			}]
 		}
 	]

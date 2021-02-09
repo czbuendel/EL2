@@ -14,15 +14,15 @@
 					Damage: 0
 				}
 			},
-			x: -7.0d,
+			x: -6.0d,
 			y: -4.0d,
 			id: 747,
 			tasks: [{
 				id: 748,
 				type: "stat",
-				title: "Kill 20 mobs",
+				title: "Kill 25 Mobs",
 				stat: "minecraft:mob_kills",
-				value: 20
+				value: 25
 			}],
 			rewards: [{
 				id: 1267,
@@ -37,9 +37,9 @@
 			}]
 		},
 		{
-			title: "First blood",
+			title: "First Blood",
 			icon: "minecraft:skeleton_skull",
-			x: -5.5d,
+			x: -4.5d,
 			y: -4.0d,
 			id: 751,
 			tasks: [{
@@ -51,14 +51,14 @@
 			}]
 		},
 		{
-			x: -7.0d,
-			y: -3.0d,
+			x: -6.0d,
+			y: -2.5d,
 			dependencies: [I;747],
 			id: 753,
 			tasks: [{
 				id: 754,
 				type: "stat",
-				title: "Kill 100 mobs",
+				title: "Kill 100 Mobs",
 				stat: "minecraft:mob_kills",
 				value: 100
 			}]
@@ -71,14 +71,14 @@
 					Damage: 0
 				}
 			},
-			x: -7.0d,
-			y: -2.0d,
+			x: -6.0d,
+			y: -1.0d,
 			dependencies: [I;753],
 			id: 755,
 			tasks: [{
 				id: 756,
 				type: "stat",
-				title: "Kill 250 mobs",
+				title: "Kill 250 Mobs",
 				stat: "minecraft:mob_kills",
 				value: 250
 			}],
@@ -89,14 +89,14 @@
 			}]
 		},
 		{
-			x: -5.5d,
-			y: -3.0d,
+			x: -4.5d,
+			y: -2.5d,
 			dependencies: [I;751],
 			id: 757,
 			tasks: [{
 				id: 758,
 				type: "stat",
-				title: "Die 10 times",
+				title: "Die 10 Times",
 				icon: "minecraft:skeleton_skull",
 				stat: "minecraft:deaths",
 				value: 10
@@ -108,21 +108,21 @@
 			}]
 		},
 		{
-			x: -5.5d,
-			y: -2.0d,
+			x: -4.5d,
+			y: -1.0d,
 			dependencies: [I;757],
 			id: 759,
 			tasks: [{
 				id: 760,
 				type: "stat",
-				title: "Die 30 times",
+				title: "Die 30 Times",
 				icon: "minecraft:skeleton_skull",
 				stat: "minecraft:deaths",
 				value: 30
 			}]
 		},
 		{
-			x: -4.0d,
+			x: -3.0d,
 			y: -4.0d,
 			id: 761,
 			tasks: [{
@@ -166,8 +166,8 @@
 			]
 		},
 		{
-			x: -4.0d,
-			y: -3.0d,
+			x: -3.0d,
+			y: -2.5d,
 			dependencies: [I;761],
 			id: 763,
 			tasks: [{
@@ -185,8 +185,8 @@
 			}]
 		},
 		{
-			x: -4.0d,
-			y: -2.0d,
+			x: -3.0d,
+			y: -1.0d,
 			dependencies: [I;763],
 			id: 765,
 			tasks: [{
@@ -204,8 +204,8 @@
 			}]
 		},
 		{
-			x: -4.0d,
-			y: -1.0d,
+			x: -3.0d,
+			y: 0.5d,
 			dependencies: [I;765],
 			id: 769,
 			tasks: [{
@@ -237,8 +237,8 @@
 			}]
 		},
 		{
-			x: -4.0d,
-			y: 0.0d,
+			x: -3.0d,
+			y: 2.0d,
 			dependencies: [I;769],
 			id: 771,
 			tasks: [{
@@ -262,7 +262,7 @@
 		},
 		{
 			icon: "engineersdecor:sign_exit",
-			x: -2.5d,
+			x: -7.5d,
 			y: -4.0d,
 			id: 776,
 			tasks: [{
@@ -279,8 +279,8 @@
 			}]
 		},
 		{
-			x: -2.5d,
-			y: -3.0d,
+			x: -7.5d,
+			y: -2.5d,
 			dependencies: [I;776],
 			id: 778,
 			tasks: [{
@@ -292,8 +292,8 @@
 			}]
 		},
 		{
-			x: -2.5d,
-			y: -2.0d,
+			x: -7.5d,
+			y: -1.0d,
 			dependencies: [I;778],
 			id: 780,
 			tasks: [{
@@ -305,8 +305,8 @@
 			}]
 		},
 		{
-			x: -2.5d,
-			y: -1.0d,
+			x: -7.5d,
+			y: 0.5d,
 			dependencies: [I;780],
 			id: 782,
 			tasks: [{
@@ -318,8 +318,8 @@
 			}]
 		},
 		{
-			x: -2.5d,
-			y: 0.0d,
+			x: -7.5d,
+			y: 2.0d,
 			dependencies: [I;782],
 			id: 784,
 			tasks: [{
@@ -331,80 +331,80 @@
 			}]
 		},
 		{
-			x: 0.5d,
-			y: -4.0d,
+			x: 1.5d,
+			y: 0.5d,
 			id: 786,
 			tasks: [{
 				id: 787,
 				type: "stat",
-				title: "Piece of cake!",
+				title: "Piece of Cake!",
 				icon: "minecraft:cake",
 				stat: "minecraft:eat_cake_slice",
 				value: 152
 			}]
 		},
 		{
-			x: 2.0d,
+			x: -1.5d,
 			y: -4.0d,
 			id: 788,
 			tasks: [{
 				id: 789,
 				type: "stat",
-				icon: "supplementaries:piston_launcher",
+				icon: "minecraft:sticky_piston",
 				stat: "minecraft:jump",
-				value: 1024
+				value: 1000
 			}]
 		},
 		{
-			x: 0.5d,
-			y: -3.0d,
+			x: 1.5d,
+			y: -1.0d,
 			id: 790,
 			tasks: [{
 				id: 791,
 				type: "stat",
-				title: "Fishy business",
+				title: "Fishy Business",
 				icon: "minecraft:pufferfish",
 				stat: "minecraft:fish_caught",
 				value: 376
 			}]
 		},
 		{
-			x: -5.5d,
-			y: -1.0d,
+			x: -4.5d,
+			y: 0.5d,
 			dependencies: [I;759],
 			id: 962,
 			tasks: [{
 				id: 963,
 				type: "stat",
-				title: "Die 50 times",
+				title: "Die 50 Times",
 				icon: "minecraft:wither_skeleton_skull",
 				stat: "minecraft:deaths",
 				value: 50
 			}]
 		},
 		{
-			x: -5.5d,
-			y: 0.0d,
+			x: -4.5d,
+			y: 2.0d,
 			dependencies: [I;962],
 			id: 1698,
 			tasks: [{
 				id: 1699,
 				type: "stat",
-				title: "Too hard for you maybe?",
+				title: "Too Hard For You Maybe?",
 				icon: "minecraft:wither_skeleton_skull",
 				stat: "minecraft:deaths",
 				value: 200
 			}]
 		},
 		{
-			x: -7.0d,
-			y: -1.0d,
+			x: -6.0d,
+			y: 0.5d,
 			dependencies: [I;755],
 			id: 1700,
 			tasks: [{
 				id: 1701,
 				type: "stat",
-				title: "Kill 500 mobs",
+				title: "Kill 500 Mobs",
 				icon: {
 					id: "minecraft:diamond_sword",
 					Count: true,
@@ -417,14 +417,14 @@
 			}]
 		},
 		{
-			x: -7.0d,
-			y: 0.0d,
+			x: -6.0d,
+			y: 2.0d,
 			dependencies: [I;1700],
 			id: 1702,
 			tasks: [{
 				id: 1703,
 				type: "stat",
-				title: "Kill 1000 mobs",
+				title: "Kill 1,000 Mobs",
 				icon: {
 					id: "minecraft:netherite_sword",
 					Count: true,
@@ -437,8 +437,9 @@
 			}]
 		},
 		{
-			x: 2.0d,
-			y: -3.0d,
+			title: "Is That All You Got?",
+			x: 1.5d,
+			y: -2.5d,
 			id: 1704,
 			tasks: [{
 				id: 1705,
@@ -455,8 +456,9 @@
 			}]
 		},
 		{
-			x: -1.0d,
-			y: -2.0d,
+			title: "Animal Cruelty",
+			x: 0.0d,
+			y: -1.0d,
 			id: 1706,
 			tasks: [{
 				id: 1707,
@@ -473,8 +475,9 @@
 			}]
 		},
 		{
-			x: 2.0d,
-			y: -2.0d,
+			title: "Free Falling",
+			x: 1.5d,
+			y: -4.0d,
 			id: 1708,
 			tasks: [{
 				id: 1709,
@@ -485,7 +488,8 @@
 			}]
 		},
 		{
-			x: -1.0d,
+			title: "Rock The Boat",
+			x: 0.0d,
 			y: -4.0d,
 			id: 1823,
 			tasks: [{
@@ -502,9 +506,9 @@
 			}]
 		},
 		{
-			title: "Distance by Elytra",
-			x: -1.0d,
-			y: -3.0d,
+			title: "High Flying",
+			x: 0.0d,
+			y: -2.5d,
 			id: 4011,
 			tasks: [{
 				id: 4012,
@@ -518,31 +522,214 @@
 					}
 				},
 				stat: "minecraft:aviate_one_cm",
-				value: 100000
+				value: 1000000
 			}]
 		},
 		{
+			title: "Rough Riders",
 			icon: "minecraft:saddle",
-			x: -1.0d,
-			y: -1.0d,
+			x: 0.0d,
+			y: 0.5d,
 			id: 4138,
 			tasks: [{
 				id: 4139,
 				type: "stat",
+				icon: "minecraft:saddle",
 				stat: "minecraft:horse_one_cm",
+				value: 1000000
+			}]
+		},
+		{
+			title: "Nether Pigs",
+			x: 0.0d,
+			y: 2.0d,
+			id: 4512,
+			tasks: [{
+				id: 4513,
+				type: "stat",
+				icon: "minecraft:warped_fungus",
+				stat: "minecraft:strider_one_cm",
+				value: 1000000
+			}]
+		},
+		{
+			title: "Spongebob",
+			x: 0.0d,
+			y: 3.5d,
+			id: 4514,
+			tasks: [{
+				id: 4515,
+				type: "stat",
+				icon: {
+					id: "scuba_gear:scuba_helmet",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				stat: "minecraft:walk_under_water_one_cm",
 				value: 100000
 			}]
 		},
 		{
-			icon: "minecraft:minecart",
-			x: -1.0d,
-			y: 0.0d,
-			id: 4140,
+			icon: "engineersdecor:sign_exit",
+			x: -7.5d,
+			y: 3.5d,
+			dependencies: [I;784],
+			id: 4516,
 			tasks: [{
-				id: 4141,
+				id: 4517,
 				type: "stat",
-				stat: "minecraft:minecart_one_cm",
-				value: 20000
+				icon: "engineersdecor:sign_exit",
+				stat: "minecraft:leave_game",
+				value: 500
+			}]
+		},
+		{
+			title: "Kill 10,000 Mobs",
+			x: -6.0d,
+			y: 3.5d,
+			dependencies: [I;1702],
+			id: 4518,
+			tasks: [{
+				id: 4519,
+				type: "stat",
+				title: "Kill 10,000 Mobs",
+				icon: {
+					id: "betterendforge:aeternium_sword",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				stat: "minecraft:mob_kills",
+				value: 10000
+			}]
+		},
+		{
+			title: "You Still Haven't Given Up?",
+			icon: "minecraft:creeper_head",
+			x: -4.5d,
+			y: 3.5d,
+			dependencies: [I;1698],
+			id: 4520,
+			tasks: [{
+				id: 4521,
+				type: "stat",
+				icon: "minecraft:creeper_head",
+				stat: "minecraft:deaths",
+				value: 500
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 3.5d,
+			dependencies: [I;771],
+			id: 4522,
+			tasks: [{
+				id: 4523,
+				type: "stat",
+				icon: {
+					id: "betterendforge:aeternium_boots",
+					Count: true,
+					tag: {
+						Damage: 0
+					}
+				},
+				stat: "minecraft:walk_one_cm",
+				value: 30000000
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -2.5d,
+			dependencies: [I;788],
+			id: 4524,
+			tasks: [{
+				id: 4525,
+				type: "stat",
+				icon: "minecraft:piston",
+				stat: "minecraft:jump",
+				value: 10000
+			}]
+		},
+		{
+			icon: "supplementaries:piston_launcher",
+			x: -1.5d,
+			y: -1.0d,
+			dependencies: [I;4524],
+			id: 4526,
+			tasks: [{
+				id: 4527,
+				type: "stat",
+				icon: "supplementaries:piston_launcher",
+				stat: "minecraft:jump",
+				value: 100000
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 0.5d,
+			dependencies: [I;4526],
+			id: 4528,
+			tasks: [{
+				id: 4529,
+				type: "stat",
+				icon: "minecraft:slime_block",
+				stat: "minecraft:jump",
+				value: 500000
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 2.0d,
+			dependencies: [I;4528],
+			id: 4530,
+			tasks: [{
+				id: 4531,
+				type: "stat",
+				icon: "immersiveengineering:cushion",
+				stat: "minecraft:jump",
+				value: 1000000
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 3.5d,
+			dependencies: [I;4530],
+			id: 4532,
+			tasks: [{
+				id: 4533,
+				type: "stat",
+				icon: "quark:bottled_cloud",
+				stat: "minecraft:jump",
+				value: 10000000
+			}]
+		},
+		{
+			title: "Master Socializer",
+			x: 1.5d,
+			y: 2.0d,
+			id: 4534,
+			tasks: [{
+				id: 4535,
+				type: "stat",
+				icon: "minecraft:bell",
+				stat: "minecraft:talked_to_villager",
+				value: 1000
+			}]
+		},
+		{
+			title: "Love Guru",
+			x: 1.5d,
+			y: 3.5d,
+			id: 4536,
+			tasks: [{
+				id: 4537,
+				type: "stat",
+				icon: "minecraft:egg",
+				stat: "minecraft:animals_bred",
+				value: 1000
 			}]
 		}
 	]

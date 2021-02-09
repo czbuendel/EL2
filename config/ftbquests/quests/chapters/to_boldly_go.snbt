@@ -896,6 +896,7 @@
 			}]
 		},
 		{
+			title: "Nether Hot Stuff",
 			x: 10.0d,
 			y: -0.010119047619042476d,
 			shape: "gear",
@@ -903,26 +904,20 @@
 			dependencies: [I;128],
 			size: 1.5d,
 			id: 3999,
-			tasks: [{
-				id: 4000,
-				type: "item",
-				item: "minecraft:magma_block",
-				count: 9L
-			}]
-		},
-		{
-			title: "Nether Bricks",
-			x: 10.5d,
-			y: -1.5d,
-			description: ["These bricks seems to be able to stand a bit more heat than those that you can make, maybe should keep some to use later."],
-			dependencies: [I;128],
-			id: 4001,
-			tasks: [{
-				id: 4002,
-				type: "item",
-				item: "minecraft:nether_brick",
-				count: 36L
-			}]
+			tasks: [
+				{
+					id: 4000,
+					type: "item",
+					item: "minecraft:magma_block",
+					count: 9L
+				},
+				{
+					id: 4458,
+					type: "item",
+					item: "minecraft:nether_brick",
+					count: 36L
+				}
+			]
 		},
 		{
 			title: "Scuba Steve",
@@ -986,6 +981,30 @@
 				item: "pamhc2foodcore:fishsticksitem",
 				count: 10,
 				random_bonus: 5
+			}]
+		},
+		{
+			x: 10.5d,
+			y: -1.5d,
+			dependencies: [I;128],
+			id: 4454,
+			tasks: [{
+				id: 4455,
+				type: "item",
+				item: "minecraft:quartz"
+			}]
+		},
+		{
+			x: 8.25d,
+			y: -1.5d,
+			shape: "gear",
+			dependencies: [I;4454],
+			size: 1.5d,
+			id: 4456,
+			tasks: [{
+				id: 4457,
+				type: "item",
+				item: "refinedstorage:silicon"
 			}]
 		}
 	]
