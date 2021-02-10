@@ -923,7 +923,7 @@
 			]
 		},
 		{
-			x: 12.363095238095418d,
+			x: 12.999404761904856d,
 			y: 6.851785714285711d,
 			description: ["Creates up to 256 RF/t when fueled with gasoline."],
 			dependencies: [I;619],
@@ -1043,7 +1043,7 @@
 		},
 		{
 			title: "Prospecting",
-			x: -1.0d,
+			x: -0.3636904761905626d,
 			y: 9.5d,
 			description: [
 				"Start prospecting by taking Survey Tools out to the wilderness to search for mineral veins. Survey Tools provide approximate vein location and multiple samples of the same vein increase the vein information.",
@@ -1207,7 +1207,7 @@
 			]
 		},
 		{
-			x: 12.363095238095418d,
+			x: 12.999404761904856d,
 			y: 3.68035714285714d,
 			description: [
 				"The automatic lubricator will setup lubrication pipes around a machine for automatic lubrication ability.",
@@ -1350,7 +1350,7 @@
 		{
 			title: "Excavator",
 			icon: "immersiveengineering:excavator",
-			x: 3.0d,
+			x: 3.6363095238094374d,
 			y: 9.5d,
 			shape: "square",
 			description: [
@@ -1443,7 +1443,7 @@
 			}]
 		},
 		{
-			x: 4.563095238095414d,
+			x: 5.199404761904852d,
 			y: 3.7089285714285722d,
 			description: ["The Mining Drill will be your best friend as this fuel powered drill will make quick work of blocks. A number of upgrades can be seen in the IE manual to configure the drills operation."],
 			dependencies: [I;611],
@@ -1482,7 +1482,7 @@
 			]
 		},
 		{
-			x: 4.563095238095414d,
+			x: 5.199404761904852d,
 			y: 6.880357142857143d,
 			description: ["The buzzsaw is a fuel powered saw that can chew through blocks with ease. The IE manual also lists a number of upgrades that can be applied in the Engineer's Workbench to change its functionality."],
 			dependencies: [I;611],
@@ -1650,7 +1650,7 @@
 		{
 			title: "Industrial Fermenter",
 			icon: "immersiveengineering:fermenter",
-			x: 1.4148809523810257d,
+			x: 2.051190476190463d,
 			y: 7.601190476190503d,
 			shape: "square",
 			description: [
@@ -1727,7 +1727,7 @@
 		{
 			title: "Industrial Squeezer",
 			icon: "immersiveengineering:squeezer",
-			x: 1.3077380952381716d,
+			x: 1.944047619047609d,
 			y: 3.3869047619047805d,
 			shape: "square",
 			description: [
@@ -1816,7 +1816,7 @@
 		{
 			title: "Refinery",
 			icon: "immersiveengineering:refinery",
-			x: 4.5630952380954d,
+			x: 5.199404761904837d,
 			y: 5.308928571428574d,
 			shape: "square",
 			description: [
@@ -1887,7 +1887,7 @@
 		{
 			title: "Diesel Generator",
 			icon: "immersiveengineering:diesel_generator",
-			x: 6.502976190476275d,
+			x: 7.1392857142857125d,
 			y: 5.303571428571431d,
 			shape: "square",
 			description: [
@@ -1972,7 +1972,7 @@
 		{
 			title: "Arc Furnace",
 			icon: "immersiveengineering:arc_furnace",
-			x: 6.49285714285714d,
+			x: 7.129166666666578d,
 			y: 2.5d,
 			shape: "square",
 			description: [
@@ -2098,7 +2098,7 @@
 		{
 			title: "Pumpjack",
 			icon: "immersivepetroleum:pumpjack",
-			x: 9.905952380952542d,
+			x: 10.542261904761979d,
 			y: 5.308928571428574d,
 			shape: "square",
 			description: ["The pumpjack consumes 1024 RF/t to produce 15 mB/t of crude oil from deposits. "],
@@ -2183,7 +2183,7 @@
 		{
 			title: "Distillation tower",
 			icon: "immersivepetroleum:distillationtower",
-			x: 12.334523809523965d,
+			x: 12.970833333333402d,
 			y: 5.280357142857149d,
 			shape: "square",
 			description: ["The Distillation tower will take 2048 RF to convert 75 mB of crude oil to 9 mB of Lubricant, 27 mB of Diesel, and    39 mB of Gasoline."],
@@ -2266,7 +2266,7 @@
 		{
 			title: "Crusher",
 			icon: "immersiveengineering:crusher",
-			x: 1.379166666666741d,
+			x: 2.0154761904761784d,
 			y: 5.494047619047635d,
 			shape: "square",
 			description: [
@@ -2335,7 +2335,7 @@
 		{
 			title: "Metal Press",
 			icon: "immersiveengineering:metal_press",
-			x: -0.9779761904761131d,
+			x: -0.34166666666667567d,
 			y: 7.8869047619047805d,
 			shape: "square",
 			description: [
@@ -2415,7 +2415,7 @@
 		{
 			title: "Sawmill",
 			icon: "immersiveengineering:sawmill",
-			x: -0.9779761904761131d,
+			x: -0.34166666666667567d,
 			y: 2.8869047619047805d,
 			shape: "square",
 			description: [
@@ -2700,7 +2700,7 @@
 		},
 		{
 			title: "Just like the Movies",
-			x: -1.0d,
+			x: -0.3636904761905626d,
 			y: 5.5d,
 			shape: "octagon",
 			description: [
@@ -2916,8 +2916,8 @@
 		},
 		{
 			title: "Railway Empire",
-			x: -5.489880952380865d,
-			y: 3.5773809523809703d,
+			x: -6.479166666666586d,
+			y: 3.010714285714279d,
 			shape: "gear",
 			description: ["Time to start expanding out, going to need some transport."],
 			dependencies: [I;545],
@@ -2930,7 +2930,7 @@
 			}]
 		},
 		{
-			x: 9.0d,
+			x: 9.636309523809437d,
 			y: 0.5d,
 			shape: "gear",
 			description: ["This Iron seems to pulsate with a signal... "],
@@ -2944,7 +2944,7 @@
 			}]
 		},
 		{
-			x: 4.0d,
+			x: 4.636309523809437d,
 			y: 0.5d,
 			shape: "gear",
 			description: ["Oh this ingot makes me tingle! I bet I can make some power with this."],
@@ -2965,8 +2965,8 @@
 		{
 			title: "Assembler",
 			icon: "immersiveengineering:assembler",
-			x: -3.2994047619046825d,
-			y: 3.3869047619047805d,
+			x: -2.5d,
+			y: 3.3821428571428527d,
 			shape: "square",
 			description: [
 				"The Assembler can automate up to three recipes set from its internal inventory.",
@@ -3097,6 +3097,21 @@
 				id: 4503,
 				type: "item",
 				item: "immersiveengineering:chute_iron"
+			}]
+		},
+		{
+			title: "Advanced Machinery",
+			x: -4.5d,
+			y: 3.0d,
+			shape: "gear",
+			description: ["Shoving some of this tech into a smaller box could lead to some more technical things....."],
+			dependencies: [I;4005],
+			size: 1.5d,
+			id: 4570,
+			tasks: [{
+				id: 4571,
+				type: "item",
+				item: "industrialforegoing:machine_frame_pity"
 			}]
 		}
 	]
