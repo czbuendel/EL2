@@ -74,8 +74,8 @@
 			x: 5.5d,
 			y: 1.0d,
 			description: [
-				"The Controller is the functional heart of your Refined Storage System. Only a single controller is needed per network. The controller is where RF is accepted to power the system.",
-				"Can be colored by right clicking with a dye or by placing the controller with the dye in a crafting table."
+				"The Controller is the functional heart of your Refined Storage System. Only a single controller is needed per network and is where RF is accepted to power the system.",
+				"Can be colored by right clicking with a dye or by placing the controller with the dye in a crafting table. This can be done from a number of machines from this mod (Check JEI for all variations)."
 			],
 			dependencies: [I;
 				635,
@@ -105,7 +105,7 @@
 			x: 5.5d,
 			y: 4.0d,
 			description: [
-				"The grid will allow you to access the storage inventory of your network. Here you can see the items and fluids stored in your system.",
+				"The Grid will allow you to access the storage inventory of your network. Here you can see the items and fluids stored in your system.",
 				"The search function acts the same as in JEI."
 			],
 			dependencies: [I;637],
@@ -124,7 +124,7 @@
 		{
 			x: 4.0d,
 			y: 2.5d,
-			description: ["The crafting grid acts the same as a standard grid but allows you to craft directly from the network. Crafting ingredients are pulled directly from the network as needed for recipes. Works in conjunction with JEI."],
+			description: ["The Crafting Grid acts the same as a standard grid but allows you to craft directly from the network. Crafting ingredients are pulled directly from the network as needed for recipes. Works in conjunction with JEI."],
 			dependencies: [I;639],
 			id: 641,
 			tasks: [{
@@ -149,6 +149,9 @@
 		{
 			x: 1.0d,
 			y: 1.0d,
+			shape: "gear",
+			description: ["Processor binding is the glue behind all your Refined Storage processor chips."],
+			size: 1.5d,
 			id: 643,
 			tasks: [{
 				id: 644,
@@ -164,6 +167,7 @@
 		{
 			x: 2.5d,
 			y: -0.5d,
+			description: ["The most basic processor chip."],
 			dependencies: [I;643],
 			id: 645,
 			tasks: [{
@@ -180,6 +184,7 @@
 		{
 			x: 2.5d,
 			y: 2.5d,
+			description: ["A mid-tier processor chip."],
 			dependencies: [I;643],
 			id: 647,
 			tasks: [{
@@ -196,6 +201,7 @@
 		{
 			x: 2.5d,
 			y: 1.0d,
+			description: ["The most advanced processor chip to make."],
 			dependencies: [I;643],
 			id: 649,
 			tasks: [{
@@ -348,7 +354,7 @@
 		{
 			x: 10.0d,
 			y: 1.0d,
-			description: ["Cables allow you to connect your network across distance. Are not always necessary as network machines placed next to each other a natively linked."],
+			description: ["Cables allow you to connect your network across distance. They are not always necessary, network machines placed next to each other are natively linked."],
 			dependencies: [I;637],
 			id: 665,
 			tasks: [{
@@ -396,7 +402,7 @@
 		{
 			x: 10.0d,
 			y: -0.5d,
-			description: ["The Importer will import items or fluids INTO your network from a inventory or machine. "],
+			description: ["The Importer will import items or fluids INTO your network FROM a inventory or machine. "],
 			dependencies: [I;665],
 			id: 669,
 			tasks: [{
@@ -420,7 +426,7 @@
 			x: 10.0d,
 			y: 2.5d,
 			description: [
-				"The External Storage can link external storage devices to be linked into a system.",
+				"The External Storage can link external storage devices to a network.",
 				"",
 				"For example a chest or a fluid tank."
 			],
@@ -501,7 +507,7 @@
 		{
 			x: 4.0d,
 			y: 5.5d,
-			description: ["The fluid grid allows you to view the fluids in your storage network as well as add and remove them. If you have a bucket in your inventory when clicking a fluid it will be filled with the liquid, otherwise the network will be searched for a bucket."],
+			description: ["The Fluid Grid allows you to view the fluids in your storage network as well as add and remove them. If you have a bucket in your inventory when clicking a fluid it will be filled with the liquid, otherwise the network will be searched for a bucket."],
 			dependencies: [I;639],
 			id: 677,
 			tasks: [{
@@ -525,7 +531,7 @@
 			x: 7.0d,
 			y: 4.0d,
 			description: [
-				"The Pattern Grid allows the creation of patterns for use in crafters. Will needed to be loaded with blank patterns for use.",
+				"The Pattern Grid allows the creation of patterns for use in crafters. Will need to be loaded with blank patterns for use.",
 				"By placing the items needed for a recipe in the crafting grid, and pressing the arrow on the right, with a pattern loaded above, will set the pattern to that recipe."
 			],
 			dependencies: [I;639],
@@ -550,6 +556,7 @@
 		{
 			x: 8.5d,
 			y: 4.0d,
+			description: ["The Crafter Manager shows all crafting patterns loaded into a network."],
 			dependencies: [I;683],
 			id: 681,
 			tasks: [{
@@ -566,7 +573,7 @@
 		{
 			x: 7.0d,
 			y: 5.5d,
-			description: ["The crafter can craft recipes with patterns. After loading with a pattern the item will show up as requestable at grids. "],
+			description: ["The Crafter can craft recipes with patterns. After loading with a pattern the item will show up as requestable at grids. "],
 			dependencies: [I;679],
 			id: 683,
 			tasks: [{
@@ -624,7 +631,7 @@
 		{
 			x: 5.5d,
 			y: -7.5d,
-			description: ["By inserting a Security Card into the Security Manager a players permissions can be set for a linked network. An unlinked security card will set permissions for all people without a set clearance."],
+			description: ["By inserting a Security Card into the Security Manager, a players permissions can be set for a linked network. An unlinked security card will set permissions for all people without a set clearance."],
 			dependencies: [I;687],
 			id: 689,
 			tasks: [{
@@ -839,7 +846,7 @@
 			x: 5.5d,
 			y: -4.0d,
 			description: [
-				"The Disk Drive is where storage disks are stored to allow items to be stored digitally in your network.",
+				"The Disk Drive is where storage disks are connected to allow items to be stored digitally in your network.",
 				"",
 				"As an alternative, storage blocks can be made of the respective storage sizes but the size of a standard block."
 			],
@@ -906,20 +913,8 @@
 		},
 		{
 			x: 16.5d,
-			y: 1.0d,
-			description: ["The Range Upgrade increases the range of the wireless transmitter."],
-			dependencies: [I;691],
-			id: 4444,
-			tasks: [{
-				id: 4445,
-				type: "item",
-				item: "refinedstorage:range_upgrade"
-			}]
-		},
-		{
-			x: 16.5d,
 			y: 2.5d,
-			description: ["The Crafting Upgrade will allow the scheduling of a crafting task."],
+			description: ["The Crafting Upgrade will allow the scheduling of a crafting task when the machine is busy."],
 			dependencies: [I;691],
 			id: 4446,
 			tasks: [{
@@ -931,7 +926,7 @@
 		{
 			x: 16.5d,
 			y: -0.5d,
-			description: ["The Regulator Upgrade can be be inserted into an Exporter to make it leave items in stock on the network. "],
+			description: ["The Regulator Upgrade can be inserted into an Exporter to make it leave items in stock on the network. "],
 			dependencies: [I;691],
 			id: 4448,
 			tasks: [{

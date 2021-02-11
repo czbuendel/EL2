@@ -39,7 +39,7 @@
 		{
 			x: 5.0d,
 			y: 2.0d,
-			description: ["The Latex Processing Unit consumes converts latex and water into Tiny Dry Rubber. This machine requires power to operate."],
+			description: ["The Latex Processing Unit converts latex and water into Tiny Dry Rubber. This machine requires power to operate."],
 			dependencies: [I;1244],
 			id: 1246,
 			tasks: [{
@@ -78,8 +78,8 @@
 		},
 		{
 			x: 3.5d,
-			y: -3.5d,
-			description: ["The Animal Rancher will harvest animals in its working area of their products (milk,wool,etc.). Its working area can be expanded with range upgrades."],
+			y: -4.0d,
+			description: ["The Animal Rancher will harvest animals in its working area of their products (milk, wool, etc.). Its working area can be expanded with range upgrades."],
 			dependencies: [I;1556],
 			id: 1536,
 			tasks: [{
@@ -126,7 +126,7 @@
 			x: 15.0d,
 			y: -2.0d,
 			description: [
-				"The Mob Crusher is used to destroy mobs producing essence and mob drops. Its working area can be expanded with range upgrades.",
+				"The Mob Crusher is used to destroy mobs in its working area, producing essence and mob drops. Its working area can be expanded with range upgrades.",
 				"Does 300 damage in an action. Automatically collects essence of kills to be pumped out.",
 				"Can have fortune upgrades added."
 			],
@@ -166,7 +166,7 @@
 		{
 			x: 2.0d,
 			y: -3.5d,
-			description: ["The Animal Feeder can feed animals within its working area. Its working area can be expanded with range upgrades. "],
+			description: ["The Animal Feeder can feed animals within its working area when provided with appropriate feed. Its working area can be expanded with range upgrades. "],
 			dependencies: [I;1556],
 			id: 1542,
 			tasks: [{
@@ -188,7 +188,7 @@
 		},
 		{
 			x: 3.5d,
-			y: -5.0d,
+			y: -5.5d,
 			description: ["The Animal Baby Seperator moves baby animals from its working area to the back of the block. This can be used to automate breeding and harvesting of animals. Its working area can be be expanded with range upgrades."],
 			dependencies: [I;1536],
 			id: 1544,
@@ -238,7 +238,7 @@
 		{
 			x: 2.0d,
 			y: 0.5d,
-			description: ["The Plant Gatherer can harvest both crops and trees in its working area. A tree in the harvest area will be harvests by all connected blocks."],
+			description: ["The Plant Gatherer can harvest both crops and trees in its working area. A tree in the harvest area will be harvested by all connected blocks to the base (watch out for forests near your tree farms!)."],
 			dependencies: [I;1556],
 			id: 1548,
 			tasks: [{
@@ -260,8 +260,8 @@
 		},
 		{
 			x: 3.0d,
-			y: 0.5d,
-			description: ["The Plant Sower will plant seeds automatically 2 spaces above itself (So a piece of dirt placed on top of the block with be planted on top of). Its working area in that plane can be expanded with range upgrades."],
+			y: 1.0d,
+			description: ["The Plant Sower will plant seeds automatically 2 spaces above itself (So a piece of dirt placed on top of the machine will be planted on top of). Its working area in that plane can be expanded with range upgrades."],
 			dependencies: [I;1556],
 			id: 1550,
 			tasks: [{
@@ -308,7 +308,7 @@
 		{
 			x: 5.0d,
 			y: -3.5d,
-			description: ["The Sewer will collect sewage from the space above the machine. Its working area can be expanded with a range upgrade."],
+			description: ["The Sewer will collect sewage from mobs in the plane above the machine. Its working area can be expanded with a range upgrade."],
 			dependencies: [I;1556],
 			id: 1554,
 			tasks: [
@@ -339,6 +339,7 @@
 			x: 3.5d,
 			y: -1.5d,
 			shape: "gear",
+			description: [""],
 			size: 1.5d,
 			id: 1556,
 			tasks: [{
@@ -384,6 +385,7 @@
 		{
 			x: 13.0d,
 			y: -1.5d,
+			description: ["The Advanced Machine Frame is the most advanced frame available in this pack for Industrial Foregoing."],
 			dependencies: [I;1558],
 			id: 1560,
 			tasks: [{
@@ -413,7 +415,7 @@
 		{
 			x: 2.0d,
 			y: 2.0d,
-			description: ["Sludge is the byproduct of the plant harvester. "],
+			description: ["Sludge is the byproduct of the plant gatherer. "],
 			dependencies: [I;1548],
 			id: 1562,
 			tasks: [{
@@ -476,7 +478,7 @@
 		{
 			x: 13.5d,
 			y: 0.5d,
-			description: ["When provided with a large amount of essence a item will be applied with a level 30 enchant. "],
+			description: ["When provided with a large amount of essence, an item will be applied with a level 30 enchant. "],
 			dependencies: [I;1560],
 			id: 1569,
 			tasks: [{
@@ -555,9 +557,9 @@
 			}]
 		},
 		{
-			x: 10.0d,
+			x: 7.0d,
 			y: 0.0d,
-			description: ["When supplied with water and electricity, will speed up crop growth."],
+			description: ["When supplied with water and electricity, the Hydroponic Bed will speed up crop growth."],
 			dependencies: [I;1558],
 			id: 4574,
 			tasks: [{
@@ -579,7 +581,7 @@
 			}]
 		},
 		{
-			x: 7.0d,
+			x: 10.0d,
 			y: 0.0d,
 			description: ["The Mob Detector will output a redstone signal to the back of the block based on the number of mobs in its working area. Its working area can be expanded with range upgrades."],
 			dependencies: [I;1558],
@@ -676,7 +678,7 @@
 		},
 		{
 			x: 4.0d,
-			y: 0.5d,
+			y: 1.0d,
 			description: ["Can mix dye colors into into different colors."],
 			dependencies: [I;1556],
 			id: 4599,
@@ -749,7 +751,7 @@
 		{
 			x: 5.5d,
 			y: -0.5d,
-			description: ["When surrounded by at least 2 water source blocks it will collect water continously. By supplying power or surrounding with more source blocks will increase water production speed."],
+			description: ["When surrounded by at least 2 water source blocks, will collect water continously. By supplying power or surrounding the machine with more source blocks, water production speed is increased."],
 			dependencies: [I;1556],
 			id: 4611,
 			tasks: [{

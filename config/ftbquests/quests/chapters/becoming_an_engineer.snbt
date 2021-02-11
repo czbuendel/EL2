@@ -66,7 +66,7 @@
 			x: -4.5d,
 			y: 11.5d,
 			description: [
-				"By steel casing some blast brick you are able to better contain the heat of your furnace. This results in it being faster at making steel.",
+				"By steel casing some blast brick, you are able to better contain the heat of your furnace. This results in it being faster at making steel.",
 				"",
 				"A 3x3x3 block of reinforced blast bricks with a hopper placed on the top center block. By right clicking with an Engineer's Hammer on a face of the the 3x3x3 block will form the furnace."
 			],
@@ -95,7 +95,7 @@
 			x: -4.0d,
 			y: 10.5d,
 			description: [
-				"The blast furnace preheater will enhance your steel production even further.",
+				"The blast furnace preheater will enhance your steel production even further. Each Reinforced Blast Furnace can have up to 2 preheaters.",
 				"",
 				"Each blast furnace preheater consumes 32 RF/t.",
 				"A single preheater will double the Improved Blast Furnace speed, while a two preheaters will triple its speed."
@@ -216,9 +216,9 @@
 			x: -7.0d,
 			y: 8.5d,
 			description: [
-				"It is used to generate RF when connected to the front of a Kinetic Dynamo.",
+				"The Waterwheel is used to generate RF when connected to the front of a Kinetic Dynamo.",
 				"",
-				"The Water Wheel must be connected to a flowing water stream in order to work, and the amount of power produced scales directly with the number of flowing water blocks adjacent to the wheel.",
+				"The Water Wheel must be in contact with a flowing water stream in order to work, and the amount of power produced scales directly with the number of flowing water blocks adjacent to the wheel.",
 				"",
 				"Up to three water wheels may be placed against one another. Connected water wheels will output power to the same dynamo."
 			],
@@ -260,7 +260,7 @@
 			x: -4.0d,
 			y: 8.5d,
 			description: [
-				"It generates Redstone Flux (RF) through the difference in temperature between blocks/liquids adjacent to it.",
+				"The Thermoelectric Generator generates RF through the difference in temperature between blocks/liquids adjacent to it.",
 				"",
 				"The two liquids/blocks used should be opposite of each other; having one liquid be on the east of the generator and another liquid being on the north of the generator (for example) will NOT allow it to work.",
 				"Having two sets of opposites will work and increase production."
@@ -282,7 +282,7 @@
 		{
 			x: -0.5d,
 			y: -1.0d,
-			description: ["The lowest tier capacitor that holds up to 100k RF."],
+			description: ["The lowest tier capacitor, holds up to 100k RF."],
 			dependencies: [I;277],
 			dependency_requirement: "one_completed",
 			id: 498,
@@ -309,7 +309,7 @@
 			x: -2.0d,
 			y: -1.5d,
 			description: [
-				"The external heater, when placed next to a normal furnace or in a lab furnace, take RF and convert it to heat.",
+				"The external heater, when placed next to a normal furnace or in a lab furnace, takes RF and convert it to heat.",
 				"When placed next to a normal furnace it will take up to 32 RF/t to work."
 			],
 			dependencies: [I;498],
@@ -442,7 +442,7 @@
 			y: -4.0d,
 			description: [
 				"The breaker switch allows you to manually cut the flow of LV/MV wires across it. Not insulated enough for HV.",
-				"The redstone switch is insulated enough to handle both all wires (LV-HV) across it. To operate its breaking method though a redstone signal must be provided."
+				"The redstone switch is insulated enough to handle both all wires (LV-HV) across it. To operate its breaking method a redstone signal must be provided."
 			],
 			dependencies: [I;504],
 			id: 511,
@@ -477,7 +477,7 @@
 			y: -1.5d,
 			description: [
 				"Redstone wires and connectors will allow you to send redstone signals through wires.",
-				"By using the screwdriver on the connector it will allow you to change the channel color that the connector is operating on and whether it is an input or an output."
+				"By using the screwdriver on the connector it will allow you to change the channel color that the connector is operating on, and whether it is an input or an output."
 			],
 			dependencies: [I;559],
 			id: 513,
@@ -575,9 +575,9 @@
 			}]
 		},
 		{
-			x: 3.0d,
+			x: 3.5d,
 			y: -1.0d,
-			description: ["A mid-tier capacitor that holds up to 1M RF."],
+			description: ["A mid-tier capacitor, holds up to 1M RF."],
 			dependencies: [I;498],
 			id: 524,
 			tasks: [{
@@ -606,7 +606,7 @@
 			]
 		},
 		{
-			x: 2.0d,
+			x: 2.5d,
 			y: -5.0d,
 			description: ["MV connectors and relays allow up to 2048 RF/t to flow across them or in/out of machines."],
 			dependencies: [I;529],
@@ -631,7 +631,7 @@
 			}]
 		},
 		{
-			x: 2.0d,
+			x: 2.5d,
 			y: -3.0d,
 			description: ["Mid-tier wiring that can carry up to 8192 RF/t before burning out and needing to be replaced. These will hurt more than LV wires when they shock you."],
 			dependencies: [I;524],
@@ -668,7 +668,7 @@
 			]
 		},
 		{
-			x: 4.0d,
+			x: 4.5d,
 			y: -2.0d,
 			description: ["Allows you to step down power levels from wires."],
 			dependencies: [I;524],
@@ -697,9 +697,9 @@
 			]
 		},
 		{
-			x: 6.5d,
+			x: 8.0d,
 			y: -1.0d,
-			description: ["The highest tier capacitor that can hold up to 4M RF."],
+			description: ["The highest tier capacitor, holds up to 4M RF."],
 			dependencies: [I;524],
 			id: 533,
 			tasks: [{
@@ -728,7 +728,7 @@
 			]
 		},
 		{
-			x: 5.5d,
+			x: 7.0d,
 			y: -3.0d,
 			description: ["The highest tier wiring that can transfer up to 32,768 RF/t before burning out and needing to be replaced. Getting shocked by these will be almost certain death."],
 			dependencies: [I;533],
@@ -766,7 +766,7 @@
 			]
 		},
 		{
-			x: 5.5d,
+			x: 7.0d,
 			y: -5.0d,
 			description: ["HV connectors allow up to 4096 RF/t to flow across them and in/out of machines."],
 			dependencies: [I;535],
@@ -800,7 +800,7 @@
 			]
 		},
 		{
-			x: 7.5d,
+			x: 9.0d,
 			y: -2.0d,
 			description: ["A defense structure that will allow you to shock enemies when activated."],
 			dependencies: [I;533],
@@ -959,24 +959,11 @@
 				type: "item",
 				item: "engineersdecor:metal_crafting_table"
 			}],
-			rewards: [
-				{
-					id: 632,
-					type: "item",
-					item: {
-						id: "patchouli:guide_book",
-						Count: true,
-						tag: {
-							"patchouli:book": "engineersdecor:engineersdecor_manual"
-						}
-					}
-				},
-				{
-					id: 1283,
-					type: "item",
-					item: "engineersdecor:treated_wood_broad_windowsill"
-				}
-			]
+			rewards: [{
+				id: 1283,
+				type: "item",
+				item: "engineersdecor:treated_wood_broad_windowsill"
+			}]
 		},
 		{
 			x: -10.0d,
@@ -1046,9 +1033,9 @@
 			x: -0.3636904761905626d,
 			y: 9.5d,
 			description: [
-				"Start prospecting by taking Survey Tools out to the wilderness to search for mineral veins. Survey Tools provide approximate vein location and multiple samples of the same vein increase the vein information.",
+				"Start prospecting by taking Survey Tools out to the wilderness to search for mineral veins. Survey Tools provide approximate vein locations and multiple samples of the same vein increase the vein information.",
 				"Samples can overlap, so samples may contain informaation from multiple veins.",
-				"Next, it is good to bring a Core Sample Drill into a prospected area to get more accurate data on a vein. Make sure to power source (a capacitor would do nice) along with your to power the drill.",
+				"Next, it is good to bring a Core Sample Drill into a prospected area to get more accurate data on a vein. Make sure to bring a power source (a capacitor would do nicely) along with you to power the drill.",
 				"The sample it will provide gives detailed vein information at that location. Veins are no longer chunk based.",
 				"",
 				"For more information check the Mineral Deposits section of the IE manual."
@@ -1127,19 +1114,12 @@
 				type: "item",
 				item: "immersiveengineering:sorter"
 			}],
-			rewards: [
-				{
-					id: 1154,
-					type: "item",
-					item: "immersiveengineering:dust_iron",
-					count: 7
-				},
-				{
-					id: 1321,
-					type: "item",
-					item: "immersiveengineering:conveyor_covered"
-				}
-			]
+			rewards: [{
+				id: 1154,
+				type: "item",
+				item: "immersiveengineering:dust_iron",
+				count: 7
+			}]
 		},
 		{
 			x: -11.5d,
@@ -1237,7 +1217,7 @@
 		{
 			x: -8.5d,
 			y: -1.5d,
-			description: ["A convient toolbox to carry your tools in along with some food and other items."],
+			description: ["A convient toolbox to carry your tools in, along with some food and other items."],
 			dependencies: [I;559],
 			id: 576,
 			tasks: [{
@@ -1264,7 +1244,7 @@
 		{
 			x: -10.0d,
 			y: 2.5d,
-			description: ["A special crafting table with a small internal inventory that can hold some items and holds items in crafting spaces instead of putting them back in your inventory when closing the table."],
+			description: ["A special crafting table with a small internal inventory and holds items in crafting spaces, instead of putting them back in your inventory, when closing the table."],
 			dependencies: [I;816],
 			id: 580,
 			tasks: [{
@@ -1279,9 +1259,9 @@
 			}]
 		},
 		{
-			x: 3.0d,
+			x: 3.5d,
 			y: -5.0d,
-			description: ["Nice steel pole to keep cables out of your face."],
+			description: ["A nice steel pole to keep cables out of your face."],
 			dependencies: [I;526],
 			id: 582,
 			tasks: [{
@@ -1305,9 +1285,9 @@
 			]
 		},
 		{
-			x: 6.5d,
+			x: 8.0d,
 			y: -5.0d,
-			description: ["Nice aluminum post to keep cables out of your face."],
+			description: ["A nice aluminum post to keep cables out of your face."],
 			dependencies: [I;537],
 			id: 584,
 			tasks: [{
@@ -1324,7 +1304,7 @@
 		{
 			x: -11.5d,
 			y: 1.5d,
-			description: ["A lantern that when provided RF creates as much light as a torch, but stops mob spawns within a 32 block radius,"],
+			description: ["A lantern that when provided RF creates as much light as a torch, but stops mob spawns within a 32 block radius."],
 			dependencies: [I;580],
 			id: 586,
 			tasks: [{
@@ -1358,11 +1338,11 @@
 				"the Heavy Engineering Block in the center of the back side.",
 				"",
 				"The Excavator does not have a GUI and requires 4,096 RF/t to operate. Energy should be introduced through at least one of the 3 back power plugs of the engine.",
-				"Once it receives the needed energy, the machine's wheel will begin to spin and mine.",
+				"Once it receives the needed energy, the machine's wheel will begin to spin and mine. The speed of mining is dependent on the level of energy recieved.",
 				"",
 				"The multi-block's processes can be halted via Redstone through the \"control panel\", the block on the left-middle spot of the right side. Mined items will be ejected out the center spot of the right side.",
 				"",
-				"The Excavator may break a few block under it when it starts up, but once it has space no other blocks are broken. All blocks are broken as if they were mined with Silk Touch.",
+				"The Excavator may break a few blocks under it when it starts up, but once it has space no other blocks are broken. All blocks are broken as if they were mined with Silk Touch.",
 				"",
 				"A fully powered Excavator can mine up to one Ore per every 3 seconds."
 			],
@@ -1445,7 +1425,7 @@
 		{
 			x: 5.199404761904852d,
 			y: 3.7089285714285722d,
-			description: ["The Mining Drill will be your best friend as this fuel powered drill will make quick work of blocks. A number of upgrades can be seen in the IE manual to configure the drills operation."],
+			description: ["The Mining Drill will be your best friend as this fuel powered drill will make quick work of blocks. The drill needs to be fit with a drill head to operate. A number of upgrades can be seen in the IE manual to configure the drills operation."],
 			dependencies: [I;611],
 			id: 593,
 			tasks: [{
@@ -1531,7 +1511,7 @@
 		{
 			x: -9.5d,
 			y: -2.5d,
-			description: ["A storage crate is standard size storage block that keeps its inventory when broken."],
+			description: ["A storage crate is a standard size storage block (27 spaces) that keeps its inventory when broken."],
 			dependencies: [I;576],
 			id: 597,
 			tasks: [{
@@ -1625,7 +1605,7 @@
 		{
 			x: -10.5d,
 			y: -1.5d,
-			description: ['A heavy duty "bucket" that can hold 10,00 mB of a liquid (10 buckets).'],
+			description: ['A heavy duty "bucket" that can hold 10,000 mB of a liquid (10 buckets).'],
 			dependencies: [I;576],
 			id: 605,
 			tasks: [{
@@ -1823,10 +1803,10 @@
 				"The Refinery is used to make Biodiesel.",
 				"After it is complete, right-clicking the central Heavy Engineering Block with an Engineer's Hammer will finish the multiblock.",
 				"",
-				"The front-bottom-center block is used to output Biodiesel. The two side-bottom-center blocks are used to input Plant Oil and Ethanol. Redstone Flux (RF) is input from the back-center block, and the multi-block's processes can be halted via Redstone",
+				"The front-bottom-center block is used to output Biodiesel. The two side-bottom-center blocks are used to input Plant Oil and Ethanol. RF is input from the back-center block, and the multi-block's processes can be halted via Redstone",
 				'through the "control panel", the block with the red dot.',
 				"",
-				"Every tick, the Refinery consumes up to 8 mB of Plant Oil, 8 mB of Ethanol, and 10 Redstone Flux, while generating 16 mB of Biodiesel. It takes 3.125 seconds to make one bucket of Biodiesel. Put another way, the Refinery is able to produce two bucket",
+				"Every tick, the Refinery consumes up to 8 mB of Plant Oil, 8 mB of Ethanol, and 10 RF, while generating 16 mB of Biodiesel. It takes 3.125 seconds to make one bucket of Biodiesel. Put another way, the Refinery is able to produce two bucket",
 				"of Biodiesel every 6.25 seconds. Since a bucket of Biodiesel burns for 6.25 seconds in a Diesel Generator, a Refinery operating at full capacity is able to sustain two Diesel Generators at once."
 			],
 			dependencies: [I;
@@ -1901,8 +1881,7 @@
 				"The Diesel Generator has an internal fluid buffer of 24000mB for fuel. The generator does not have an internal energy buffer. It will automatically shut off if it cannot export power.",
 				"Burning 1000 mB (One Bucket) of Biodiesel will cause the Diesel Generator to make 4096 RF/t for 6.25 seconds. ",
 				"",
-				"For an efficient Diesel Generator setup, one Refinery, two Industrial Squeezers and two Industrial Fermenters per two Diesel Generators is required.",
-				"Also note that the Refinery produces enough Biodiesel at maximum capacity to supply two Diesel Generators."
+				"For an efficient Diesel Generator setup, one Refinery, two Industrial Squeezers, and two Industrial Fermenters per two Diesel Generators is required."
 			],
 			dependencies: [I;611],
 			size: 1.5d,
@@ -2422,7 +2401,7 @@
 				"The sawmill is a multiblock structure that will process logs into planks or stripped logs. The sawmill requires a saw blade which is inserted by right clicking a sawblade in the slot around back of the machine (shift + right click to remove).",
 				"",
 				"If no sawblade is provided the sawmill will produce stipped logs.",
-				"If provided planks will be produced instead.",
+				"If provided a blade, planks will be produced instead.",
 				"",
 				"Sawdust is produced as a byproduct of use.",
 				"For more information check the Sawmill chapter of the IE manual."
@@ -2558,7 +2537,7 @@
 			title: "Skyhook",
 			x: -7.0d,
 			y: -1.5d,
-			description: ["The skyhook will allow you to glide along wires or or rope by right clicking their end connectors."],
+			description: ["The skyhook will allow you to glide along wires or IE rope by right clicking their end connectors."],
 			dependencies: [I;559],
 			id: 712,
 			tasks: [
@@ -2689,7 +2668,7 @@
 		{
 			x: -3.0d,
 			y: 9.5d,
-			description: ["Steel scaffold will be used throughout your multiblock machine construction and also looks really good as decoration."],
+			description: ["Steel scaffold will be used throughout your multiblock machine construction, and also looks really good as decoration."],
 			dependencies: [I;253],
 			id: 4007,
 			tasks: [{
@@ -2709,7 +2688,7 @@
 				"Take the projector in hand and right click to bring up the projector menu. Select the machine you want to build and press the green checkmark at the top center.",
 				"This will begin the projection of the machine. To change the direction it is facing go back to the menu with a right click and click the directional buttons at the center of the menu and click the green checkmark to confirm.",
 				"",
-				"Shift + right click to change to projection mode (and back to selection mode) where a right click will place the projection ghost of the machine. You will then be able to layer by layer build the machine.",
+				"Shift + right click changes to projection mode (and back to selection mode), where a right click will place the projection ghost of the machine. You will then be able to layer by layer build the machine.",
 				"To clear the projection simply shift + right click.",
 				"For more information read the Multiblock Projector section of the IE manual."
 			],
@@ -2737,6 +2716,7 @@
 				{
 					id: 4143,
 					type: "item",
+					title: "Components Blueprint",
 					item: {
 						id: "immersiveengineering:blueprint",
 						Count: true,
@@ -2748,6 +2728,7 @@
 				{
 					id: 4144,
 					type: "item",
+					title: "Molds Blueprint",
 					item: {
 						id: "immersiveengineering:blueprint",
 						Count: true,
@@ -2765,15 +2746,28 @@
 			description: [
 				"Great sources of knowledge in your coming adventures in industry and automation.",
 				"",
-				"For any Immersive Engineering multiblock structure you can check this manual for a breakdown on how to build the structure and its full function."
+				"For any Immersive Engineering multiblock structure you can check the manual for a breakdown on how to build the structure and its full function."
 			],
 			dependencies: [I;3993],
 			id: 4145,
-			tasks: [{
-				id: 4146,
-				type: "item",
-				item: "immersiveengineering:manual"
-			}]
+			tasks: [
+				{
+					id: 4146,
+					type: "item",
+					item: "immersiveengineering:manual"
+				},
+				{
+					id: 4619,
+					type: "item",
+					item: {
+						id: "patchouli:guide_book",
+						Count: true,
+						tag: {
+							"patchouli:book": "engineersdecor:engineersdecor_manual"
+						}
+					}
+				}
+			]
 		},
 		{
 			x: -8.0d,
@@ -2800,7 +2794,7 @@
 			}]
 		},
 		{
-			x: 1.0d,
+			x: 1.5d,
 			y: -4.0d,
 			description: ["Transfers the same amount of power as MV cables but without the risk of shock."],
 			dependencies: [I;529],
@@ -2813,7 +2807,7 @@
 		},
 		{
 			title: "Faraday Suit",
-			x: 9.5d,
+			x: 12.0d,
 			y: -1.0d,
 			description: ["The faraday suit will keep you from getting shocked by un-insulated wires."],
 			dependencies: [I;533],
@@ -2887,7 +2881,7 @@
 		{
 			x: -6.5d,
 			y: 7.0d,
-			description: ["Radiator Blocks can be thought of as the machinery components that help dissapate heat away from a working machine."],
+			description: ["Radiator Blocks can be thought of as the machinery components that help dissipate heat away from a working machine."],
 			dependencies: [I;
 				4167,
 				253
@@ -3056,7 +3050,7 @@
 			title: "Covered Conveyors",
 			x: -12.5d,
 			y: 6.0d,
-			description: ["Covered versions of conveyors stop items from being picked up off themselves. No more walking over your belt and having your inventory filled. Can right click with a block to change the cover texture."],
+			description: ["Covered versions of conveyors stop items from being picked up off a belt. No more walking over your belt and having your inventory filled! Can right click with a block to change the cover texture."],
 			dependencies: [I;566],
 			id: 4496,
 			tasks: [

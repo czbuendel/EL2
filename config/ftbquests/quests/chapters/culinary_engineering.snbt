@@ -62,7 +62,7 @@
 			x: -4.630952380952365d,
 			y: -4.482142857142858d,
 			shape: "rsquare",
-			description: ["The oven will allow you to cook any food needed in your recipes when connected in your kitchen. Without upgrades the oven will require a fuel source to cook food."],
+			description: ["The oven will allow you to cook any food needed in your recipes, when connected in your kitchen. Without upgrades the oven will require a fuel source to cook food."],
 			id: 4086,
 			tasks: [{
 				id: 4087,

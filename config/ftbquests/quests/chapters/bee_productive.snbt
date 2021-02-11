@@ -49,7 +49,7 @@
 		{
 			x: -2.5d,
 			y: 2.0d,
-			description: ["Catches bees flying over it"],
+			description: ["Catches bees that fly over it."],
 			dependencies: [I;1937],
 			id: 1917,
 			tasks: [{
@@ -122,10 +122,10 @@
 			]
 		},
 		{
-			x: -6.5d,
+			x: -7.5d,
 			y: 0.0d,
 			description: [
-				"Allows you to locate a nest of the type you right click on.",
+				"Allows you to locate a nest of the block type you right click on.",
 				"",
 				"i.e. Right click on a copper ore block to locate a copper bee hive."
 			],
@@ -158,7 +158,7 @@
 			y: 0.0d,
 			description: [
 				"A more advanced bee hive that will keep your bees happier, allows them to be moved peacefully, and allows expansion hives.",
-				"The best part is though that you wont need a campfire under the hive to harvest it."
+				"The best part is though that you wont need a campfire under the hive to harvest it peacefully."
 			],
 			dependencies: [I;1937],
 			id: 1927,
@@ -206,7 +206,7 @@
 		{
 			x: -6.5d,
 			y: -2.0d,
-			description: ["A decorative container to show off your bee collection."],
+			description: ["A decorative container to show off a bee."],
 			dependencies: [I;1935],
 			id: 1931,
 			tasks: [{
@@ -272,7 +272,7 @@
 		{
 			x: -2.5d,
 			y: 0.0d,
-			description: ["A custom house for your bees."],
+			description: ["A custom made home for your bees to keep them closer to your base."],
 			dependencies: [I;1935],
 			id: 1937,
 			tasks: [{
@@ -290,6 +290,7 @@
 		{
 			x: 3.5d,
 			y: 0.0d,
+			description: ["A home for Draconic Bees."],
 			dependencies: [I;1929],
 			id: 1939,
 			tasks: [{
@@ -306,7 +307,12 @@
 		{
 			x: -2.5d,
 			y: -2.0d,
-			description: ["The first harvest from your bees!"],
+			shape: "hexagon",
+			description: [
+				"The first harvest from your bees!",
+				"",
+				"Use a pair of shears on a level 5 honey beehive to harvest honeycomb."
+			],
 			dependencies: [I;1937],
 			id: 1941,
 			tasks: [{
@@ -397,7 +403,11 @@
 		{
 			x: 1.5d,
 			y: -4.0d,
-			description: ["A nice filling combo of liquid honey and some honey comb."],
+			description: [
+				"A nice filling combo of liquid honey and some honey comb.",
+				"",
+				"Will calm angry bees and make baby bees grow faster."
+			],
 			dependencies: [I;1915],
 			id: 1954,
 			tasks: [{

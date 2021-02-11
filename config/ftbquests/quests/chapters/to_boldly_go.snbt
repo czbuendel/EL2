@@ -137,7 +137,7 @@
 			title: "Boat",
 			x: 3.0d,
 			y: 0.0d,
-			description: ["Should help you get across those large bodies of water."],
+			description: ["Should help you get across those large bodies of water with ease."],
 			dependencies: [I;226],
 			id: 222,
 			tasks: [{
@@ -186,7 +186,7 @@
 			y: 1.5d,
 			description: [
 				"You can use your Totem Of Undying from anywhere in your inventory.",
-				"Better start exploring those woodlands if you want this life saving backup."
+				"Better start exploring the woodlands for mansions or protecting villages if you want this life saving backup."
 			],
 			dependencies: [I;226],
 			id: 1057,
@@ -290,8 +290,8 @@
 		},
 		{
 			title: "Is this actually the End?",
-			x: 19.5d,
-			y: 0.0d,
+			x: 19.5107142857143d,
+			y: 0.030952380952385283d,
 			shape: "rsquare",
 			description: ["A big portal in an old dungeon. What could go wrong jumping in?"],
 			dependencies: [I;147],
@@ -995,9 +995,11 @@
 			}]
 		},
 		{
+			title: "Magic Dust",
 			x: 8.25d,
 			y: -1.5d,
 			shape: "gear",
+			description: ["This silicon may be the magic to some tech I need...."],
 			dependencies: [I;4454],
 			size: 1.5d,
 			id: 4456,

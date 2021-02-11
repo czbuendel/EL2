@@ -15,7 +15,7 @@
 		{
 			x: -7.5d,
 			y: -4.5d,
-			description: ["Leaves can be harvested without a tool for sticks (this is a vanilla feature, but will be very important here.)"],
+			description: ["Leaves can be harvested without a tool for sticks (this is a vanilla feature, but will be very important here)."],
 			dependencies: [I;3976],
 			id: 3,
 			tasks: [{
@@ -40,7 +40,7 @@
 		{
 			x: -6.0d,
 			y: -4.5d,
-			description: ["Gravel can be mined without a tool, and enables you to aquire flint."],
+			description: ["Gravel can be mined without a tool, and mining it enables you to aquire flint."],
 			dependencies: [I;3],
 			id: 5,
 			tasks: [
@@ -94,7 +94,7 @@
 				"",
 				"- When breaking grass, there is a chance that plant fiber will get produced.",
 				"- You can now break plant type blocks and receive their drops.",
-				"- The knife can be crafted with several plant produces to produce plant fiber.",
+				"- The knife can be crafted with several plant items to produce plant fiber.",
 				"",
 				"(You do not have to harvest the grass with the flint knife to get plant fibers.)"
 			],
@@ -135,8 +135,8 @@
 			description: [
 				"A Flint Axe can enable you to collect wood and build a crafting table.",
 				"",
-				"Axe is also used to craft planks now. Put and axe in crafting window and a log beneath it.",
-				"To craft stick put an axe in upper left corner and log on the right."
+				"The Axe is also used to craft planks. Put an axe in the crafting window and a log beneath it.",
+				"To craft a stick, put an axe in the upper left corner and a log on the right."
 			],
 			dependencies: [I;20],
 			id: 12,
@@ -168,7 +168,7 @@
 			title: "Flint Digging",
 			x: 1.5d,
 			y: -1.5d,
-			description: ["A Flint pickaxe and shovel will serve as early game excavation and mining tools."],
+			description: ["A Flint Pickaxe and Shovel will serve as early game excavation and mining tools."],
 			dependencies: [I;48],
 			id: 14,
 			tasks: [
@@ -457,9 +457,7 @@
 			x: -1.5d,
 			y: -1.5d,
 			description: [
-				"To make planks put a log and your flint axe in your 2x2 crafting table in your inventory.",
-				"",
-				"You can bookmark recipe for faster access to it. Hover over item in JEI or inventory and press A. You will see the item on the left of your inventory.",
+				"The crafting table will open you up to many new complex recipes. You can bookmark a recipe for faster access to it. Hover over item in JEI or an inventory and press A. You will see the item on the left of your inventory.",
 				"Try it with an Axe because you may need a couple!"
 			],
 			dependencies: [I;12],
@@ -525,7 +523,7 @@
 			title: "Wooden Armor",
 			x: -1.5d,
 			y: 1.5d,
-			description: ["Wooden Armor can be made from wooden plates. Will at least give you a small amount of protection."],
+			description: ["Wooden Armor can be made from wooden plates. It will at least give you a small amount of protection."],
 			dependencies: [I;50],
 			id: 52,
 			tasks: [
@@ -767,7 +765,7 @@
 			y: -4.0d,
 			description: [
 				"This backpack will allow you to have some extra inventory space.",
-				"Once equipped, use the backpack keybind to open the backpack inventory."
+				"Once equipped, use the backpack keybind to open the backpack inventory. (check your controls menu for the specific key)"
 			],
 			dependencies: [I;46],
 			id: 73,
@@ -939,7 +937,11 @@
 			x: 23.5d,
 			y: -6.0d,
 			shape: "gear",
-			description: ["Place the Coke Brick in a 3x3x3 block and right clicking with an Engineer's Hammer to form a Coke Oven. By placing coal into the oven it will create creosote oil."],
+			description: [
+				"Place the Coke Brick in a 3x3x3 block and right clicking with an Engineer's Hammer to form a Coke Oven. By placing coal into the oven it will create creosote oil.",
+				"",
+				"This opens up so many engineering possibilities!"
+			],
 			dependencies: [I;66],
 			size: 3.0d,
 			id: 92,
@@ -1123,7 +1125,7 @@
 		{
 			x: 13.5d,
 			y: 5.5d,
-			description: ["How did a pound these diamonds into a blade? Who cares."],
+			description: ["How did I pound these diamonds into a blade? Who cares."],
 			dependencies: [I;97],
 			id: 101,
 			tasks: [{
@@ -1175,6 +1177,7 @@
 			title: "Diamond Armor",
 			x: 16.0d,
 			y: 5.5d,
+			description: ["The most sparkling suit of armor you will ever get to wear."],
 			dependencies: [I;97],
 			id: 103,
 			tasks: [
@@ -1262,6 +1265,7 @@
 			title: "Iron Armor",
 			x: 14.5d,
 			y: 0.0d,
+			description: ["A good improvement, even though you will look a bit like the Silver Surfer."],
 			dependencies: [I;88],
 			id: 110,
 			tasks: [
@@ -1415,6 +1419,7 @@
 		{
 			x: 10.0d,
 			y: -2.5d,
+			description: ["The trowel will place a random block from your hotbar down, can be used to make natural looking paths."],
 			dependencies: [I;69],
 			id: 144,
 			tasks: [{
@@ -1452,7 +1457,7 @@
 				'• Pressing the "U" key (for Use) shows what that item can be used to create through crafting grids. ',
 				'• To search by mod name use the "@" key before search in search box. (e.g. @notreepunch)',
 				"• To select the search box without clicking on it, the player can press Ctrl + F.",
-				"• To bookmark a recipe (for easier crafting later, will also save in a menu on the left side of the inventory screen): Hover over the item + A",
+				"• To bookmark a recipe (for easier crafting later, will also save in a menu on the left side of the inventory screen): Hover over the item + A.",
 				""
 			],
 			dependencies: [I;3976],
@@ -1615,7 +1620,7 @@
 		{
 			x: 12.5d,
 			y: -7.5d,
-			description: ["Collect fish and junk but requires bait to operate. Higher densities give longer usage and different item probabilites."],
+			description: ["Collects fish and junk but requires bait to operate. Higher densities give longer usage and different item probabilites."],
 			dependencies: [I;
 				166,
 				176
@@ -2284,7 +2289,7 @@
 				"",
 				"The final quest type, such as this one, simply requires you to click the checkbox in the Tasks box to complete the quest (as a confirmation of reading :]).",
 				"",
-				"Finally to collect any reward simply click on in it in the above Rewards box, as you can above to get torch to get you some light to get going."
+				"Finally to collect any reward simply click on in it in the above Rewards box, as you can above, to get a torch for some light as you get going."
 			],
 			dependencies: [I;279],
 			size: 2.0d,

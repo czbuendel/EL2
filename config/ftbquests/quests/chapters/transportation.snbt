@@ -9,7 +9,7 @@
 		{
 			x: -5.5d,
 			y: -1.0d,
-			description: ["This manual will explain the mechanics and machines of the the Transport Mod."],
+			description: ["This manual will explain the mechanics and machines of Transport."],
 			dependencies: [I;1884],
 			id: 1856,
 			tasks: [{
@@ -38,7 +38,7 @@
 		{
 			x: -3.5d,
 			y: -1.0d,
-			description: ["This bench will be extremely helpful when you want to expand your rail empire. It allows the switching of of rails between types but most importantly allows you to make rail components from iron that 4x rail production."],
+			description: ["This bench will be extremely helpful when you want to expand your rail empire. It allows the switching of of rails between types but most importantly allows you to make rail components from iron that quadruples rail production."],
 			dependencies: [I;1856],
 			id: 1858,
 			tasks: [{
