@@ -40,3 +40,9 @@ craftingTable.removeRecipe(<item:transport:rail_workers_bench>);
 craftingTable.addShaped("rail_workers_bench", <item:transport:rail_workers_bench>, [
 [air, <tag:items:minecraft:rails>, air],
 [<item:immersiveengineering:light_engineering>, <item:immersiveengineering:light_engineering>, <item:immersiveengineering:light_engineering>]], null);
+
+craftingTable.removeRecipe(<item:industrialforegoing:machine_frame_pity>);
+craftingTable.addShaped("machine_frame_pity", <item:industrialforegoing:machine_frame_pity>, [
+[<tag:items:forge:treated_wood>, <item:minecraft:iron_ingot>, <tag:items:forge:treated_wood>],
+[<item:minecraft:iron_ingot>, <item:immersiveengineering:rs_engineering>, <item:minecraft:iron_ingot>],
+[<tag:items:forge:treated_wood>, <item:minecraft:iron_ingot>, <tag:items:forge:treated_wood>]], null);
